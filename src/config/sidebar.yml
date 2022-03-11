@@ -1,0 +1,20 @@
+# Sidebar navigation
+
+- label: "Java Installation"
+  items:
+    - label: 'Arch-based Linux'
+      link: "/java/arch-based"
+    - label: 'Ubuntu-based Linux'
+      link: "/java/ubuntu-based"
+    - label: 'Mac OS'
+      link: "/java/mac"
+    - label: "Windows"
+      link: "/java/windows"
+- label: "IntelliJ"
+  items:
+    - label: "Installation"
+      link: "/intellij/installation"
+- label: "Gradle"
+  items:
+    - label: "Prepare Submission"
+      link: "/gradle/prepare-submission"
