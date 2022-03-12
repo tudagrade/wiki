@@ -4,7 +4,7 @@ module.exports = {
     defaultTitle: `Haudy`,
     siteTitleShort: `Haudy`,
     siteDescription: ``,
-    siteUrl: `https://haudy.tudalgo.github.io`,
+    siteUrl: `https://tudalgo.github.io/Haudy/`,
     siteAuthor: 'alexstaeding',
     siteImage: ``,
     siteLanguage: `en`,
