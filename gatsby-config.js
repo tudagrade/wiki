@@ -9,7 +9,7 @@ module.exports = {
     siteImage: ``,
     siteLanguage: `en`,
     themeColor: `#8257E6`,
-    basePath: `/`,
+    basePath: `/Haudy/`,
   },
   plugins: [
     {
