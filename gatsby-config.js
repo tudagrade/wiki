@@ -17,7 +17,7 @@ module.exports = {
       options: {
         configPath: `src/config`,
         docsPath: `src/docs`,
-        githubUrl: `https://github.com/SourceGrade/JagrDocs`,
+        githubUrl: `https://github.com/TUDalgo/Haudy`,
       },
     },
     {
