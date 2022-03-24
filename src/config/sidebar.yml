@@ -1,20 +1,16 @@
 # Sidebar navigation
 
-- label: "Java Installation"
+- label: "Vorbereitung"
   items:
-    - label: 'Arch-based Linux'
-      link: "/java/arch-based"
-    - label: 'Ubuntu-based Linux'
-      link: "/java/ubuntu-based"
-    - label: 'Mac OS'
-      link: "/java/mac"
-    - label: "Windows"
-      link: "/java/windows"
-- label: "IntelliJ"
+    - label: 'Installieren von Java'
+      link: "/preparation/installation-java"
+    - label: 'Installieren von IntelliJ'
+      link: "/preparation/installation-intellij"
+- label: "Hausübungen"
   items:
-    - label: "Installation"
-      link: "/intellij/installation"
-- label: "Gradle"
-  items:
-    - label: "Prepare Submission"
-      link: "/gradle/prepare-submission"
+    - label: "Herunterladen und Importieren"
+      link: "/exercises/download-import"
+    - label: "Exportieren und Hochladen"
+      link: "/exercises/export-upload"
+    - label: "Bewertung"
+      link: "/exercises/grading"
