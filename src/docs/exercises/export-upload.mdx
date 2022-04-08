@@ -60,18 +60,25 @@
       > requireTests = false
 
 
-   4. > Execution failed for task ':compileJava'.  
+   4. > execution failed for task ':publicTest'.  
+      > There were failing tests.  
+
+      * Die von uns zur Verfügung gestellten public-Tests laufen nicht erfolgreich durch. Um dies zu beheben, fixen Sie entweder den Fehler, den die Tessts aufzeigen, oder ändern Sie in der build.gradle.kts Datei direkt unter Ihren persönlichen Daten requirePublicTests von true auf false:
+      > requireTests = false
+
+
+   5. > Execution failed for task ':compileJava'.  
       > Compilation failed; see the compiler error output for details.
 
       * Es befinden sich noch Syntaxfehler in Ihren Code, welche Sie vor dem Abgeben beheben müssen. Sie finden unten links am Rand im Reiter **"Problems"** eine Auflistung aller Syntaxfehler.
 
 
-   5. > Note: \[...\] uses unsafe or unchecked operations.
+   6. > Note: \[...\] uses unsafe or unchecked operations.
 
       * Dies ist nur eine Warnung und verhindert nicht die Abgabe der Hausübung. Sie sollten allerdings überprüfen, ob der entsprechende Abschnitt funktioniert.
    
 
-   6. > UnsupportedClassVersionError
+   7. > UnsupportedClassVersionError
 
       oder
 
@@ -80,7 +87,7 @@
       * Es wird eine falsche Java Version benutzt. Überprüfen Sie in einem Terminal mit **"java --version"**, ob Java 17 benutzt wird (s. Anleitung zum Installieren von Java) und überprüfen Sie in IntelliJ, ob unter **"File" -> "Project Structure..." -> "Project" -> "SDK"** sowie unter **"File" -> "Settings" -> "Build, Execution, Deployment" -> "Build Tools" -> "Gradle" -> "Gradle JVM"** Java 17 als Version angegeben ist.
 
 
-   6. > failed to delete some children.
+   8. > failed to delete some children.
       
       * Dieser Fehler entsteht meistens dadurch, dass der Zugriff auf bestimmte Dateien durch andere Prozesse, wie z. B. den Debugger, blockiert wird. Ein Neustart von IntelliJ oder Ihrem Rechner sollte das Problem beheben.
    
