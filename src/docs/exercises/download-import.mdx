@@ -1,9 +1,36 @@
 # Download und Importieren von Hausübungen in IntelliJ
 
 Zum Bearbeiten der Hausübungen benötigen Sie die von uns auf <ins> <a href="https://moodle.informatik.tu-darmstadt.de/course/view.php?id=1169" target="_blank">Moodle</a></ins> zur Verfügung gestellten Vorlagen.  
-Sie können die Vorlage für eine Hausübungen erhalten, indem Sie entweder die zugehörige Zip-Datei aus dem Moodle Kurs herunterladen, oder indem Sie das entsprechende Git Repository klonen.
+Sie können die Vorlage für eine Hausübungen erhalten, indem Sie entweder das entsprechende Git Repository klonen, oder die zugehörige Zip-Datei aus dem Moodle Kurs herunterladen.
 
 ## Git
+
+### Git installieren
+
+* Um die Repositories mit Git zu klonen müssen Sie zunächst Git lokal installieren.
+
+#### Windows
+
+1. Laden Sie sich <ins> <a href="https://git-scm.com/download" target="_blank">hier</a></ins> Git herunter, indem Sie rechts auf **"Download for Windows"** drücken.
+2. Führen Sie den soeben heruntergeladenen Installer aus.
+3. Drücken Sie solange auf **"Next"**, bis der Installationsprozess beginnt. Sie können die Standardeinstellungen des Installers übernehmen und müssen nichts weiter auswählen.
+4. Drücken Sie auf **"Finish** um den Installationsprozess abzuschließen.
+5. Sie können nun mit dem Befehl **"git --version"** in einer Konsole überprüfen, ob Git erfolgreich installiert wurde.
+   * Sie können ein Terminal öffnen, indem Sie in der Windowssuche (Win+ S) **"cmd"** eingeben.
+
+#### MacOS
+
+1. Sie können Git mit dem package installer Homebrew installieren. Führen Sie dafür folgenden Befehl in einem Terminal aus:
+  > brew install git
+
+   * Sie können ein Terminal öffnen, indem Sie in der Suche (Cmd + Leertaste) **"Terminal"** eingeben
+   * Falls Sie Homebrew nicht installiert haben, können Sie es mit folgenden Befehl installieren:
+   > /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   
+   * Sie können selbstverständlich auch einen anderen package installer verwenden.
+2. Sie können nun mit dem Befehl **"git --version"** in einem Terminal überprüfen, ob Git erfolgreich installiert wurde.
+
+### Repositories klonen
 
 1. IntelliJ bietet Ihnen die Möglichkeit, Git Repository automatisch zu klonen. Wählen Sie dafür links oben im **"File"** Reiter **"New" -> "Project From Version Controll..."** aus.
    * Wenn Sie IntelliJ das erste Mal starten oder momentan kein Projekt geöffnet haben, müssen Sie stattdessen rechts oben auf **"Get from VCS"** drücken.
