@@ -17,6 +17,18 @@
    * Die Ausgabe sollte in etwa wie folgt aussehen:
    > openjdk 17.0.2 2022-01-18  
 
+  * Falls Ihnen bei der Ausgabe eine falsche Java Version oder ein Fehler angezeigt wird, überprüfen Sie wie folgt, ob Ihre Umgebungsvariablen korrekt gesetzt sind.
+    1. Geben Sie in die Windowssuche (Win + S) **"Systemumgebungsvariablen bearbeiten"** ein und öffnen Sie das Fenster.
+    2. Drücken Sie rechts unten auf **"Umgebungsvariablen"**.
+    3. Überprüfen Sie, ob in der unteren Liste eine Variable namens **"JAVA_HOME"** existiert und auf das Verzeichniss, in welchem Java 17 installiert ist, zeigt.
+        * Der Inhalt sollte in etwa wie folgt aussehen:
+        > C:\Program Files\Eclipse Adoptium\jdk-17.0.2.8-hotspot\
+        * Falls die Variable nicht vorhanden ist oder auf eine falsche Version zeigt, können Sie dies mit den Knöpfen **"Neu..."** bzw. **"Bearbeiten..."** ändern.
+    4. Wählen Sie die Variable **"Path"** aus und drücken Sie auf **"Bearbeiten..."**. 
+    5. In der nun angezeigten Liste sollte der Eintrag **"%JAVA_HOME%\bin"** enthalten sein. Falls nicht, fügen Sie diesen rechts oben mit dem Knopf **"Neu"** hinzu.
+        * Weitere Java Installationen sollten nicht enthalten sein.
+    6. Schließen Sie mit **"OK"** alle Fenster und öffnen Sie ein neues Terminal. Es sollte nun die korrekte Java Version angezeigt werden.
+
 ## Mac OS
 
 1. Öffnen Sie die <ins> <a href="https://adoptium.net/de/" target="_blank">Adoptium Website</a></ins>.
