@@ -10,6 +10,23 @@
 * Mit einem Rechtsklick auf ein Package können Sie über **new -> Java Class** eine neue Java Datei erstellen. Geben Sie dafür den Namen an, wählen Sie aus, ob es eine Klasse, Interface, Enum oder Annotation sein soll und bestätigen Sie das Erstellen, indem Sie **Enter** drücken.
 * Sie können auf dieselbe Weise auch packages erstellen. Wählen Sie dafür **"package"** anstatt **"Java Class"** aus.
 
+# Gradle Tasks
+* Um die Übersicht mit allen Gradle Task zu öffnen, drücken Sie am rechten oberen Rand auf **"Gradle"**.  
+   * Alternativ können Sie sich die Gradle Ansicht auch über den Reiter **"View"** anzeigen lassen, indem Sie dann auf **"Tool Windows" -> "Gradle"** gehen.  
+* Klappen Sie den Ordner, der nach dem Projekt benannt ist, sowie den darin enthaltenen Ordner **"Tasks"**. Nun sehen Sie alle Verzeichnisse, in denen Gradle Tasks enthalten sind.
+* Anbei ist eine Tabelle mit allen relevanten Task. Die jeweiligen Tasks sind im Format **"<Verzeichnissname\>/<Taskname\>"** angegeben.
+* Sie können eine Task mit einem Doppelklick auf sie ausführen.
+
+| Gradle Task | Beschreibung |
+| ----------- | ----------- |
+| Application/run | Führt die main Methode des Projektes aus |
+| submit/prepareSubmission | Erstellt die Abgabedatei im Ordner build/libs |
+| verification/test | Führt Ihre selbstgeschriebenen Tast aus |
+| verification/publicTest | Führt die von uns zur Verfügung gestellten public Tests aus |
+| verification/check | Führt alle Tests aus |
+| build/assemble | kompiliert das Projekt |
+| build/build | kompiliert das Projekt und führt alle checks durch |
+
 ## Code Ausführen
 * In IntelliJ gibt es verschiedene Methoden, wie Sie Ihren Code ausführen können. Sie können eine der folgenden Methoden benutzten:
    1. Wenn Sie eine Klasse mit einer main Methode betrachten, befindet sich bei der Zeilenangabe auf der Höhe der main Methode und der Klassendefinition ein grünes Dreieck. Wenn Sie auf dieses draufdrücken und dann auf **"Run '...'"** drücken.
