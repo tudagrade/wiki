@@ -1,7 +1,7 @@
  # Exportieren und Hochladen von Hausübungen in IntelliJ
 
-Zum Erstellen der Abgabedatei wird mit der Gradle Task **"prepareSubmission** verwendet. Befolgen Sie dafür die Schritte auf dieser Seite.  
-   * Beachten Sie, dass Ihr Code zum Abgeben kompilierbar sein muss. IntelliJ zeigt Ihnen am unteren Rand im Abschnitt **"Problems"** alle Syntaxfehler in Rot an.
+* Zum Erstellen der Abgabedatei wird die Gradle Task **"prepareSubmission"** verwendet.  
+* Beachten Sie, dass Ihr Code zum Abgeben kompilierbar sein muss. IntelliJ zeigt Ihnen am unteren Rand im Abschnitt **"Problems"** alle Syntaxfehler in Rot an.
 
 1. Tragen Sie in der **build.gradle.kts** Datei Ihre Tu-ID, sowie Ihren Vor- und Nachnamen ein. Ein Eintrag sieht z. B. wie folgt aus:
    > studentID = "ab12cdef"  
@@ -9,29 +9,40 @@ Zum Erstellen der Abgabedatei wird mit der Gradle Task **"prepareSubmission** ve
    > lastName = "Mustermann"
 
    * Verändern Sie bis auf diese drei Zeilen nichts Weiteres an der Datei.
-   * Beachten Sie, dass die **""** notwendig sind.
-2. Öffnen Sie am rechten oberen Rand die Gradle Übersicht.
-   * Alternativ können Sie sich die Gradle Ansicht auch über den Reiter **"View"** anzeigen lassen, indem Sie auf **"Tool Windows" -> "Gradle"** gehen.
+   * Beachten Sie, dass die Anführungszeichen notwendig sind.
+
+
+2. Öffnen Sie am rechten oberen Rand die Gradle Übersicht.  
+   * Alternativ können Sie sich die Gradle Ansicht auch über den Reiter **"View"** anzeigen lassen, indem Sie auf **"Tool Windows" -> "Gradle"** gehen.  
+
+
 3. Unter **<ProjektName\> -> Task -> submit** finden Sie die Gradle Task **"prepareSubmission**. Führen Sie diese mit einem Doppelklick aus.
-   * Wenn in der Konsole **"BUILD SUCCESSFUL"** steht, war das Erstellen der Abgabedatei erfolgreich
-4. In dem Projektordner finden sie nun im Ordner **"build"** einen weiteren Ordner **"libs"**. In diesem befindet sich die Abgabedatei.
+   * Wenn unten in der Konsole **"BUILD SUCCESSFUL"** steht, war das Erstellen der Abgabedatei erfolgreich.  
+
+
+4. In dem Projektordner finden Sie nun im Ordner **"build"** einen weiteren Ordner **"libs"**. In diesem befindet sich die Abgabedatei.
    * Die Datei ist nach dem Schema **"HXX-lastName-firstName-submission.jar"** benannt. Ändern Sie diese Benennung **nicht**.
    * Beachten Sie, dass IntelliJ die Datei nicht unbedingt sofort anzeigt. Suchen Sie die Datei am besten im File Explorer.
    * Um den Inhalt der Abgabedatei zu überprüfen, können Sie die Jar-Datei entweder mit einem Entpackungsprogramm wie z. B. 7Zip oder mit dem Befehl **"jar -xf <Dateiname\>"** in einer Konsole. In der Regel ist dies aber nicht notwendig.
    * Beachten Sie, dass die exportierte Jar-Datei nicht ausführbar ist.
+
+
 5. Laden Sie danach die Datei in <ins> <a href="https://moodle.informatik.tu-darmstadt.de/course/view.php?id=1169" target="_blank">Moodle</a></ins> bei der entsprechenden Abgabe hoch.
    * Sie können bis zum Abgabeende beliebig oft Ihre Abgabe ändern. Wir empfehlen Ihnen daher regelmäßig Ihren Zwischenstand hochzuladen, damit Sie nicht leer dastehen, wenn Sie die Abgabefrist verpassen. 
    * Alle Abgaben, die auf Moodle hochgeladen werden konnten, werden bewertet. Wenn keine Datei nicht hochgeladen werden kann, weil die Abgabefrist überschritten wurde, kann die Aufgabe nicht bewertet werden.
 
+
 ## Beheben von möglichen Fehlern beim Exportieren
 
-* Stellen Sie zunächst sicher, dass Sie den richtigen Ordner importiert haben. Der oberste Ordner sollte nach der Hausübung benannt sein (z. B. **"AUD-2022-HXX-Student-master"**) und direkt die build.gradle.kts Datei enthalten sein. Wählen Sie beim Importieren **nicht** einen identisch benannten Oberordner aus.
+* Stellen Sie zunächst sicher, dass Sie den richtigen Ordner importiert haben. Der oberste Ordner sollte nach der Hausübung benannt sein (z. B. **"AuD-2022-HXX-Student-master"**) und direkt die build.gradle.kts Datei enthalten sein. Wählen Sie beim Importieren **nicht** einen identisch benannten Oberordner aus.
 * Beachten Sie, dass es mit Gradle zu Problemen kommen kann, wenn das Projekt auf einer externen Festplatte gespeichert wurde.
-* Falls Sie weiterhin Probleme beim Exportieren haben, schauen Sie sich die Fehlermeldung in der Konsole, welche sich beim Ausführen der prepareSubmission Task automatisch öffnet, an. Anbei finden Sie ein paar mögliche Fehler:
+* Falls Sie weiterhin Probleme beim Exportieren haben, schauen Sie sich die Fehlermeldung in der Konsole, welche sich beim Ausführen der prepareSubmission Task automatisch öffnet, an. Anbei finden Sie ein paar mögliche Fehler:  
    
+
    1. > Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
       
       * Sie können diese Meldung ignorieren.
+
 
    2. > Execution failed for task ':prepareSubmission'.  
       > There were some errors preparing your submission. The following required properties were not set:  
@@ -41,23 +52,37 @@ Zum Erstellen der Abgabedatei wird mit der Gradle Task **"prepareSubmission** ve
 
       * Sie haben vergessen, Ihre persönlichen Daten in der build.gradle.kts Datei hinzuzufügen. Siehe Schritt 1.
 
+
    3. > execution failed for task ':test'.  
       > There were failing tests.  
 
       * Ihre selbstgeschriebenen Tests laufen nicht erfolgreich durch. Um dies zu beheben, fixen Sie entweder den Fehler, der in Ihren Tests auftritt, oder ändern Sie in der build.gradle.kts Datei direkt unter Ihren persönlichen Daten requireTests von true auf false:
       > requireTests = false
 
+
    4. > Execution failed for task ':compileJava'.  
       > Compilation failed; see the compiler error output for details.
 
       * Es befinden sich noch Syntaxfehler in Ihren Code, welche Sie vor dem Abgeben beheben müssen. Sie finden unten links am Rand im Reiter **"Problems"** eine Auflistung aller Syntaxfehler.
 
+
    5. > Note: \[...\] uses unsafe or unchecked operations.
 
       * Dies ist nur eine Warnung und verhindert nicht die Abgabe der Hausübung. Sie sollten allerdings überprüfen, ob der entsprechende Abschnitt funktioniert.
    
+
+   6. > UnsupportedClassVersionError
+
+      oder
+
+      > \[...\} has been compiled by a more recent version of the Java Runtime
+      
+      * Es wird eine falsche Java Version benutzt. Überprüfen Sie in einem Terminal mit **"java --version"**, ob Java 17 benutzt wird (s. Anleitung zum Installieren von Java) und überprüfen Sie in IntelliJ, ob unter **"File" -> "Project Structure..." -> "Project" -> "SDK"** sowie unter **"File" -> "Settings" -> "Build, Execution, Deployment" -> "Build Tools" -> "Gradle" -> "Gradle JVM"** Java 17 als Version angegeben ist.
+
+
    6. > failed to delete some children.
       
       * Dieser Fehler entsteht meistens dadurch, dass der Zugriff auf bestimmte Dateien durch andere Prozesse, wie z. B. den Debugger, blockiert wird. Ein Neustart von IntelliJ oder Ihrem Rechner sollte das Problem beheben.
    
+
 * Wenn Sie Ihr Problem nicht selber beheben konnten, können Sie entweder auf unserem Discord Server im Channel **"\#import-export-gradle** oder im Moodle Forum für technische Fragen nachfragen. Fügen Sie bei beiden am besten einen Ausschnitt der Konsolenausgabe mit dem Fehler als Screenshot oder Text an.
