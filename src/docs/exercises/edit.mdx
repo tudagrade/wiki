@@ -14,31 +14,31 @@
 * Um die Übersicht mit allen Gradle Task zu öffnen, drücken Sie am rechten oberen Rand auf **"Gradle"**.  
    * Alternativ können Sie sich die Gradle Ansicht auch über den Reiter **"View"** anzeigen lassen, indem Sie dann auf **"Tool Windows" -> "Gradle"** gehen.  
 * Klappen Sie den Ordner, der nach dem Projekt benannt ist, sowie den darin enthaltenen Ordner **"Tasks"**. Nun sehen Sie alle Verzeichnisse, in denen Gradle Tasks enthalten sind.
-* Anbei ist eine Tabelle mit allen relevanten Task. Die jeweiligen Tasks sind im Format **"<Verzeichnissname\>/<Taskname\>"** angegeben.
+* Anbei ist eine Tabelle mit allen relevanten Tasks. Die jeweiligen Tasks sind im Format **"<Verzeichnisname\>/<Taskname\>"** angegeben.
 * Sie können eine Task mit einem Doppelklick auf sie ausführen.
 
 | Gradle Task | Beschreibung |
 | ----------- | ----------- |
-| Application/run | Führt die main Methode des Projektes aus |
+| application/run | Führt die main Methode des Projektes aus |
 | submit/prepareSubmission | Erstellt die Abgabedatei im Ordner build/libs |
 | verification/test | Führt Ihre selbstgeschriebenen Tast aus |
 | verification/publicTest | Führt die von uns zur Verfügung gestellten public Tests aus |
 | verification/check | Führt alle Tests aus |
-| build/assemble | kompiliert das Projekt |
-| build/build | kompiliert das Projekt und führt alle checks durch |
+| build/assemble | Kompiliert das Projekt |
+| build/build | Kompiliert das Projekt und führt alle checks durch |
 
 ## Code Ausführen
 * In IntelliJ gibt es verschiedene Methoden, wie Sie Ihren Code ausführen können. Sie können eine der folgenden Methoden benutzten:
    1. Wenn Sie eine Klasse mit einer main Methode betrachten, befindet sich bei der Zeilenangabe auf der Höhe der main Methode und der Klassendefinition ein grünes Dreieck. Wenn Sie auf dieses draufdrücken und dann auf **"Run '...'"** drücken.
    2. Machen Sie links in der Project Ansicht einen Rechtsklick auf eine Klasse mit einer main Methode und drücken Sie auf **"Run '...'"**.
-   3. Führen Sie am rechten oberen Rand in der Gradle Ansicht die Task **"run"** im Ordner **"Application"** aus.
+   3. Führen Sie am rechten oberen Rand in der Gradle Ansicht die Task **"run"** im Ordner **"application"** aus.
    4. Drücken Sie am oberen rechten Rand auf das grüne Dreieck.
       * Beachten Sie, dass diese Methode die letzte Aktion erneut ausführt. Diese ist nicht zwangsläufig immer das Ausführen des Codes.
 * Wenn Ihr Code nicht terminiert, können Sie das Programm mit dem roten Quadrat am linken Rand stoppen.
 
 ## Tests ausführen
 * Sie können Ihre Tests auf dieselbe Weise ausführen, wie Ihren Code.
-   * Anstelle der Gradle Test **"Application/run"** müssen Sie die Task **"Verification/test"** ausführen.
+   * Anstelle der Gradle Test **"application/run"** müssen Sie die Task **"verification/test"** ausführen.
    * Wenn Sie in der Project Ansicht einen Rechtsklick auf einen höher liegendes Package bzw. Verzeichnis machen, können Sie alle Test, die in diesem enthalten sind, auf einmal ausführen.
 
 ## Fehler und Warnungen erkennen und beheben
@@ -52,7 +52,7 @@
 
 * Wenn Sie Ihr Programm ausführen, öffnet sich unten automatisch eine Übersicht über den Verlauf des Programms und die Konsole. Hier werden Ihnen auch die Fehler angezeigt, die während dem Programmablauf auftreten.
 * Damit Ihnen die vollständigen Fehlermeldungen angezeigt werden, wählen Sie links von der Konsole die zweite Option von oben aus.
-* Eine Fehlermeldungen sieht z.B. wie folgt aus:
+* Eine Fehlermeldung sieht z.B. wie folgt aus:
 > Exception in thread "main" java.lang.ArithmeticException: / by zero  
 > at example.Divider.divide(Main.java:20)  
 > at example.Main.main(Main.java:10)
@@ -64,7 +64,7 @@
 
 ## Den Debugger benutzten
 
-* IntelliJ bietet Ihnen mit dem Debugger eine sehr hilfreiche Methode Fehler in Ihrem Code zu finden. Sie können den Debugger genauso starten, wie Sie Ihren Code mit den Methoden 1. 2. und 4. ausführen. Der Unterschied dabei ist, dass sie anstatt auf das grüne Dreieck **"Run '...'"** auf den roten Käfer **"Debug '...'"** drücken müssen.
+* IntelliJ bietet Ihnen mit dem Debugger eine sehr hilfreiche Methode Fehler in Ihrem Code zu finden. Sie können den Debugger genauso starten, wie Sie Ihren Code mit den Methoden 1. 2. und 4. ausführen. Der Unterschied dabei ist, dass Sie anstatt auf das grüne Dreieck **"Run '...'"** auf den roten Käfer **"Debug '...'"** drücken müssen.
 * Mit einem Linksklick direkt neben der Zeilenangabe können Sie einen Breakpoint erstellen, welcher als roter Punkt angezeigt wird.
 * Wenn Sie den Debugger starten, wird er Ihren Code so lange normal ausführen, bis er an einem Breakpoint ankommt. In dem Fall wird das Programm angehalten und Ihnen wird eine Liste der Variable mit den zugehörigen Werten angezeigt.
    * Mit **F8** können Sie die momentane Zeile ausführen.
