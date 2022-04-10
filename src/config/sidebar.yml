@@ -12,5 +12,7 @@
       link: "/exercises/download-import"
     - label: "Exportieren und Hochladen"
       link: "/exercises/export-upload"
+    - label: "Bearbeiten"
+      link: "/exercises/edit"
     - label: "Bewertung"
       link: "/exercises/grading"
