@@ -43,3 +43,23 @@
    * Sie können das Terminal öffnen, indem Sie in der Suche (Cmd + Leertaste) **"Terminal"** eingeben.
    * Die Ausgabe sollte in etwa wie folgt aussehen:
    > openjdk 17.0.2 2022-01-18   
+
+## Arch Based Linux
+
+1. Installieren Sie Java 17.
+```
+    pacman -S openjdk17-src jre17-openjdk
+```
+1. Setzen Sie diese Java Version als Standard.
+```
+    archlinux-java set java-17-openjdk
+```
+1. Prüfen Sie die Java Installation.
+```
+    java --version
+```
+1.Wenn die Ausgabe in etwa so aussieht, ist die Installation erfolgreich.
+Achten Sie insbesondere darauf, dass es Java 17 ist.
+```
+    openjdk 17.0.3 2022-04-19
+```
