@@ -2,6 +2,26 @@
 
 * <span style="color:red">Zum Bearbeiten der Hausübungen benötigen Sie Java 17. Beachten Sie, dass Ihre ggf. vorhandene Java 11 Installation dafür nicht ausreicht</span>.
 
+## Arch Based Linux
+
+1. Installieren Sie Java 17 (Als Root).
+    ```
+    pacman -S openjdk17-src --needed
+    ```
+1. Setzen Sie diese Java Version als Standard (Als Root).
+    ```
+    archlinux-java set java-17-openjdk
+    ```
+1. Prüfen Sie die Java Installation.
+    ```
+    java --version
+    ```
+1. Wenn die Ausgabe in etwa so aussieht, ist die Installation erfolgreich.
+    Achten Sie insbesondere darauf, dass es Java 17 ist.
+    ```
+    openjdk 17.0.3 2022-04-19
+    ```
+
 ## Windows
 
 1. Öffnen Sie die <ins> <a href="https://adoptium.net/de/" target="_blank"><span style="color:#349eeb">Adoptium Website</span></a></ins>.
@@ -43,23 +63,3 @@
    * Sie können das Terminal öffnen, indem Sie in der Suche (Cmd + Leertaste) **"Terminal"** eingeben.
    * Die Ausgabe sollte in etwa wie folgt aussehen:
    > openjdk 17.0.2 2022-01-18   
-
-## Arch Based Linux
-
-1. Installieren Sie Java 17.
-```
-    pacman -S openjdk17-src jre17-openjdk
-```
-1. Setzen Sie diese Java Version als Standard.
-```
-    archlinux-java set java-17-openjdk
-```
-1. Prüfen Sie die Java Installation.
-```
-    java --version
-```
-1.Wenn die Ausgabe in etwa so aussieht, ist die Installation erfolgreich.
-Achten Sie insbesondere darauf, dass es Java 17 ist.
-```
-    openjdk 17.0.3 2022-04-19
-```
