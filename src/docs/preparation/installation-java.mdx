@@ -1,6 +1,6 @@
 # Installieren von Java
 
-* <span style="color:red">Zum Bearbeiten der Hausübungen benötigen Sie Java 17. Beachten Sie, dass Ihre ggf. vorhandene Java 11 Installation dafür nicht ausreicht</span>.
+* <span style="color:red">Zum Bearbeiten der Hausübungen benötigen Sie Java 17. Beachten Sie, dass Ihre ggf. vorhandene Java 11 Installation dafür nicht ausreicht.</span>
 
 ## Arch Based Linux
 
@@ -30,19 +30,22 @@
     * Wählen Sie im Abschnitt **"Benutzerdefiniertes Setup"** bei **"JAVA_HOME-Variable konfigurieren"** die Option **"Wird auf der lokalen Festplatte installiert"** aus, indem Sie auf das rote Kreuz daneben drücken.
 4. Nachdem die Installation abgeschlossen ist, drücken Sie **"Fertig stellen"**.
 5. Sie können überprüfen, ob Java korrekt installiert wurde, indem Sie im Terminal folgenden Befehl eingeben
- 
- >java --version
-
+    ```
+    java --version
+    ```
    * Sie können das Terminal öffnen, indem Sie in der Windowssuche (Win + S) **"cmd"** eingeben.
    * Die Ausgabe sollte in etwa wie folgt aussehen:
-   > openjdk 17.0.2 2022-01-18  
-
+   ```
+   openjdk 17.0.2 2022-01-18  
+   ```
   * Falls Ihnen bei der Ausgabe eine falsche Java Version oder ein Fehler angezeigt wird, überprüfen Sie wie folgt, ob Ihre Umgebungsvariablen korrekt gesetzt sind.
     1. Geben Sie in die Windowssuche (Win + S) **"Systemumgebungsvariablen bearbeiten"** ein und öffnen Sie das Fenster.
     2. Drücken Sie rechts unten auf **"Umgebungsvariablen"**.
     3. Überprüfen Sie, ob in der unteren Liste eine Variable namens **"JAVA_HOME"** existiert und auf das Verzeichniss, in welchem Java 17 installiert ist, zeigt.
         * Der Inhalt sollte in etwa wie folgt aussehen:
-        > C:\Program Files\Eclipse Adoptium\jdk-17.0.2.8-hotspot\
+        ```
+        C:\Program Files\Eclipse Adoptium\jdk-17.0.2.8-hotspot\
+        ```
         * Falls die Variable nicht vorhanden ist oder auf eine falsche Version zeigt, können Sie dies mit den Knöpfen **"Neu..."** bzw. **"Bearbeiten..."** ändern.
     4. Wählen Sie die Variable **"Path"** aus und drücken Sie auf **"Bearbeiten..."**. 
     5. In der nun angezeigten Liste sollte der Eintrag **"%JAVA_HOME%\bin"** enthalten sein. Falls nicht, fügen Sie diesen rechts oben mit dem Knopf **"Neu"** hinzu.
@@ -55,11 +58,13 @@
 2. Drücken Sie auf **"Latest LTS Release"**. Der Download sollte automatisch starten.
 3. Öffnen Sie den soeben heruntergeladenen Installer und drücken Sie auf **"Fortfahren"**, bzw. **"Installieren"**. Sie können die Standardeinstellungen übernehmen und müssen nichts weiteres im Installer auswählen.
 4. Nachdem die Installation abgeschlossen ist, drücken Sie **"Schließen"**.
-   * Das Installationsprogramm benötigen Sie nun nicht mehr.
+    * Das Installationsprogramm benötigen Sie nun nicht mehr.
 5. Sie können überprüfen, ob Java korrekt installiert wurde, indem Sie im Terminal folgenden Befehl eingeben
- 
- >java --version
-
-   * Sie können das Terminal öffnen, indem Sie in der Suche (Cmd + Leertaste) **"Terminal"** eingeben.
-   * Die Ausgabe sollte in etwa wie folgt aussehen:
-   > openjdk 17.0.2 2022-01-18   
+    ```
+    java --version
+    ```
+    * Sie können das Terminal öffnen, indem Sie in der Suche (Cmd + Leertaste) **"Terminal"** eingeben.
+    * Die Ausgabe sollte in etwa wie folgt aussehen:
+    ```
+    openjdk 17.0.2 2022-01-18   
+    ```
