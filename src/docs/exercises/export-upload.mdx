@@ -36,15 +36,34 @@
 
 * Stellen Sie zunächst sicher, dass Sie den richtigen Ordner importiert haben. Der oberste Ordner sollte nach der Hausübung benannt sein (z. B. **"AuD-2022-HXX-Student-master"**) und direkt die build.gradle.kts Datei enthalten sein. Wählen Sie beim Importieren **nicht** einen identisch benannten Oberordner aus.
 * Beachten Sie, dass es mit Gradle zu Problemen kommen kann, wenn das Projekt auf einer externen Festplatte gespeichert wurde.
-* Falls Sie weiterhin Probleme beim Exportieren haben, schauen Sie sich die Fehlermeldung in der Konsole, welche sich beim Ausführen der prepareSubmission Task automatisch öffnet, an. Anbei finden Sie ein paar mögliche Fehler:  
+* Falls Sie weiterhin Probleme beim Exportieren haben, schauen Sie sich die Fehlermeldung in der Konsole, welche sich beim Ausführen der des Programmes oder einer Gradle Task automatisch öffnet, an. Anbei finden Sie ein paar mögliche Fehler:  
    
 
-   1. > Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+   1. > [...] finished with non-zero exit value 1
+
+      * Diese Meldung sagt ihnen nur, dass ein Fehler aufgetreten ist. Wenn der eigentliche Fehler nicht angezeigt wird, drücken Sie links neben der Konsolenausgabe auf die zweite Option von oben. Diese sollte **":run"** oder **":<Mainclass\>:main()"**
+
+
+   2. > Execution failed for task ':compileJava'.  
+      > error: invalid source release: 17
+
+      oder 
+
+      > UnsupportedClassVersionError
+
+      oder
+
+      > \[...\} has been compiled by a more recent version of the Java Runtime
+      
+      * Es wird eine falsche Java Version benutzt. Überprüfen Sie in einem Terminal mit **"java --version"**, ob Java 17 benutzt wird (s. Anleitung zum Installieren von Java) und überprüfen Sie in IntelliJ, ob unter **"File" -> "Project Structure..." -> "Project" -> "SDK"** sowie unter **"File" -> "Settings" -> "Build, Execution, Deployment" -> "Build Tools" -> "Gradle" -> "Gradle JVM"** Java 17 als Version angegeben ist.
+ 
+
+   3. > Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
       
       * Sie können diese Meldung ignorieren.
 
 
-   2. > Execution failed for task ':prepareSubmission'.  
+   4. > Execution failed for task ':prepareSubmission'.  
       > There were some errors preparing your submission. The following required properties were not set:  
       > studentId  
       > firstName  
@@ -53,41 +72,32 @@
       * Sie haben vergessen, Ihre persönlichen Daten in der build.gradle.kts Datei hinzuzufügen. Siehe Schritt 1.
 
 
-   3. > execution failed for task ':test'.  
+   5. > execution failed for task ':test'.  
       > There were failing tests.  
 
       * Ihre selbstgeschriebenen Tests laufen nicht erfolgreich durch. Um dies zu beheben, fixen Sie entweder den Fehler, der in Ihren Tests auftritt, oder ändern Sie in der build.gradle.kts Datei direkt unter Ihren persönlichen Daten requireTests von true auf false:
       > requireTests = false
 
 
-   4. > execution failed for task ':publicTest'.  
+   6. > execution failed for task ':publicTest'.  
       > There were failing tests.  
 
       * Die von uns zur Verfügung gestellten public-Tests laufen nicht erfolgreich durch. Um dies zu beheben, fixen Sie entweder den Fehler, den die Tessts aufzeigen, oder ändern Sie in der build.gradle.kts Datei direkt unter Ihren persönlichen Daten requirePublicTests von true auf false:
       > requireTests = false
 
 
-   5. > Execution failed for task ':compileJava'.  
+   7. > Execution failed for task ':compileJava'.  
       > Compilation failed; see the compiler error output for details.
 
-      * Es befinden sich noch Syntaxfehler in Ihren Code, welche Sie vor dem Abgeben beheben müssen. Sie finden unten links am Rand im Reiter **"Problems"** eine Auflistung aller Syntaxfehler.
+      * Es befinden sich vermutlich noch Syntaxfehler in Ihren Code, welche Sie vor dem Abgeben beheben müssen. Sie finden unten links am Rand im Reiter **"Problems"** eine Auflistung aller Syntaxfehler.
 
 
-   6. > Note: \[...\] uses unsafe or unchecked operations.
+   8. > Note: \[...\] uses unsafe or unchecked operations.
 
       * Dies ist nur eine Warnung und verhindert nicht die Abgabe der Hausübung. Sie sollten allerdings überprüfen, ob der entsprechende Abschnitt funktioniert.
    
 
-   7. > UnsupportedClassVersionError
-
-      oder
-
-      > \[...\} has been compiled by a more recent version of the Java Runtime
-      
-      * Es wird eine falsche Java Version benutzt. Überprüfen Sie in einem Terminal mit **"java --version"**, ob Java 17 benutzt wird (s. Anleitung zum Installieren von Java) und überprüfen Sie in IntelliJ, ob unter **"File" -> "Project Structure..." -> "Project" -> "SDK"** sowie unter **"File" -> "Settings" -> "Build, Execution, Deployment" -> "Build Tools" -> "Gradle" -> "Gradle JVM"** Java 17 als Version angegeben ist.
-
-
-   8. > failed to delete some children.
+   9. > failed to delete some children.
       
       * Dieser Fehler entsteht meistens dadurch, dass der Zugriff auf bestimmte Dateien durch andere Prozesse, wie z. B. den Debugger, blockiert wird. Ein Neustart von IntelliJ oder Ihrem Rechner sollte das Problem beheben.
    
