@@ -60,9 +60,28 @@ Sie können die Vorlage für eine Hausübungen erhalten, indem Sie entweder das 
 
 ## Updaten der Vorlage
 
+* Es kann vorkommen, dass wir nach der Veröffentlichung der Vorlage noch Änderungen an dieser Vornehmen, wie z.B. die Public Tests hinzuzufügen.
+* Die Abgabe ist in i.d.R. mit jeder Version der Vorlage möglich.
+
 ### Git
 
-
+* Wenn Sie die Voralge mithilfe von Git geklont haben, können Sie sich die neuste Version der Vorlage ganz einfach herunterladen.
+* In IntelliJ gibt es eine Git Integration, die alle benötigten Befehle für Sie ausführt. Die Befehle stehen hier trotzdem nochmal dabei, falls Sie nicht mit IntelliJ arbeiten.
+1. Zunächst müssen Sie Ihre Änderungen commiten. Öffnen Sie dafür in IntelliJ am linken oberen Rand die Commit Ansicht, wählen Sie alle Dateien aus, die Sie bearbeitet haben, geben Sie eine commit Message und drücken Sie auf **"Commit"**.
+   * Alternativ können Sie die Commit Ansicht auch über **"View" -> "Tool Windows" -> "Commit"** öffnen.
+   * Falls das Commiten fehlschlägt, weil gewisse checks nicht erfolgreich durchlaufen, drücken Sie auf **"Commit Anyway"**.
+   * Alternativer Befehl:
+      > git commit -am "commit Message"
+2. Nun können Sie die Änderungen zu Ihrer Version hinzuzufügen, indem Sie links oben in IntelliJ im Git Reiter auf **"Pull..."** drücken. Drücken Sie im Fenster, welches sich nun öffnet erneut auf **"Pull"**.
+   * Alternativer Befehl:
+      > git pull origin master
+   * Falls sich die Änderungen nicht im master branch befinden, müssen sie stattdessen die Änderungen in Ihren master branch mergen. Drücken Sie dafür im Git Reiter oben links auf **"Fetch"** und danach auf **"Merge"**. Geben Sie in dem Fenster, welches sich nun öffnet, rechts den Branch an, in welchem sich die Änderungen befinden. Drücken Sie dafür rechts auf den Pfeil nach unten oder geben Sie manuell den Namen ein. Drücken Sie zum Schluss auf **"Merge"**.
+   * Falls Sie sich unsicher sind, welchen branch Sie auswählen sollen, finden Sie unten links unten in der Git Ansicht eine Übersicht aller branches und mit einem Doppelklick auf diese eine Liste aller commits.
+   * Alternative Befehle:
+      > git fetch origin  
+      > git merge origin/<branchName\>
 
 ### Manuell
 
+* Auch, wenn wir es nicht empfehlen, können Sie die Vorlage alternativ manuell updaten. Kopieren Sie dafür entweder Ihre Implementation in die neue Vorlage oder die Änderungen aus der neuen Vorlage in die alte Vorlage.
+   * Beachten Sie, dass sich die Public Tests im Verzeichnis **"src/publicTest/java/h0X"** in der Datei **"PublicTests.java** befinden sollten.
