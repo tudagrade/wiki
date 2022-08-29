@@ -73,16 +73,24 @@ Diese erhalten sie entweder, indem sie die Zip-Datei von <ins> <a href="https://
    * Alternativ können Sie die Commit Ansicht auch über **"View" -> "Tool Windows" -> "Commit"** öffnen.
    * Falls das Commiten fehlschlägt, weil gewisse checks nicht erfolgreich durchlaufen, drücken Sie auf **"Commit Anyway"**.
    * Alternativer Befehl:
-      > git commit -am "commit Message"
+      ```
+      git commit -am "commit Message"
+      ```
 2. Nun können Sie die Änderungen zu Ihrer Version hinzuzufügen, indem Sie links oben in IntelliJ im Git Reiter auf **"Pull..."** drücken. Drücken Sie im Fenster, welches sich nun öffnet erneut auf **"Pull"**.
    * Alternativer Befehl:
-      > git pull origin master
+      ```
+      git pull origin master
+      ```
    * Falls sich die Änderungen nicht im master branch befinden, müssen sie stattdessen die Änderungen in Ihren master branch mergen. Drücken Sie dafür im Git Reiter oben links auf **"Fetch"** und danach auf **"Merge"**. Geben Sie in dem Fenster, welches sich nun öffnet, rechts den Branch an, in welchem sich die Änderungen befinden. Drücken Sie dafür rechts auf den Pfeil nach unten oder geben Sie manuell den Namen ein. Drücken Sie zum Schluss auf **"Merge"**.
    * Falls Sie sich unsicher sind, welchen branch Sie auswählen sollen, finden Sie unten links unten in der Git Ansicht eine Übersicht aller branches und mit einem Doppelklick auf diese eine Liste aller commits.
    * Alternative Befehle:
-      > git fetch origin  
-      > git merge origin <branchName\>
-
+      ```
+      git fetch origin  
+      ```
+      und
+      ```
+      git merge origin <branchName>
+      ```
 ### Manuell
 
 * Auch, wenn wir es nicht empfehlen, können Sie die Vorlage alternativ manuell updaten. Kopieren Sie dafür entweder Ihre Implementation in die neue Vorlage oder die Änderungen aus der neuen Vorlage in die alte Vorlage.
