@@ -1,6 +1,41 @@
 # Installieren von IntelliJ
 
 * <span style="color:red">Beachten Sie, dass Eclipse von uns nicht mehr unterstützt wird und wir Ihnen nicht garantieren können, dass das Bearbeiten der Hausübungen mit Eclipse funktioniert.</span>
+* Sie können entweder die Community Edition oder die Ultimate Edition von IntelliJ installieren. Mit beiden Versionen können die Hausübung bearbeiten.
+    Die Ultimate Edition bittet Ihnen einige weiter Features und Sie erhalten sie als Student kostenlos. Dafür müssen Sie sich <ins> <a href=" https://www.jetbrains.com/de-de/community/education/#students" target="_blank"><span style="color:#349eeb">hier</span></a></ins> mit Ihrer studentischen E-Mail registrieren.
+    Weitere Information zur studentischen E-Mail finden Sie auf der Seite des <ins> <a href="https://www.hrz.tu-darmstadt.de/services/it_services/linux_mail/index.de.jsp" target="_blank"><span style="color:#349eeb">HRZ</span></a></ins>.
+
+## Arch Based Linux
+
+### Mit AUR-Helper
+
+Fall Sie einen [AUR-Helper](https://wiki.archlinux.org/title/AUR_helpers)
+installiert haben, könnnen Sie das Paket
+[`intellij-idea-ce`](https://aur.archlinux.org/packages/intellij-idea-ce),
+bzw. [`intellij-idea-ultimate-edition`](https://aur.archlinux.org/packages/intellij-idea-ultimate-edition),
+installieren.
+
+### Manuell 
+
+1. Installieren Sie die Abhängigkeiten.
+    ```
+    pacman -S base-devel git --needed
+    ```
+    * Für die Community Edition klonen Sie:
+        ```
+        git clone https://aur.archlinux.org/intellij-idea-ce.git
+        ```
+    * Für die Ultimate Edition klonen Sie:
+        ```
+        git clone https://aur.archlinux.org/intellij-idea-ultimate-edition.git
+        ```
+2. Wechseln Sie in das jeweilige Verzeichnis und installieren Sie das Paket.
+    ```
+    cd intellij-idea-* && makepgk -ifs
+    ```
+3. Nun können Sie die Hausübung mit IntelliJ bearbeiten. Befolgen Sie dafür die Schritte der Anleitungen im Abschnitt **"Hausübung"**.
+    * Wenn Sie IntelliJ das erste Mal starten werden Sie möglicherweise noch gefragt, ob Sie Einstellungen importieren möchten. Dies benötigen Sie nicht.
+    * Starten Sie die Ultimate Edition, werden Sie beim ersten mal aufgefordert sich mit Ihrem studentischen Account anzumelden.
 
 ## Windows 
 
