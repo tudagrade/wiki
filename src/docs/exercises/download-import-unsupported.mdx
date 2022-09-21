@@ -1,0 +1,52 @@
+# Importieren von Hausübungen in nicht-unterstützten IDEs
+
+> **Achtung**: Bis auf dieses Guide wird kein Support für nicht-unterstützte IDEs angeboten und die Verwendung solcher wird nicht empfohlen.
+Wenden Sie sich nicht an das Tutorium, wenn Sie Probleme mit der Verwendung von nicht-unterstützten IDEs haben.
+
+## VS Code
+### Empfohlene Extensions für Java-Entwicklung:
+* [Language Support for Java(TM) by Red Hat](https://marketplace.visualstudio.com/items?itemName=redhat.java)
+* [Debugger for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-debug)
+* [Java Test Runner](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-test)
+* [Gradle for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-gradle)
+* [Gradle Language Support](https://marketplace.visualstudio.com/items?itemName=naco-siren.gradle-language)
+* [Java Dependency Viewer](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-dependency)
+* [IntelliCode](https://marketplace.visualstudio.com/items?itemName=visualstudioexptteam.vscodeintellicode)
+* [Maven for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-maven)
+
+### Empfohlene Einstellungen
+```json filename="settings.json"
+{
+    "java.import.gradle.enabled": true,
+    "java.import.gradle.wrapper.enabled": true,
+    "java.import.maven.enabled": true,
+    "java.import.maven.wrapper.enabled": true,
+    "java.import.generatesMetadataFilesAtProjectRoot": true,
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "java.completion.filteredTypes": [
+        "java.awt.List",
+        "com.sun.*",
+        "sun.*",
+        "jdk.*",
+        "org.graalvm.*",
+        "io.micrometer.shaded.*"
+    ]
+}
+```
+### Fix: Grader-Tests werden nicht erkannt
+Da der Gradle-Support von VS Code noch nicht vollständig ist, müssen Sie für alle Tests außerhalb des `src/test/java`-Ordners manuell die `.classpath`-Datei anpassen. Dazu öffnen Sie die Datei und fügen folgenden Eintrag zu allen classpathentrys hinzu, die auf die Tests verweisen:
+```xml filename=".classpath"
+<attribute name="test" value="true"/>
+```
+Nun sollten alle Tests erkannt werden.
+### Gradle Tasks
+Für das Ausführen, Debuggen und Abgeben wie in IntelliJ die entsprechenden Tasks verwenden. Die Übersicht der Tasks finden Sie links im Gradle-Tab. (dieser ist nur sichtbar, wenn Sie ein Gradle-Projekt geöffnet haben)
+
+## Eclipse
+TODO
+## Nvim
+TODO
+## Emacs
+TODO
+## Sublime Text
+TODO
