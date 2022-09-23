@@ -15,7 +15,7 @@ Wenden Sie sich nicht an das Tutorium, wenn Sie Probleme mit der Verwendung von 
 * [Maven for Java](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-maven)
 
 ### Empfohlene Einstellungen
-```json filename="settings.json"
+```json
 {
     "java.import.gradle.enabled": true,
     "java.import.gradle.wrapper.enabled": true,
@@ -35,7 +35,7 @@ Wenden Sie sich nicht an das Tutorium, wenn Sie Probleme mit der Verwendung von 
 ```
 ### Fix: Grader-Tests werden nicht erkannt
 Da der Gradle-Support von VS Code noch nicht vollständig ist, müssen Sie für alle Tests außerhalb des `src/test/java`-Ordners manuell die `.classpath`-Datei anpassen. Dazu öffnen Sie die Datei und fügen folgenden Eintrag zu allen classpathentrys hinzu, die auf die Tests verweisen:
-```xml filename=".classpath"
+```xml
 <attribute name="test" value="true"/>
 ```
 Nun sollten alle Tests erkannt werden.
