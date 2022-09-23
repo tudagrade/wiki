@@ -1,4 +1,4 @@
-# Download und Importieren von Hausübungen in IntelliJ
+# Herunterladen und Importieren von Hausübungen in IntelliJ
 
 Zum Bearbeiten der Hausübungen benötigen Sie die von uns zur Verfügung gestellten Vorlagen.
 Diese erhalten sie entweder, indem sie die Zip-Datei von <ins> <a href="https://moodle.informatik.tu-darmstadt.de/course/view.php?id=1248" target="_blank"><span style="color:#349eeb">Moodle</span></a></ins> herunterladen, oder das zugehörige <ins> <a href="https://github.com/FOP-2223" target="_blank"><span style="color:#349eeb">Git Repository</span></a></ins> klonen.
