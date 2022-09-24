@@ -1,11 +1,12 @@
- # Exportieren und Hochladen von Hausübungen in IntelliJ
+# Exportieren und Hochladen von Hausübungen in IntelliJ
 
-* <span style="color:red">Zum Erstellen der Abgabedatei muss die Gradle Task "prepareSubmission" verwendet werden. </span> 
+!!! warning
+    Zum Erstellen der Abgabedatei muss die Gradle Task "prepareSubmission" verwendet werden.
 * Beachten Sie, dass Ihr Code zum Abgeben kompilierbar sein muss. IntelliJ zeigt Ihnen am unteren Rand im Abschnitt **"Problems"** alle Syntaxfehler in Rot an.
 * Falls Ihnen beim Exportieren ein Fehler angezeigt wird, finden Sie im Abschnitt **"Bearbeiten von Hausübungen"** eine Übersicht, wie häufig auftretende Fehler behoben werden können.
 
 1. Tragen Sie in der **build.gradle.kts** Datei Ihre Tu-ID, sowie Ihren Vor- und Nachnamen ein. Ein Eintrag sieht z.B. wie folgt aus:
-   ``` 
+   ``` java
    studentID = "ab12cdef"  
    firstName = "Max"  
    lastName = "Mustermann"
