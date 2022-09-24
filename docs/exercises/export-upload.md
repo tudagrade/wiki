@@ -5,6 +5,8 @@
 * Beachten Sie, dass Ihr Code zum Abgeben kompilierbar sein muss. IntelliJ zeigt Ihnen am unteren Rand im Abschnitt **"Problems"** alle Syntaxfehler in Rot an.
 * Falls Ihnen beim Exportieren ein Fehler angezeigt wird, finden Sie im Abschnitt **"Bearbeiten von Hausübungen"** eine Übersicht, wie häufig auftretende Fehler behoben werden können.
 
+## Exportieren
+
 1. Tragen Sie in der **build.gradle.kts** Datei Ihre Tu-ID, sowie Ihren Vor- und Nachnamen ein. Ein Eintrag sieht z.B. wie folgt aus:
    ``` java
    studentID = "ab12cdef"  
@@ -29,9 +31,9 @@
     * Um den Inhalt der Abgabedatei zu überprüfen, können Sie die Jar-Datei entweder mit einem Entpackungsprogramm wie z. B. 7Zip oder mit dem Befehl **"jar -xf <Dateiname\>"** in einer Konsole. In der Regel ist dies aber nicht notwendig.
     * Beachten Sie, dass die exportierte Jar-Datei nicht ausführbar ist.
 
-
-5. Laden Sie danach die Datei in [Moodle] bei der entsprechenden Abgabe hoch.
-   * Sie können bis zum Abgabeende beliebig oft Ihre Abgabe ändern. Wir empfehlen Ihnen daher regelmäßig Ihren Zwischenstand hochzuladen, damit Sie nicht leer dastehen, wenn Sie die Abgabefrist verpassen. 
-   * Alle Abgaben, die auf Moodle hochgeladen werden konnten, werden bewertet. Wenn keine Datei nicht hochgeladen werden kann, weil die Abgabefrist überschritten wurde, kann die Aufgabe nicht bewertet werden.
+## Hochladen
+* Laden Sie nun die zuvor erstellte Datei in [Moodle] bei der entsprechenden Abgabe hoch.
+    * Sie können bis zum Abgabeende beliebig oft Ihre Abgabe ändern. Wir empfehlen Ihnen daher regelmäßig Ihren Zwischenstand hochzuladen, damit Sie nicht leer dastehen, wenn Sie die Abgabefrist verpassen. 
+    * Alle Abgaben, die auf Moodle hochgeladen werden konnten, werden bewertet. Wenn keine Datei nicht hochgeladen werden kann, weil die Abgabefrist überschritten wurde, kann die Aufgabe nicht bewertet werden.
 
 [Moodle]: https://moodle.informatik.tu-darmstadt.de/course/view.php?id=1248
