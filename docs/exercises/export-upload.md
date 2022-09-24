@@ -30,6 +30,8 @@
     * Beachten Sie, dass die exportierte Jar-Datei nicht ausführbar ist.
 
 
-5. Laden Sie danach die Datei in <ins> <a href="https://moodle.informatik.tu-darmstadt.de/course/view.php?id=1248" target="_blank"><span style="color:#349eeb">Moodle</span></a></ins> bei der entsprechenden Abgabe hoch.
+5. Laden Sie danach die Datei in [Moodle] bei der entsprechenden Abgabe hoch.
    * Sie können bis zum Abgabeende beliebig oft Ihre Abgabe ändern. Wir empfehlen Ihnen daher regelmäßig Ihren Zwischenstand hochzuladen, damit Sie nicht leer dastehen, wenn Sie die Abgabefrist verpassen. 
    * Alle Abgaben, die auf Moodle hochgeladen werden konnten, werden bewertet. Wenn keine Datei nicht hochgeladen werden kann, weil die Abgabefrist überschritten wurde, kann die Aufgabe nicht bewertet werden.
+
+[Moodle]: https://moodle.informatik.tu-darmstadt.de/course/view.php?id=1248

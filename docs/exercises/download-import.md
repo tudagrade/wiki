@@ -1,7 +1,7 @@
 # Herunterladen und Importieren von Hausübungen in IntelliJ
 
 Zum Bearbeiten der Hausübungen benötigen Sie die von uns zur Verfügung gestellten Vorlagen.
-Diese erhalten sie entweder, indem sie die Zip-Datei von <ins> <a href="https://moodle.informatik.tu-darmstadt.de/course/view.php?id=1248" target="_blank"><span style="color:#349eeb">Moodle</span></a></ins> herunterladen, oder das zugehörige <ins> <a href="https://github.com/FOP-2223" target="_blank"><span style="color:#349eeb">Git Repository</span></a></ins> klonen.
+Diese erhalten sie entweder, indem sie das zugehörige [Git-Repository] klonen, oder die Zip-Datei von [Moodle] herunterladen.
 
 ## Importieren der Vorlage 
 
@@ -11,9 +11,9 @@ Diese erhalten sie entweder, indem sie die Zip-Datei von <ins> <a href="https://
     
     === "Windows"
     
-        1. Laden Sie sich <ins> <a href="https://git-scm.com/download" target="_blank"><span style="color:#349eeb">hier</span></a></ins> Git herunter, indem Sie rechts auf     **"Download for Windows"** drücken.
+        1. Laden Sie sich [Git] herunter, indem Sie rechts auf **"Download for Windows"** drücken.
         2. Führen Sie den soeben heruntergeladenen Installer aus.
-        3. Drücken Sie solange auf **"Next"**, bis der Installationsprozess beginnt. Sie können die Standardeinstellungen des Installers übernehmen und müssen nichts weiter     auswählen.
+        3. Drücken Sie solange auf **"Next"**, bis der Installationsprozess beginnt. Sie können die Standardeinstellungen des Installers übernehmen und müssen nichts weiter auswählen.
         4. Drücken Sie auf **"Finish** um den Installationsprozess abzuschließen.
         5. Sie können nun mit dem Befehl **"git --version"** in einer Konsole überprüfen, ob Git erfolgreich installiert wurde.
            * Sie können ein Terminal öffnen, indem Sie in der Windowssuche (Win+ S) **"cmd"** eingeben.
@@ -45,8 +45,8 @@ Diese erhalten sie entweder, indem sie die Zip-Datei von <ins> <a href="https://
     
     #### Repositories klonen
     !!! warning
-        Forken Sie nicht die Repositories. Auf Forks hat jeder Zugriff, weshalb diese als Plagiarismus gewertet werden und Ihre Abgabe dann eventuell nicht     von uns bewertet werden kann.
-    1. IntelliJ bietet Ihnen die Möglichkeit, Git-Repositories automatisch zu klonen. Wählen Sie dafür links oben im **"File"** Reiter **"New" -> "Project From Version Controll...    "** aus.
+        Forken Sie nicht die Repositories. Auf Forks hat jeder Zugriff, weshalb diese als Plagiarismus gewertet werden und Ihre Abgabe dann eventuell nicht von uns bewertet werden kann.
+    1. IntelliJ bietet Ihnen die Möglichkeit, Git-Repositories automatisch zu klonen. Wählen Sie dafür links oben im **"File"** Reiter **"New" -> "Project From Version Controll..."** aus.
         * Wenn Sie IntelliJ das erste Mal starten oder momentan kein Projekt geöffnet haben, müssen Sie stattdessen rechts oben auf **"Get from VCS"** drücken.
     2. Geben Sie nun bei **"URL"** die URL zum Repository der entsprechenden Hausübungen ein.
         * Ein Link zu den entsprechenden Repositories finden Sie auf Moodle.
@@ -59,7 +59,7 @@ Diese erhalten sie entweder, indem sie die Zip-Datei von <ins> <a href="https://
 === "Zip-Datei"
     !!! warning
         Wir empfehlen Ihnen für die Hausübungen Git zu verwenden.
-    1. Alternativ können Sie auch mit der bereitgestellten Zip-Datei arbeiten. Laden Sie sich dafür aus dem Moodle Kurs die Zip-Datei der Vorlage für die entsprechende Hausübung     herunter.
+    1. Alternativ können Sie auch mit der bereitgestellten Zip-Datei arbeiten. Laden Sie sich dafür aus dem Moodle Kurs die Zip-Datei der Vorlage für die entsprechende Hausübung herunter.
     2. Entpacken Sie die Zip-Datei und speichern Sie den entpackten Ordner an einem Ort Ihrer Wahl.
         * Unter Windows können Sie Zip-Dateien entpacken, indem Sie im File Explorer einen Rechtklick auf die Datei machen und auf **"Alles extrahieren..."** drücken. Nachdem Sie     einen Speicherort angeben haben, müssen Sie noch auf **"extrahieren"** drücken, um die Datei zu entpacken.
         * Unter Mac OS können Sie Zip-Dateien entpacken, indem Sie im Finder einen Doppelklick auf diese machen.
@@ -80,20 +80,20 @@ Diese erhalten sie entweder, indem sie die Zip-Datei von <ins> <a href="https://
 
     * Wenn Sie die Vorlage mithilfe von Git geklont haben, können Sie sich die neuste Version der Vorlage ganz einfach herunterladen.
     * In IntelliJ gibt es eine Git Integration, die alle benötigten Befehle für Sie ausführt. Die Befehle stehen hier trotzdem nochmal dabei, falls Sie nicht mit IntelliJ arbeiten.
-    1. Zunächst müssen Sie Ihre Änderungen commiten. Öffnen Sie dafür in IntelliJ am linken oberen Rand die Commit Ansicht, wählen Sie alle Dateien aus, die Sie bearbeitet haben,     geben Sie eine commit Message und drücken Sie auf **"Commit"**.
+    1. Zunächst müssen Sie Ihre Änderungen commiten. Öffnen Sie dafür in IntelliJ am linken oberen Rand die Commit Ansicht, wählen Sie alle Dateien aus, die Sie bearbeitet haben, geben Sie eine commit Message und drücken Sie auf **"Commit"**.
        * Alternativ können Sie die Commit Ansicht auch über **"View" -> "Tool Windows" -> "Commit"** öffnen.
        * Falls das Commiten fehlschlägt, weil gewisse checks nicht erfolgreich durchlaufen, drücken Sie auf **"Commit Anyway"**.
        * Alternativer Befehl:
           ```
           git commit -am "commit Message"
           ```
-    2. Nun können Sie die Änderungen zu Ihrer Version hinzuzufügen, indem Sie links oben in IntelliJ im Git Reiter auf **"Pull..."** drücken. Drücken Sie im Fenster, welches sich     nun öffnet erneut auf **"Pull"**.
+    2. Nun können Sie die Änderungen zu Ihrer Version hinzuzufügen, indem Sie links oben in IntelliJ im Git Reiter auf **"Pull..."** drücken. Drücken Sie im Fenster, welches sich nun öffnet erneut auf **"Pull"**.
        * Alternativer Befehl:
           ```
           git pull origin master
           ```
-       * Falls sich die Änderungen nicht im master branch befinden, müssen sie stattdessen die Änderungen in Ihren master branch mergen. Drücken Sie dafür im Git Reiter oben links     auf **"Fetch"** und danach auf **"Merge"**. Geben Sie in dem Fenster, welches sich nun öffnet, rechts den Branch an, in welchem sich die Änderungen befinden. Drücken Sie     dafür rechts auf den Pfeil nach unten oder geben Sie manuell den Namen ein. Drücken Sie zum Schluss auf **"Merge"**.
-       * Falls Sie sich unsicher sind, welchen branch Sie auswählen sollen, finden Sie unten links unten in der Git Ansicht eine Übersicht aller branches und mit einem Doppelklick     auf diese eine Liste aller commits.
+       * Falls sich die Änderungen nicht im master branch befinden, müssen sie stattdessen die Änderungen in Ihren master branch mergen. Drücken Sie dafür im Git Reiter oben links auf **"Fetch"** und danach auf **"Merge"**. Geben Sie in dem Fenster, welches sich nun öffnet, rechts den Branch an, in welchem sich die Änderungen befinden. Drücken Sie dafür rechts auf den Pfeil nach unten oder geben Sie manuell den Namen ein. Drücken Sie zum Schluss auf **"Merge"**.
+       * Falls Sie sich unsicher sind, welchen branch Sie auswählen sollen, finden Sie unten links unten in der Git Ansicht eine Übersicht aller branches und mit einem Doppelklick auf diese eine Liste aller commits.
        * Alternative Befehle:
           ```
           git fetch origin  
@@ -107,3 +107,5 @@ Diese erhalten sie entweder, indem sie die Zip-Datei von <ins> <a href="https://
     * Auch, wenn wir es nicht empfehlen, können Sie die Vorlage alternativ manuell updaten. Kopieren Sie dafür entweder Ihre Implementation in die neue Vorlage oder die Änderungen     aus der neuen Vorlage in die alte Vorlage.
        * Beachten Sie, dass sich die Public Tests im Verzeichnis **"src/publicTest/java/h0X"** in der Datei **"PublicTests.java** befinden sollten.
 
+[Moodle]: https://moodle.informatik.tu-darmstadt.de/course/view.php?id=1248
+[Git]: https://git-scm.com/download

@@ -5,7 +5,7 @@
 
 === "Windows"
 
-     1. Öffnen Sie die <ins> <a href="https://adoptium.net/de/" target="_blank"><span style="color:#349eeb">Adoptium Website</span></a></ins>.
+     1. Öffnen Sie die [Adoptium Website].
      2. Drücken Sie auf **"Latest LTS Release"**. Der Download sollte automatisch starten.
      3. Öffnen Sie den soeben heruntergeladenen Installer und drücken Sie auf **"weiter"**, bzw. **"installieren"**. 
          * Wählen Sie im Abschnitt **"Benutzerdefiniertes Setup"** bei **"JAVA_HOME-Variable konfigurieren"** die Option **"Wird auf der lokalen Festplatte installiert"** aus,      indem Sie auf das rote Kreuz daneben drücken.
@@ -68,3 +68,5 @@
         ```
         openjdk 17.0.2 2022-04-19  
         ```
+
+[Adoptium Website]: https://adoptium.net/de/
