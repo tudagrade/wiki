@@ -26,6 +26,17 @@ theme:
         name: Switch to light mode
   features:
     - navigation.instant
+    - navigation.sections
+
+nav:
+  - Vorbereitung:
+    - Installieren von Java: preparation/installation-java.md
+    - Installieren von IntelliJ: preparation/installation-intellij.md
+  - Hausübungen:
+    - Herunterladen und importieren: exercises/download-import.md
+    - Bearbeiten von Hausübungen: exercises/edit.md
+    - Exportieren und Hochladen: exercises/export-upload.md
+    
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
