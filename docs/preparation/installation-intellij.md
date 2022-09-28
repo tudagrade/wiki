@@ -6,12 +6,12 @@
     Die Ultimate Edition bittet Ihnen einige weiter Features und Sie erhalten sie als Student kostenlos. Dafür müssen Sie sich [hier] mit Ihrer studentischen E-Mail registrieren.
     Weitere Information zur studentischen E-Mail finden Sie auf der Seite des [HRZ].
 
-=== "Windows" 
+=== "Windows"
 
-     1. Laden Sie sich die [Toolbox] von JetBrains herunter. 
-     2. Führen Sie den heruntergeladenen Installer aus und drücken Sie auf **"installieren"**. 
+     1. Laden Sie sich die [Toolbox] von JetBrains herunter.
+     2. Führen Sie den heruntergeladenen Installer aus und drücken Sie auf **"installieren"**.
      3. Wählen Sie **"JetBrains Toolbox ausführen"** aus und drücken Sie zum Schluss auf **"Fertigstellen"**, um den Installationsprozess abzuschließen.
-     3. Es öffnet sich automatisch die Toolbox. Drücken Sie nun auf **"Continue"**, akzeptieren Sie die Nutzungsbedingungen und drücken Sie zum Schluss auf **"Get started"**. 
+     3. Es öffnet sich automatisch die Toolbox. Drücken Sie nun auf **"Continue"**, akzeptieren Sie die Nutzungsbedingungen und drücken Sie zum Schluss auf **"Get started"**.
         * Falls die Toolbox sich nicht automatisch öffnet, können Sie sie auch manuell über die Windowssuche (Win + S) öffnen.
      4. Installieren sie nun die Community oder Ultimate Edition von IntelliJ.
      5. Nun können Sie die Hausübung mit IntelliJ bearbeiten. Befolgen Sie dafür die Schritte der Anleitungen im Abschnitt **"Hausübung"**.
@@ -21,11 +21,11 @@
 === "Arch Based Linux"
 
     === "AUR-Helper"
-     
+
         Falls Sie einen [AUR-Helper] installiert haben, könnnen Sie das Paket [intellij-idea-ce], bzw. [intellij-idea-ultimate-edition], installieren.
-    
-    === "Manuell" 
-     
+
+    === "Manuell"
+
         1. Installieren Sie die Abhängigkeiten.
             ```
             pacman -S base-devel git --needed
@@ -50,7 +50,7 @@
 
      1. Laden Sie sich die [Toolbox] von JetBrains herunter.
      2. Öffnen Sie die heruntergeladene .dmg Datei und verschieben Sie die Toolbox per Drag&Drop in den Applications Ordner oder auf den Desktop. Nun können Sie die .dmg Datei wieder schließen und auswerfen.
-     3. Starten Sie nun die Toolbox. Drücken Sie nun auf **"Continue"**, akzeptieren Sie die Nutzungsbedingungen und drücken Sie zum Schluss auf **"Get started"**. 
+     3. Starten Sie nun die Toolbox. Drücken Sie nun auf **"Continue"**, akzeptieren Sie die Nutzungsbedingungen und drücken Sie zum Schluss auf **"Get started"**.
      4. Installieren sie nun die Community oder Ultimate Edition von IntelliJ.
      5. Nun können Sie die Hausübung mit IntelliJ bearbeiten. Befolgen Sie dafür die Schritte der Anleitungen im Abschnitt **"Hausübung"**.
          * Wenn Sie IntelliJ das erste Mal starten werden Sie möglicherweise noch gefragt, ob Sie Einstellungen importieren möchten. Dies benötigen Sie nicht.
