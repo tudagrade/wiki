@@ -37,6 +37,7 @@ nav:
     - Herunterladen und importieren: exercises/download-import.md
     - Bearbeiten von Hausübungen: exercises/edit.md
     - Exportieren und Hochladen: exercises/export-upload.md
+    - Nicht Unterstützte IDEs: exercises/download-import-unsupported.md
     
 markdown_extensions:
   - pymdownx.highlight:
