@@ -22,7 +22,7 @@
 | application/run | Führt die main Methode des Projektes aus |
 | submit/prepareSubmission | Erstellt die Abgabedatei im Ordner build/libs |
 | verification/test | Führt Ihre selbstgeschriebenen Tast aus |
-| verification/publicTest | Führt die von uns zur Verfügung gestellten public Tests aus |
+| verification/graderPublicRun | Führt die von uns zur Verfügung gestellten public Tests aus |
 | verification/check | Führt alle Tests aus |
 | build/assemble | Kompiliert das Projekt |
 | build/build | Kompiliert das Projekt und führt alle checks durch |
@@ -126,7 +126,7 @@
       ```
 
    6. !!! error
-          execution failed for task ':publicTest'.  
+          execution failed for task ':graderPublicRun'.  
           There were failing tests.  
 
       * Die von uns zur Verfügung gestellten public-Tests laufen nicht erfolgreich durch. Um dies zu beheben, fixen Sie entweder den Fehler, den die Tessts aufzeigen, oder ändern Sie in der build.gradle.kts Datei direkt unter Ihren persönlichen Daten requirePublicTests von true auf false:

@@ -73,7 +73,7 @@ Diese erhalten sie entweder, indem sie das zugehörige [Git-Repository] klonen, 
 
 ## Updaten der Vorlage
 
-* Es kann vorkommen, dass wir nach der Veröffentlichung der Vorlage noch Änderungen an dieser Vornehmen, wie z.B. die Public Tests hinzuzufügen.
+* Es kann vorkommen, dass wir nach der Veröffentlichung der Vorlage noch Änderungen an dieser vornehmen.
 * Die Abgabe ist in i.d.R. mit jeder Version der Vorlage möglich.
 
 === "Git"
@@ -105,7 +105,6 @@ Diese erhalten sie entweder, indem sie das zugehörige [Git-Repository] klonen, 
 === "Manuell"
 
     * Auch, wenn wir es nicht empfehlen, können Sie die Vorlage alternativ manuell updaten. Kopieren Sie dafür entweder Ihre Implementation in die neue Vorlage oder die Änderungen     aus der neuen Vorlage in die alte Vorlage.
-       * Beachten Sie, dass sich die Public Tests im Verzeichnis **"src/publicTest/java/h0X"** in der Datei **"PublicTests.java** befinden sollten.
 
 [Moodle]: https://moodle.informatik.tu-darmstadt.de/course/view.php?id=1248
 [Git]: https://git-scm.com/download
