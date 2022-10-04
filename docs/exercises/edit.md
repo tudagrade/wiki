@@ -20,10 +20,10 @@
 | Gradle Task | Beschreibung |
 | ----------- | ----------- |
 | application/run | Führt die main Methode des Projektes aus |
-| submit/prepareSubmission | Erstellt die Abgabedatei im Ordner build/libs |
 | verification/test | Führt Ihre selbstgeschriebenen Tast aus |
 | verification/graderPublicRun | Führt die von uns zur Verfügung gestellten public Tests aus |
 | verification/check | Führt alle Tests aus |
+| build/mainBuildSubmisssion | Erstellt die Abgabedatei im Ordner build/libs |
 | build/assemble | Kompiliert das Projekt |
 | build/build | Kompiliert das Projekt und führt alle checks durch |
 
