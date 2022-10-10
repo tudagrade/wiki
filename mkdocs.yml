@@ -33,6 +33,7 @@ nav:
     - Installieren von Java: preparation/installation-java.md
     - Installieren von IntelliJ: preparation/installation-intellij.md
     - Installieren von DrRacket: preparation/installation-racket.md
+    - Hinzufügen der Matrikelnummer: preparation/matriculation-number.md
   - Hausübungen:
     - Herunterladen und importieren: exercises/download-import.md
     - Bearbeiten von Hausübungen: exercises/edit.md
