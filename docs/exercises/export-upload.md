@@ -31,6 +31,18 @@
     * Um den Inhalt der Abgabedatei zu überprüfen, können Sie die Jar-Datei entweder mit einem Entpackungsprogramm wie z. B. 7Zip oder mit dem Befehl **"jar -xf <Dateiname\>"** in einer Konsole. In der Regel ist dies aber nicht notwendig.
     * Beachten Sie, dass die exportierte Jar-Datei nicht ausführbar ist.
 
+## Matrikelnummer angeben
+
+!!! info
+    Damit wir Ihre Abgaben Ihrer Matrikelnummer für die Klausurzulassung und den Bonus korrekt zuordnen können, müssen Sie in ihren Moodle Profil ihre Matrikelnummer hinterlegen
+
+1. Melden Sie sich in [Moodle] an.
+2. Drücken Sie rechts oben auf Ihren Namen und dann auf **"Profil"**.
+3. Gehen Sie dort im Abschnitt **"Mehr Details"** auf **"Profil bearbeiten"**.
+4. Tragen Sie nun unter **"Optional"** im Feld **"ID-Nummer"** ihre Matrikelnummer ein.
+    * Sie finden Ihre Matrikelnummer unter anderem auf ihrem Studienausweis.
+5. Speichern Sie die Änderungen, indem Sie unten auf der Seite auf **"Profil aktualisieren"** drücken und überprüfen Sie, ob die Daten korrekt übernommen wurden.
+
 ## Hochladen
 * Laden Sie nun die zuvor erstellte Datei in [Moodle] bei der entsprechenden Abgabe hoch.
     * Sie können bis zum Abgabeende beliebig oft Ihre Abgabe ändern. Wir empfehlen Ihnen daher regelmäßig Ihren Zwischenstand hochzuladen, damit Sie nicht leer dastehen, wenn Sie die Abgabefrist verpassen. 
