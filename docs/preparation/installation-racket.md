@@ -1,4 +1,4 @@
-# Installation von DrRacket
+# Installieren von DrRacket
 
 === "Windows"
      1. Laden Sie [hier] DrRacket herunter. Achten Sie darauf, dass Windows als Betriebssystem ausgewählt ist.
