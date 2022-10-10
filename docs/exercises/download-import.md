@@ -44,7 +44,7 @@ Diese erhalten sie entweder, indem sie das zugehörige [Git-Repository] klonen, 
         2. Sie können nun mit dem Befehl **"git --version"** in einem Terminal überprüfen, ob Git erfolgreich installiert wurde.
     
     #### Repositories klonen
-    !!! warning
+    !!! warning "Achtung"
         Forken Sie nicht die Repositories. Auf Forks hat jeder Zugriff, weshalb diese als Plagiarismus gewertet werden und Ihre Abgabe dann eventuell nicht von uns bewertet werden kann.
     1. IntelliJ bietet Ihnen die Möglichkeit, Git-Repositories automatisch zu klonen. Wählen Sie dafür links oben im **"File"** Reiter **"New" -> "Project From Version Controll..."** aus.
         * Wenn Sie IntelliJ das erste Mal starten oder momentan kein Projekt geöffnet haben, müssen Sie stattdessen rechts oben auf **"Get from VCS"** drücken.
@@ -57,7 +57,7 @@ Diese erhalten sie entweder, indem sie das zugehörige [Git-Repository] klonen, 
     7. Nun können Sie die Hausübung bearbeiten.
 
 === "Zip-Datei"
-    !!! warning
+    !!! warning "Achtung"
         Wir empfehlen Ihnen für die Hausübungen Git zu verwenden.
     1. Alternativ können Sie auch mit der bereitgestellten Zip-Datei arbeiten. Laden Sie sich dafür aus dem Moodle Kurs die Zip-Datei der Vorlage für die entsprechende Hausübung herunter.
     2. Entpacken Sie die Zip-Datei und speichern Sie den entpackten Ordner an einem Ort Ihrer Wahl.

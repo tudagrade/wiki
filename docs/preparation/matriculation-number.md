@@ -1,6 +1,6 @@
 # Hinzufügen der Matrikelnummer
 
-!!! info
+!!! info "Information"
     Damit wir Ihre Abgaben Ihrer Matrikelnummer für die Klausurzulassung und den Bonus korrekt zuordnen können, müssen Sie in ihren Moodle Profil ihre Matrikelnummer hinterlegen
 
 1. Melden Sie sich in [Moodle] an.

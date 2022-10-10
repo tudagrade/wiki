@@ -1,6 +1,6 @@
 # Exportieren und Hochladen von Hausübungen in IntelliJ
 
-!!! warning
+!!! warning "Warnung"
     Zum Erstellen der Abgabedatei muss die Gradle Task "prepareSubmission" verwendet werden.
 * Beachten Sie, dass Ihr Code zum Abgeben kompilierbar sein muss. IntelliJ zeigt Ihnen am unteren Rand im Abschnitt **"Problems"** alle Syntaxfehler in Rot an.
 * Falls Ihnen beim Exportieren ein Fehler angezeigt wird, finden Sie im Abschnitt **"Bearbeiten von Hausübungen"** eine Übersicht, wie häufig auftretende Fehler behoben werden können.

@@ -1,6 +1,6 @@
 # Installieren von Java
 
-!!! warning 
+!!! warning "Warnung"
     Zum Bearbeiten der Hausübungen benötigen Sie Java 17. Beachten Sie, dass Ihre ggf. vorhandene Java 11 Installation dafür nicht ausreicht.
 
 === "Windows"

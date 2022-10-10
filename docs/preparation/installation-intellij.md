@@ -1,6 +1,6 @@
 # Installieren von IntelliJ
 
-!!! warning
+!!! warning "Warnung"
      Beachten Sie, dass Eclipse von uns nicht mehr unterstützt wird und wir Ihnen nicht garantieren können, dass das Bearbeiten der Hausübungen mit Eclipse funktioniert.
 * Sie können entweder die Community Edition oder die Ultimate Edition von IntelliJ zum Bearbeiten der Hausübungen verwenden.
     Die Ultimate Edition bittet Ihnen einige weiter Features und Sie erhalten sie als Student kostenlos. Dafür müssen Sie sich [hier] mit Ihrer studentischen E-Mail registrieren.

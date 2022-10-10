@@ -54,7 +54,7 @@
 * Damit Ihnen die vollständigen Fehlermeldungen angezeigt werden, wählen Sie links von der Konsole die zweite Option von oben aus.
 * Eine Fehlermeldung sieht z.B. wie folgt aus:
 
-!!! info
+!!! error "Fehler"
     Exception in thread "main" java.lang.ArithmeticException: / by zero  
     at example.Divider.divide(Main.java:20)  
     at example.Main.main(Main.java:10)
@@ -73,14 +73,14 @@
 
 ## Häufige Fehlermeldungen
 
-   1. !!! error
+   1. !!! error "Fehler"
 
           [...] finished with non-zero exit value 1
 
       * Diese Meldung sagt ihnen nur, dass ein Fehler aufgetreten ist. Wenn der eigentliche Fehler nicht angezeigt wird, drücken Sie links neben der Konsolenausgabe auf die zweite Option von oben. Diese sollte **":run"** oder **":<Mainclass\>:main()"**
 
 
-   2. !!! error
+   2. !!! error "Fehler"
           Execution failed for task ':compileJava'.  
           error: invalid source release: 17
 
@@ -95,7 +95,7 @@
       * Es wird eine falsche Java Version benutzt. Überprüfen Sie in einem Terminal mit **"java --version"**, ob Java 17 benutzt wird (s. Anleitung zum Installieren von Java) und überprüfen Sie in IntelliJ, ob unter **"File" -> "Project Structure..." -> "Project" -> "SDK"** sowie unter **"File" -> "Settings" -> "Build, Execution, Deployment" -> "Build Tools" -> "Gradle" -> "Gradle JVM"** Java 17 als Version angegeben ist.
  
 
-   3. !!! error
+   3. !!! error "Fehler"
           Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
       
           oder 
@@ -106,7 +106,7 @@
       * Sie können diese Meldung ignorieren.
 
 
-   4. !!! error
+   4. !!! error "Fehler"
           Execution failed for task ':prepareSubmission'.  
           There were some errors preparing your submission. The following required properties were not set:  
           studentId  
@@ -116,7 +116,7 @@
       * Sie haben vergessen Ihre persönlichen Daten in der build.gradle.kts Datei hinzuzufügen. Siehe Schritt 1.
 
 
-   5. !!! error
+   5. !!! error "Fehler"
           execution failed for task ':test'.  
           There were failing tests.  
 
@@ -125,7 +125,7 @@
       requireTests = false
       ```
 
-   6. !!! error
+   6. !!! error "Fehler"
           execution failed for task ':graderPublicRun'.  
           There were failing tests.  
 
@@ -134,28 +134,26 @@
       requirePublicTests = false
       ```
 
-   7. !!! error
+   7. !!! error "Fehler"
           Execution failed for task ':compileJava'.  
           Compilation failed; see the compiler error output for details.
 
       * Es befinden sich vermutlich noch Syntaxfehler in Ihren Code, welche Sie vor dem Abgeben beheben müssen. Sie finden unten links am Rand im Reiter **"Problems"** eine Auflistung aller Syntaxfehler.
 
 
-   8. !!! error
-   
+   8. !!! error "Fehler"
           Note: \[...\] uses unsafe or unchecked operations.
 
       * Dies ist nur eine Warnung und verhindert nicht die Abgabe der Hausübung. Sie sollten allerdings überprüfen, ob der entsprechende Abschnitt funktioniert.
    
 
-   9. !!! error 
-   
+   9. !!! error  "Fehler"
           failed to delete some children.
       
       * Dieser Fehler entsteht meistens dadurch, dass der Zugriff auf bestimmte Dateien durch andere Prozesse, wie z. B. den Debugger, blockiert wird. Ein Neustart von IntelliJ oder Ihrem Rechner sollte das Problem beheben.
    
 
-!!! info 
+!!! info "Information"
     Wenn Sie Ihr Problem nicht selber beheben konnten, können Sie entweder auf unserem Discord Server im Channel **"\#techincal-issues"** oder im Moodle Forum für technische Fragen nachfragen. Fügen Sie bei beiden am besten einen Ausschnitt der Konsolenausgabe mit dem Fehler als Screenshot oder Text an.
 
 ## Den Debugger benutzten
