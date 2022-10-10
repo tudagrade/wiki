@@ -71,7 +71,7 @@ Diese erhalten sie entweder, indem sie das zugehörige [Git-Repository] klonen, 
     6. Drücken Sie zum Schluss auf **"Trust Project"**, wodurch sich die Vorlage öffnet.
     7. Nun können Sie die Hausübung bearbeiten.
 
-## Updaten der Vorlage
+## Aktualisieren der Vorlage
 
 * Es kann vorkommen, dass wir nach der Veröffentlichung der Vorlage noch Änderungen an dieser vornehmen.
 * Die Abgabe ist in i.d.R. mit jeder Version der Vorlage möglich.
