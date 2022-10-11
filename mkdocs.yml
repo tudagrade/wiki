@@ -39,7 +39,7 @@ nav:
     - Bearbeiten von Hausübungen: exercises/edit.md
     - Exportieren und Hochladen: exercises/export-upload.md
     - Nicht Unterstützte IDEs: exercises/download-import-unsupported.md
-    
+
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
