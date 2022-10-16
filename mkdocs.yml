@@ -26,9 +26,28 @@ theme:
         name: Switch to light mode
   features:
     - navigation.instant
+    - navigation.sections
+
+nav:
+  - Vorbereitung:
+    - Installieren von Java: preparation/installation-java.md
+    - Installieren von IntelliJ: preparation/installation-intellij.md
+    - Installieren von DrRacket: preparation/installation-racket.md
+    - Hinzufügen der Matrikelnummer: preparation/matriculation-number.md
+  - Hausübungen:
+    - Herunterladen und importieren: exercises/download-import.md
+    - Bearbeiten von Hausübungen: exercises/edit.md
+    - Exportieren und Hochladen: exercises/export-upload.md
+    - Nicht Unterstützte IDEs: exercises/download-import-unsupported.md
+    - Dokumentation von Java-Quellcode: exercises/documentation.md
+
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
