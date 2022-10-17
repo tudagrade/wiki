@@ -22,7 +22,7 @@
 
     === "AUR-Helper"
 
-        Falls Sie einen [AUR-Helper] installiert haben, könnnen Sie das Paket [intellij-idea-ce], bzw. [intellij-idea-ultimate-edition], installieren.
+        Falls Sie einen [AUR-Helper] installiert haben, können Sie das Paket [intellij-idea-ce], bzw. [intellij-idea-ultimate-edition], installieren.
 
     === "Manuell"
 

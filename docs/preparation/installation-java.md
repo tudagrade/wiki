@@ -22,7 +22,7 @@
        * Falls Ihnen bei der Ausgabe eine falsche Java Version oder ein Fehler angezeigt wird, überprüfen Sie wie folgt, ob Ihre Umgebungsvariablen korrekt gesetzt sind.
          1. Geben Sie in die Windowssuche (Win + S) **"Systemumgebungsvariablen bearbeiten"** ein und öffnen Sie das Fenster.
          2. Drücken Sie rechts unten auf **"Umgebungsvariablen"**.
-         3. Überprüfen Sie, ob in der unteren Liste eine Variable namens **"JAVA_HOME"** existiert und auf das Verzeichniss, in welchem Java 17 installiert ist, zeigt.
+         3. Überprüfen Sie, ob in der unteren Liste eine Variable namens **"JAVA_HOME"** existiert und auf das Verzeichnis, in welchem Java 17 installiert ist, zeigt.
              * Der Inhalt sollte in etwa wie folgt aussehen:
              ```
              C:\Program Files\Eclipse Adoptium\jdk-17.0.2.8-hotspot\

@@ -47,7 +47,7 @@
 
      * Importieren
      
-        * Sie können die Hausübungen entwerder importieren, indem Sie sich die zip Datei von Moodle herunterladen, entpacken und dann über **"File" -> "Import..." -> "Gradle" -> "Existing Gradle Project"** auswählen, oder über **"File" -> "Import..." -> "Git" -> "Projects from Git" -> "Clone URl"** die Daten des Git-Repositories eingeben.
+        * Sie können die Hausübungen entweder importieren, indem Sie sich die zip Datei von Moodle herunterladen, entpacken und dann über **"File" -> "Import..." -> "Gradle" -> "Existing Gradle Project"** auswählen, oder über **"File" -> "Import..." -> "Git" -> "Projects from Git" -> "Clone URl"** die Daten des Git-Repositories eingeben.
      
      * Gradle Tasks
     
