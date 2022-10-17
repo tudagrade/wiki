@@ -48,7 +48,7 @@
 ## Verpflichtende Dokumentation
 
 * Ab dem dritten Übungsblatt kann es vorkommen, dass von Ihnen gefordert wird, Ihren selbstgeschriebenen Code zu dokumentieren.
-  Wenn dies der Fall ist, müssen Sie alle von Ihnen geschriebenen Methoden, Konstruktoren, Klassen, Interfaces und Enums dokumentieren.
+  Wenn dies der Fall ist, müssen alle von Ihnen deklarierten Klassen, Interfaces, Enums und Methoden (inklusive Konstruktoren) mittels JavaDoc dokumentiert werden.
 
 ## Einige weitere Tags
 * **@author name** Gibt den Autor an.
