@@ -3,14 +3,14 @@
 Zum Bearbeiten der Hausübungen benötigen Sie die von uns zur Verfügung gestellten Vorlagen.
 Diese erhalten sie entweder, indem sie das zugehörige [Git-Repository] klonen, oder die Zip-Datei von [Moodle] herunterladen.
 
-## Importieren der Vorlage 
+## Importieren der Vorlage
 
 === "Git"
 
     * Um die Repositories mit Git zu klonen, müssen Sie zunächst Git lokal installieren.
-    
+
     === "Windows"
-    
+
         1. Laden Sie sich [Git] herunter, indem Sie rechts auf **"Download for Windows"** drücken.
         2. Führen Sie den soeben heruntergeladenen Installer aus.
         3. Drücken Sie solange auf **"Next"**, bis der Installationsprozess beginnt. Sie können die Standardeinstellungen des Installers übernehmen und müssen nichts weiter auswählen.
@@ -19,7 +19,7 @@ Diese erhalten sie entweder, indem sie das zugehörige [Git-Repository] klonen, 
            * Sie können ein Terminal öffnen, indem Sie in der Windowssuche (Win+ S) **"cmd"** eingeben.
 
     === "Linux"
-       
+
         * Auf Debian/Ubuntu Distributions können Sie Git mit dem folgenden Befehl installieren:
         ```
         sudo apt install git
@@ -28,9 +28,9 @@ Diese erhalten sie entweder, indem sie das zugehörige [Git-Repository] klonen, 
         ```
         sudo pacman -S git
         ```
-    
+
     === "MacOS"
-    
+
         1. Sie können Git mit dem package installer Homebrew installieren. Führen Sie dafür folgenden Befehl in einem Terminal aus:
             ```
             brew install git
@@ -42,7 +42,7 @@ Diese erhalten sie entweder, indem sie das zugehörige [Git-Repository] klonen, 
             ```
             * Sie können selbstverständlich auch einen anderen package installer verwenden.
         2. Sie können nun mit dem Befehl **"git --version"** in einem Terminal überprüfen, ob Git erfolgreich installiert wurde.
-    
+
     #### Repositories klonen
     !!! warning "Achtung"
         Forken Sie nicht die Repositories. Auf Forks hat jeder Zugriff, weshalb diese als Plagiarismus gewertet werden und Ihre Abgabe dann eventuell nicht von uns bewertet werden kann.
@@ -96,7 +96,7 @@ Diese erhalten sie entweder, indem sie das zugehörige [Git-Repository] klonen, 
        * Falls Sie sich unsicher sind, welchen branch Sie auswählen sollen, finden Sie unten links unten in der Git Ansicht eine Übersicht aller branches und mit einem Doppelklick auf diese eine Liste aller commits.
        * Alternative Befehle:
           ```
-          git fetch origin  
+          git fetch origin
           ```
           und
           ```
@@ -104,7 +104,7 @@ Diese erhalten sie entweder, indem sie das zugehörige [Git-Repository] klonen, 
           ```
 === "Manuell"
 
-    * Auch, wenn wir es nicht empfehlen, können Sie die Vorlage alternativ manuell updaten. Kopieren Sie dafür entweder Ihre Implementation in die neue Vorlage oder die Änderungen     aus der neuen Vorlage in die alte Vorlage.
+    * Auch, wenn wir es nicht empfehlen, können Sie die Vorlage alternativ manuell updaten. Kopieren Sie dafür entweder Ihre Implementation in die neue Vorlage oder die Änderungen aus der neuen Vorlage in die alte Vorlage.
 
 [Moodle]: https://moodle.informatik.tu-darmstadt.de/course/view.php?id=1248
 [Git]: https://git-scm.com/download

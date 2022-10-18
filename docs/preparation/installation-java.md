@@ -7,7 +7,7 @@
 
      1. Öffnen Sie die [Adoptium Website].
      2. Drücken Sie auf **"Latest LTS Release"**. Der Download sollte automatisch starten.
-     3. Öffnen Sie den soeben heruntergeladenen Installer und drücken Sie auf **"weiter"**, bzw. **"installieren"**. 
+     3. Öffnen Sie den soeben heruntergeladenen Installer und drücken Sie auf **"weiter"**, bzw. **"installieren"**.
          * Wählen Sie im Abschnitt **"Benutzerdefiniertes Setup"** bei **"JAVA_HOME-Variable konfigurieren"** die Option **"Wird auf der lokalen Festplatte installiert"** aus,      indem Sie auf das rote Kreuz daneben drücken.
      4. Nachdem die Installation abgeschlossen ist, drücken Sie **"Fertig stellen"**.
      5. Sie können überprüfen, ob Java korrekt installiert wurde, indem Sie im Terminal folgenden Befehl eingeben
@@ -17,7 +17,7 @@
         * Sie können das Terminal öffnen, indem Sie in der Windowssuche (Win + S) **"cmd"** eingeben.
         * Wenn die Ausgabe in etwa so aussieht, ist die Installation erfolgreich. Achten Sie insbesondere darauf, dass es Java 17 ist.
         ```
-        openjdk 17.0.2 2022-04-19  
+        openjdk 17.0.2 2022-04-19
         ```
        * Falls Ihnen bei der Ausgabe eine falsche Java Version oder ein Fehler angezeigt wird, überprüfen Sie wie folgt, ob Ihre Umgebungsvariablen korrekt gesetzt sind.
          1. Geben Sie in die Windowssuche (Win + S) **"Systemumgebungsvariablen bearbeiten"** ein und öffnen Sie das Fenster.
@@ -28,7 +28,7 @@
              C:\Program Files\Eclipse Adoptium\jdk-17.0.2.8-hotspot\
              ```
              * Falls die Variable nicht vorhanden ist oder auf eine falsche Version zeigt, können Sie dies mit den Knöpfen **"Neu..."** bzw. **"Bearbeiten..."** ändern.
-         4. Wählen Sie die Variable **"Path"** aus und drücken Sie auf **"Bearbeiten..."**. 
+         4. Wählen Sie die Variable **"Path"** aus und drücken Sie auf **"Bearbeiten..."**.
          5. In der nun angezeigten Liste sollte der Eintrag **"%JAVA_HOME%\bin"** enthalten sein. Falls nicht, fügen Sie diesen rechts oben mit dem Knopf **"Neu"** hinzu.
              * Weitere Java Installationen sollten nicht enthalten sein.
          6. Schließen Sie mit **"OK"** alle Fenster und öffnen Sie ein neues Terminal. Es sollte nun die korrekte Java Version angezeigt werden.
@@ -66,7 +66,7 @@
          * Sie können das Terminal öffnen, indem Sie in der Suche (Cmd + Leertaste) **"Terminal"** eingeben.
         * Wenn die Ausgabe in etwa so aussieht, ist die Installation erfolgreich. Achten Sie insbesondere darauf, dass es Java 17 ist.
         ```
-        openjdk 17.0.2 2022-04-19  
+        openjdk 17.0.2 2022-04-19
         ```
 
 [Adoptium Website]: https://adoptium.net/de/

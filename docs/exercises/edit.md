@@ -135,7 +135,7 @@
 
       * Die von uns zur Verfügung gestellten public-Tests laufen nicht erfolgreich durch. Um dies zu beheben, fixen Sie entweder den Fehler, den die Tessts aufzeigen, oder ändern Sie in der build.gradle.kts Datei direkt unter Ihren persönlichen Daten requirePublicTests von true auf false:
       ```
-      requirePublicTests = false
+      requireGraderPublic = false
       ```
 
    7. !!! error "Fehler"

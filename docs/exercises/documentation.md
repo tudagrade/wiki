@@ -39,9 +39,9 @@
 * Jeder JavaDoc Kommentar muss dabei, falls notwendig, folgenden Tags haben:
     * **@param Parametername** description Beschreibt kurz die Bedeutung des Parameters **Parametername**.
       Für jeden Parameter muss ein solcher Tag vorhanden sein.
-    * **@return description** Beschreibt kurz die Bedeutung der Rückgabe der Methode. 
+    * **@return description** Beschreibt kurz die Bedeutung der Rückgabe der Methode.
       Wenn die Methode keine Rückgabe hat, wird dieser Tag weggelassen.
-    * **@throws Exceptionname description** Beschreibt kurz in welchen Fall die Exception **Exceptionname** geworfen wird. 
+    * **@throws Exceptionname description** Beschreibt kurz in welchen Fall die Exception **Exceptionname** geworfen wird.
       Für jede Exception, welche in der throws-Klausel der Methode angegeben wird, muss ein solcher Tag vorhanden sein.
         * Optional können Sie diesen Tag auch für Runtimeexceptions hinzufügen, welche geworfen werden können.
 
