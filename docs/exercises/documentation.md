@@ -6,9 +6,9 @@
     Die Dokumentation sollte dabei kurz erklären, was der Code macht und wie er zu benutzen ist.
     Es sollte aber nicht erklärt werden, wie genau der Code funktioniert, sondern dieser sollte als eine Blackbox, in welche man nicht genauer hineingucken kann, betrachtet werden.
 
-* In Java werden JavaDoc Kommentare als standardisierte Methode benutzt, um Code zu dokumentieren.
-    * JavaDoc Kommentare haben dabei den Vorteil, dass IDEs sie automatisch anzeigen können und HTML Seiten aus ihnen generiert werden können.
-* Jeder JavaDoc Kommentar beginnt dabei mit **/\*\*** und endet mit **/\***.
+* In Java werden JavaDoc Kommentare als standardisierte Methode benutzt um Code zu dokumentieren.
+    * JAvaDoc Kommentare haben dabei den Vorteil, dass IDEs sie automatisch anzeigen können und HTML Seiten aus ihnen generiert werden können.
+* Jeder JavaDoc Kommentar beginnt dabei mit **/\*\*** und endet mit **\*/**.
   Jede neue Zeile beginnt mit einem **\***.
 * JavaDoc Kommentare werden direkt über die zugehörige Klasse, Methode, etc. geschrieben.
 * Wenn Sie in IntelliJ über einer über einer Methode, Klasse, etc. **/\*\*** schreiben und dann **Enter** drücken, wird automatisch eine Vorlage für Sie erstellt.
