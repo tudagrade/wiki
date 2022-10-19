@@ -37,6 +37,7 @@ nav:
   - Hausübungen:
     - Herunterladen und importieren: exercises/download-import.md
     - Bearbeiten von Hausübungen: exercises/edit.md
+    - Beheben von häufigen Fehlern: exercises/fix-errors.md
     - Exportieren und Hochladen: exercises/export-upload.md
     - Nicht Unterstützte IDEs: exercises/download-import-unsupported.md
     - Dokumentation von Java-Quellcode: exercises/documentation.md
