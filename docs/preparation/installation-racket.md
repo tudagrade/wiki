@@ -25,6 +25,23 @@
      5. Nachdem Sie DrRacket geöffnet haben, gehen Sie auf oben auf **"Language"** -> **"Choose Language"** und wählen Sie unter **"Teaching Languages"** **"Advanced Student"** aus. Bestätigen Sie danach die Auswahl, indem Sie auf **"OK"** drücken.
      6. Nun können Sie Racket Programme ausführen, indem Sie rechts oben auf **"Run"** drücken.
 
+=== "Arch Based Linux"
+
+     1. Installieren Sie Racket (Als Root).
+        ```
+        pacman -S racket --needed
+        ```
+     2. Prüfen Sie die Racket Installation.
+        ```
+        racket --version
+        ```
+     3. Wenn die Ausgabe in etwa so aussieht, ist die Installation erfolgreich.
+        ```
+        Welcome to Racket v8.6 [cs].
+        ```
+     4. Nachdem Sie DrRacket geöffnet haben, gehen Sie auf oben auf **"Language"** -> **"Choose Language"** und wählen Sie unter **"Teaching Languages"** **"Advanced Student"** aus. Bestätigen Sie danach die Auswahl, indem Sie auf **"OK"** drücken.
+     5. Nun können Sie Racket Programme ausführen, indem Sie rechts oben auf **"Run"** drücken.
+ 
 === "Mac OS"
      1. Laden Sie [hier] DrRacket herunter. Achten Sie darauf, dass Mac OS als Betriebssystem ausgewählt ist.
      2. Öffnen Sie die heruntergeladenen .dmg Datei.
