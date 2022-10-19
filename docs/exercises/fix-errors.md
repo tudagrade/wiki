@@ -14,6 +14,12 @@
 
 
    2. !!! error "Fehler"
+          A problem occurred configuring root project 'FOP-2223-H00-Student'.
+          Could not resolve all files for configuration ':classpath'.
+          Could not resolve org.tudalgo:algomate:0.1.0-SNAPSHOT.
+
+          oder
+
           Execution failed for task ':compileJava'.
           error: invalid source release: 17
 
