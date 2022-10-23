@@ -1,7 +1,7 @@
 # Exportieren und Hochladen von Hausübungen in IntelliJ
 
 !!! warning "Warnung"
-    Zum Erstellen der Abgabedatei muss die Gradle Task "prepareSubmission" verwendet werden.
+    Zum Erstellen der Abgabedatei muss die [Gradle Task] "build/mainBuildSubmission" verwendet werden.
 * Beachten Sie, dass Ihr Code zum Abgeben kompilierbar sein muss. IntelliJ zeigt Ihnen am unteren Rand im Abschnitt **"Problems"** alle Syntaxfehler in Rot an.
 * Falls Ihnen beim Exportieren ein Fehler angezeigt wird, finden Sie im Abschnitt **"Bearbeiten von Hausübungen"** eine Übersicht, wie häufig auftretende Fehler behoben werden können.
 
@@ -38,3 +38,4 @@
     * Alle Abgaben, die auf Moodle hochgeladen werden konnten, werden bewertet. Wenn keine Datei nicht hochgeladen werden kann, weil die Abgabefrist überschritten wurde, kann die Aufgabe nicht bewertet werden.
 
 [Moodle]: https://moodle.informatik.tu-darmstadt.de/course/view.php?id=1248
+[Gradle Task]: https://wiki.tudalgo.org/exercises/edit/#gradle-tasks
