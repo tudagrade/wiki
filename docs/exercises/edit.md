@@ -39,6 +39,12 @@
         * Beachten Sie, dass diese Methode die letzte Aktion erneut ausführt. Diese ist nicht zwangsläufig immer das Ausführen des Codes.
 * Wenn Ihr Code nicht terminiert, können Sie das Programm mit dem roten Quadrat am linken Rand stoppen.
 
+## Public Tests
+
+* Jeweils zwei Wochen vor der Abgabefrist der Übungsblätter stellen wir Ihnen Public Tests zur Verfügung, mit welchen Sie Teile Ihrer Implementation testen können.
+    * Sie können die Public Tests mittels der [Gradle Task] verification/graderPublicRun ausführen. Nach der Ausführung werden Ihnen in der Konsole die erreichte Punktzahl, sowie ein Link zu einer Datei mit weiteren Hinweisen angezeigt.
+    * Wenn Sie die Vorlage herunterladen bevor die Public Tests veröffentlicht wurden, müssen Sie diese noch hinzufügen. Hinweise dazu finden Sie [hier].
+    * Beachten Sie unbedingt auch die Hinweise bezüglich den Public Tests auf [Moodle].
 ## Tests ausführen
 
 * Sie können Ihre Tests auf dieselbe Weise ausführen, wie Ihren Code.
@@ -79,3 +85,7 @@
    * Mit **F9** können Sie das Programm bis zum nächsten Breakpoint weiterlaufen lassen.
    * Mit **Shift + F8** können Sie das Programm weiterlaufen lassen, bis die momentane Methode verlassen wird.
    * alternativ können Sie dies auch mit den Pfeilen am oberen Rand der Debugger Anzeige machen.
+
+[Gradle Task]: https://wiki.tudalgo.org/exercises/edit/#gradle-tasks
+[hier]: https://wiki.tudalgo.org/exercises/download-import/#aktualisieren-der-vorlage
+[Moodle]: https://moodle.informatik.tu-darmstadt.de/mod/page/view.php?id=51435
