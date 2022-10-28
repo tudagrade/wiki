@@ -45,6 +45,7 @@
     * Sie können die Public Tests mittels der [Gradle Task] verification/graderPublicRun ausführen. Nach der Ausführung werden Ihnen in der Konsole die erreichte Punktzahl, sowie ein Link zu einer Datei mit weiteren Hinweisen angezeigt.
     * Wenn Sie die Vorlage herunterladen bevor die Public Tests veröffentlicht wurden, müssen Sie diese noch hinzufügen. Hinweise dazu finden Sie [hier].
     * Beachten Sie unbedingt auch die Hinweise bezüglich den Public Tests auf [Moodle].
+    * Wenn Java zu wenig Speicher zur Verfügung hat, kann es dazu kommen, dass Sie den Fehler **"java.lang.outOfMemoryError: Java heap space"** bekommen. Versuchen Sie in dem Fall [Java mehr Speicher zuzuweisen].
 ## Tests ausführen
 
 * Sie können Ihre Tests auf dieselbe Weise ausführen, wie Ihren Code.
@@ -66,7 +67,9 @@
 
 !!! error "Fehler"
     Exception in thread "main" java.lang.ArithmeticException: / by zero
+
     at example.Divider.divide(Main.java:20)
+
     at example.Main.main(Main.java:10)
 
 * Diese Fehlermeldung sagt Ihnen Folgendes:
@@ -89,3 +92,4 @@
 [Gradle Task]: https://wiki.tudalgo.org/exercises/edit/#gradle-tasks
 [hier]: https://wiki.tudalgo.org/exercises/download-import/#aktualisieren-der-vorlage
 [Moodle]: https://moodle.informatik.tu-darmstadt.de/mod/page/view.php?id=51435
+[Java mehr Speicher zuzuweisen]: https://wiki.tudalgo.org/exercises/fix-errors/#java-mehr-speicher-zuweisen

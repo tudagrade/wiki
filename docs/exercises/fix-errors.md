@@ -91,6 +91,11 @@
 
       * Dieser Fehler entsteht meistens dadurch, dass der Zugriff auf bestimmte Dateien durch andere Prozesse, wie z. B. den Debugger, blockiert wird. Ein Neustart von IntelliJ oder Ihrem Rechner sollte das Problem beheben.
 
+   10. !!! error "Fehler"
+           Java.lang.OutOfMemoryError: java heap space
+
+      * Dieser Fehler kann manchmal beim Ausführen der Public Tests auftretten. Versuchen Sie [Java mehr Speicher zuzuweisen].
+
 ## Korrekte Java Version in IntelliJ einstellen
 
 1. Überprüfen Sie zunächst in einem Terminal mit **"java --version"**, ob Java 17 benutzt wird (s. [Anleitung zum Installieren von Java])
@@ -98,9 +103,21 @@
     * Falls dies nicht der Fall ist, wählen Sie Java 17 aus und drücken Sie auf **"Apply"**.
 3. Gehen Sie ebenfalls sicher, dass unter **"File" -> "Settings" -> "Build, Execution, Deployment" -> "Build Tools" -> "Gradle" -> "Gradle JVM"** als Option **"Project SDK"** ausgewählt ist.
 
+## Java mehr Speicher zuweisen
+
+1. Gehen Sie in Ihrem User Ordner in der Ordner **".gradle"**
+    * Unter Windows finden Sie den Ordner unter **"C:\Users\<UserName\>\\.gradle"** und auf Linux und Mac unter **"~/.gradle"**
+2. Falls nicht vorhanden, erstellen Sie die Datei **"gradle.properties"**.
+3. Fügen Sie in dieser Datei eine Zeile mit folgendem Eintrag hinzu:
+    ```
+    org.gradle.jvmargs=-Xmx4096M
+    ```
+    * Sie können auch versuchen die Zahl am Ende zu erhöhen, wenn der Fehler weiterhin auftritt.
+
 !!! info "Information"
     Wenn Sie Ihr Problem nicht selber beheben konnten, können Sie entweder auf unserem Discord Server im Channel **"\#technical-issues"** oder im Moodle Forum für technische Fragen nachfragen. Fügen Sie bei beiden am besten einen Ausschnitt der Konsolenausgabe mit dem Fehler als Screenshot oder Text an.
 
 [Korrekte Java Version in IntelliJ Einstellen]: https://wiki.tudalgo.org/exercises/fix-errors/#korrekte-java-version-in-intellij-einstellen
 [Anleitung zum Installieren von Java]: https://wiki.tudalgo.org/preparation/installation-java/
 [Anleitung zum Exportieren]: https://wiki.tudalgo.org/exercises/export-upload/#exportieren
+[Java mehr Speicher zuzuweisen]: https://wiki.tudalgo.org/exercises/fix-errors/#java-mehr-speicher-zuweisen
