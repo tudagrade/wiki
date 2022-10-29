@@ -117,6 +117,15 @@
 !!! info "Information"
     Wenn Sie Ihr Problem nicht selber beheben konnten, können Sie entweder auf unserem Discord Server im Channel **"\#technical-issues"** oder im Moodle Forum für technische Fragen nachfragen. Fügen Sie bei beiden am besten einen Ausschnitt der Konsolenausgabe mit dem Fehler als Screenshot oder Text an.
 
+## Hilfreich Fragen stellen
+
+* Achten Sie darauf, dass Sie beim Fragen stellen bereits alle notwendigen Information mit angeben, damit wir Ihnen helfen können. Dazu gehört unter anderen:
+    * Den größeren Kontext bei dem das Problem aufgetaucht ist
+    * Wenn vorhanden die ausgegebene Fehlermeldung
+    * Wo genau der Fehler aufgetretten ist
+    * Was Sie bisher versucht haben um das Problem zu beheben
+* Oftmals hilft es auch, bevor man seine Frage stellt, selber im Internet nach dem Problem zu suchen oder zu schauen, ob im Forum, bzw. auf Discord, die selbe Frage bereits beantwortet wurde.
+
 [Korrekte Java Version in IntelliJ Einstellen]: https://wiki.tudalgo.org/exercises/fix-errors/#korrekte-java-version-in-intellij-einstellen
 [Anleitung zum Installieren von Java]: https://wiki.tudalgo.org/preparation/installation-java/
 [Anleitung zum Exportieren]: https://wiki.tudalgo.org/exercises/export-upload/#exportieren
