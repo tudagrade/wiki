@@ -7,7 +7,7 @@
     Es sollte aber nicht erklärt werden, wie genau der Code funktioniert, sondern dieser sollte als eine Blackbox, in welche man nicht genauer hineingucken kann, betrachtet werden.
 
 * In Java werden JavaDoc Kommentare als standardisierte Methode benutzt um Code zu dokumentieren.
-    * JAvaDoc Kommentare haben dabei den Vorteil, dass IDEs sie automatisch anzeigen können und HTML Seiten aus ihnen generiert werden können.
+    * JavaDoc Kommentare haben dabei den Vorteil, dass IDEs sie automatisch anzeigen können und HTML Seiten aus ihnen generiert werden können.
 * Jeder JavaDoc Kommentar beginnt dabei mit **/\*\*** und endet mit **\*/**.
   Jede neue Zeile beginnt mit einem **\***.
 * JavaDoc Kommentare werden direkt über die zugehörige Klasse, Methode, etc. geschrieben.
@@ -36,12 +36,12 @@
 
 * Zu Beginn eines JavaDoc Kommentars steht eine allgemeine Beschreibung der Methode, welche auf alle Details der Methode eingeht und beschreibt was sie bewirkt, wie sie zu benutzten ist und was man dabei beachten muss.
 * Danach folgen sogenannte Tags, welche mit einem **@** und dem Namen des Tags beginnen.
-* Jeder JavaDoc Kommentar muss dabei, falls notwendig, folgenden Tags haben:
-    * **@param Parametername** description Beschreibt kurz die Bedeutung des Parameters **Parametername**.
+* Jeder JavaDoc Kommentar muss dabei, falls notwendig, folgende Tags haben:
+    * **@param Parametername description** Beschreibt kurz die Bedeutung des Parameters **Parametername**.
       Für jeden Parameter muss ein solcher Tag vorhanden sein.
     * **@return description** Beschreibt kurz die Bedeutung der Rückgabe der Methode.
       Wenn die Methode keine Rückgabe hat, wird dieser Tag weggelassen.
-    * **@throws Exceptionname description** Beschreibt kurz, in welchem Fall die Exception **Exceptionname** geworfen wird. 
+    * **@throws Exceptionname description** Beschreibt kurz, in welchem Fall die Exception **Exceptionname** geworfen wird.
       Für jede Exception, welche in der throws-Klausel der Methode angegeben wird, muss ein solcher Tag vorhanden sein.
         * Optional können Sie diesen Tag auch für Runtimeexceptions hinzufügen, welche geworfen werden können.
 
@@ -49,6 +49,7 @@
 
 * Ab dem dritten Übungsblatt kann es vorkommen, dass von Ihnen gefordert wird, Ihren selbstgeschriebenen Code zu dokumentieren.
   Wenn dies der Fall ist, müssen alle von Ihnen deklarierten Klassen, Interfaces, Enums und Methoden (inklusive Konstruktoren) mittels JavaDoc dokumentiert werden.
+  Private Methoden müssen dabei nicht dokumentiert werden.
 
 ## Einige weitere Tags
 * **@author name** Gibt den Autor an.
