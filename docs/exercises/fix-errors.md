@@ -94,7 +94,7 @@
    10. !!! error "Fehler"
            Java.lang.OutOfMemoryError: java heap space
 
-      * Dieser Fehler kann manchmal beim Ausführen der Public Tests auftretten. Versuchen Sie [Java mehr Speicher zuzuweisen].
+      * Dieser Fehler kann manchmal beim Ausführen der Public Tests auftretten. Versuchen Sie zunächst die Public Tests erneut auszuführen oder IntelliJ neuzustarten. Falls der Fehler weiterhin auftritt, versuchen Sie [Java mehr Speicher zuzuweisen].
 
 ## Korrekte Java Version in IntelliJ einstellen
 
