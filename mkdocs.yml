@@ -41,6 +41,8 @@ nav:
     - Exportieren und Hochladen: exercises/export-upload.md
     - Nicht Unterstützte IDEs: exercises/download-import-unsupported.md
     - Dokumentation von Java-Quellcode: exercises/documentation.md
+  - Sprechstunden:
+    - Bevor Sie eine Sprechstunde besuchen ...: support/good-bad-questions.md
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -52,3 +54,6 @@ markdown_extensions:
       alternate_style: true
   - admonition
   - pymdownx.details
+  - toc:
+      title: Auf dieser Seite
+  
