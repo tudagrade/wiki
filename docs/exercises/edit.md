@@ -79,17 +79,6 @@
     * Der Fehler ist in der Methode **divide** der Klasse **Divider** in Zeile 20 aufgetreten.
     * Diese Methode wurde von der Methode **main** der Klasse **Main** in Zeile 10 aufgerufen.
 
-## Den Debugger benutzten
-
-* IntelliJ bietet Ihnen mit dem Debugger eine sehr hilfreiche Methode Fehler in Ihrem Code zu finden. Sie können den Debugger genauso starten, wie Sie Ihren Code mit den Methoden 1. 2. und 4. ausführen. Der Unterschied dabei ist, dass Sie anstatt auf das grüne Dreieck **"Run '...'"** auf den roten Käfer **"Debug '...'"** drücken müssen.
-* Mit einem Linksklick direkt neben der Zeilenangabe können Sie einen Breakpoint erstellen, welcher als roter Punkt angezeigt wird.
-* Wenn Sie den Debugger starten, wird er Ihren Code so lange normal ausführen, bis er an einem Breakpoint ankommt. In dem Fall wird das Programm angehalten und Ihnen wird eine Liste der Variable mit den zugehörigen Werten angezeigt.
-   * Mit **F8** können Sie die momentane Zeile ausführen.
-   * Mit **F7** können Sie die in die Methode, die als nächstes ausgeführt wird, hineinspringen.
-   * Mit **F9** können Sie das Programm bis zum nächsten Breakpoint weiterlaufen lassen.
-   * Mit **Shift + F8** können Sie das Programm weiterlaufen lassen, bis die momentane Methode verlassen wird.
-   * alternativ können Sie dies auch mit den Pfeilen am oberen Rand der Debugger Anzeige machen.
-
 [Gradle Task]: https://wiki.tudalgo.org/exercises/edit/#gradle-tasks
 [hier]: https://wiki.tudalgo.org/exercises/download-import/#aktualisieren-der-vorlage
 [Moodle]: https://moodle.informatik.tu-darmstadt.de/mod/page/view.php?id=51435
