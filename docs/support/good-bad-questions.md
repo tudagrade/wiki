@@ -43,6 +43,11 @@ müssen Sie in der Lage sein, folgende Fragen beantworten zu können.
 
 Folgende Fragen wurden bereits in abgewandelter Form in unseren Sprechstunden gestellt.
 
+!!! error ""
+    An diesen Fragen sollten Sie sich *nicht* orientieren! Wenn Sie eine Frage nach folgendem Muster stellen, 
+    beantworten wir Ihnen diese nicht und verweisen Sie auf dieses Guide!
+
+
 * *Ist das so richtig?*
 * *Wie löse ich die Hausübung?*
 * *Ich habe die Aufgabe korrekt bearbeitet, aber Ihre Public Tests sind falsch!*
