@@ -41,6 +41,7 @@ nav:
     - Exportieren und Hochladen: exercises/export-upload.md
     - Nicht Unterstützte IDEs: exercises/download-import-unsupported.md
     - Dokumentation von Java-Quellcode: exercises/documentation.md
+    - Beanstandungen: exercises/complaints.md
   - Sprechstunden:
     - Bevor Sie eine Sprechstunde besuchen ...: support/good-bad-questions.md
 
