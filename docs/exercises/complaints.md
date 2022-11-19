@@ -5,14 +5,14 @@
 * Sie haben ab dem Zeitpunkt der Bewertung Ihrer Hausübung zwei Wochen Zeit, Ihre Bewertung zu beanstanden.
 
 * Wählen Sie im Abschnitt des jeweiligen Übungsblatts das Modul Beanstandung zur Bewertung von Übungsblatt aus. Geben Sie im Textfeld Ihre Beanstandung begründet separiert nach Nummer der Kriterien (links neben dem Kriterium) an. Die Nachkorrektur kann auch zu einem Punktabzug führen.
-Sobald Ihre Beanstandung bearbeitet wurde, wird ihre Beanstandung als bewertet markiert. Nach Ende der Beanstandungsfrist können keine Beanstandungen mehr entgegengenommen werden. Es werden nur Beanstandungen bearbeitet, die über den beschriebenen Weg eingegangen sind.
+Sobald Ihre Beanstandung bearbeitet wurde, wird Ihre Beanstandung als bewertet markiert. Nach Ende der Beanstandungsfrist können keine Beanstandungen mehr entgegengenommen werden. Es werden nur Beanstandungen bearbeitet, die über den beschriebenen Weg eingegangen sind.
 
 !!! warning "Achtung"
 	Nachdem Sie Ihre Beanstandung abgegeben haben, können Sie diese nicht mehr ändern. Ihre Beanstandung wird danach bearbeitet.
 
 ## Bevor Sie eine Beanstandung schreiben
 
-- Sie haben sich ihre Bewertung genau angeguckt, inklusive der Hinweise/Fehlermeldungen in der Kommentar-Spalte
+- Sie haben sich Ihre Bewertung genau angeguckt, inklusive der Hinweise/Fehlermeldungen in der Kommentar-Spalte
 - Sie haben sich je Kriterium, bei dem Ihnen Punkte fehlen, überprüft,
 	- warum der Fehler auftritt
 	- ob Sie alle für das Kriterium relevanten verbindlichen Anforderungen eingehalten haben
@@ -22,7 +22,7 @@ Sobald Ihre Beanstandung bearbeitet wurde, wird ihre Beanstandung als bewertet m
 - Sie haben Ihre Lösung mit dem Debugger ausgeführt und sich insbesondere das Verhalten des Programms in der „Fehlersituation“ angeschaut
 
 ## Wie sieht eine gute Beanstandung aus?
-Beanstandungen müssen immer gut begründet sein und sollten sich auf konkrete Kriterien beziehen, für die Sie Ihrer Auffassung nach mehr Punkte verdienst.
+Beanstandungen müssen immer gut begründet sein und sollten sich auf konkrete Kriterien beziehen, für die Sie Ihrer Auffassung nach mehr Punkte verdienen.
 
 **Beispielaufbau**:
 
