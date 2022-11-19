@@ -26,11 +26,11 @@ Beanstandungen müssen immer gut begründet sein und sollten sich auf konkrete K
 
 **Beispielaufbau**:
 
-1. Auf welches Kriterium beziehst du dich:
+1. Auf welches Kriterium beziehen Sie sich:
     * "Ich habe für Kriterium X nur 2 von 4 Punkten bekommen. Im Kommentar steht // als Fehler steht da, dass … auftritt // dass ... nicht eingehalten wurde // ..."
-2. Woraus schließt du, dass die Bewertung falsch ist:
+2. Woraus schließen Sie, dass die Bewertung falsch ist:
     * "Ich habe meine Lösung mit der Musterlösung verglichen // meine Lösung debuggt // die private tests auf meiner Lösung ausgeführt // ..."
-3. Was ist dir dabei aufgefallen, weshalb verdient deine Lösung mehr Punkte in Bezug auf dieses Kriterium:
+3. Was ist Ihnen dabei aufgefallen, weshalb verdient Ihre Lösung mehr Punkte in Bezug auf dieses Kriterium:
     * "Ich bin der Meinung, dass meine Lösung die Aspekte … // eigentlich erfüllt, weil ... // ..."
 
 ## Wie sieht eine schlechte Beanstandung aus?
