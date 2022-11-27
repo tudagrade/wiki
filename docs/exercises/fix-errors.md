@@ -93,6 +93,60 @@
     at example.MyRobot.nullPointer1(MyRobot.java:6)
     at example.Main.main(Main.java:18)
     ````
+    ###### Endlose Rekursion bei überschreibenden Methoden
+
+    Beim Überschreiben von Methoden weist man typischerweise einer Methode eine neue Funktionalität zu. Will man in einer abgeleiteten Klasse die Implementation der Methode aus der Basisklasse nutzen, kann man diese mit "super." und dem Methodennamen aufrufen. Das geht natürlich auch in der überschreibenden Methode selbst, wenn man z.B. die ursprüngliche Funktionalität nicht komplett abändern, sondern nutzen und erweitern will.
+
+    Dabei passiert es häufig, dass "super." beim Methodenaufruf innerhalb der überschreibenden Methode vergessen wird. Wird die überschriebene Methode nun mit einem Objekt aufgerufen, ruft sie sich selbst erneut auf (statt die Methode der Basisklasse). In diesem Methodenaufruf ruft die Methode sich dann nochmals auf, diese dann auch wieder und so weiter.
+
+    Hier ein Beispiel:
+
+    ```` java linenums="1"
+    public class A {
+        public int doCalculation(int z) {
+            return z*5;
+        }  
+    }
+    ````
+
+    ```` java linenums="1"
+    public class B1 extends A{
+        @Override
+        public int doCalculation(int z) {
+            int tmp = doCalculation(z); //führt zu Endlosrekursion
+            return tmp+1;
+        }  
+    }
+    ````
+
+    ```` java linenums="1"
+    public class B2 extends A{
+        @Override
+        public int doCalculation(int z) {
+            int tmp = super.doCalculation(z); //berechnet z*5
+            return tmp+1; //liefert z*5+1 zurück
+        }  
+    }
+    ````
+    Wie erkenne ich so einen Fehler? Endlose Rekursion erkennt man gut im Stacktrace: bei jedem Methodenaufruf wird ein neuer Frame auf den Stack gelegt, bis der Stack  und ein StackOverflowError geworfen wird. Falls also die letzen Methodenaufrufe auf dem Stack alle identisch sind, hat mal also vermutlich eine endlose Rekursion im Code.
+    Hier die mit dem obigen Code erzeugete Java Fehlermeldung:
+    ````
+    Exception in thread "main" java.lang.StackOverflowError
+	at B1.doCalculation(B1.java:4)
+	at B1.doCalculation(B1.java:4)
+	at B1.doCalculation(B1.java:4)
+	at B1.doCalculation(B1.java:4)
+	at B1.doCalculation(B1.java:4)
+    ...
+    ````
+
+    ###### Methoden eines Interfaces wurde nicht implementiert
+
+    Fehlerbeschreibung
+
+    Java Beispielcode
+
+    Java Fehlermedung
 
     ###### Weitere Fehler
 
