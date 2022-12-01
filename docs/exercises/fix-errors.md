@@ -128,8 +128,8 @@
         }  
     }
     ````
-    Wie erkenne ich so einen Fehler? Endlose Rekursion erkennt man gut im Stacktrace: bei jedem Methodenaufruf wird ein neuer Frame auf den Stack gelegt, bis der Stack  und ein StackOverflowError geworfen wird. Falls also die letzen Methodenaufrufe auf dem Stack alle identisch sind, hat mal also vermutlich eine endlose Rekursion im Code.
-    Hier die mit dem obigen Code erzeugete Java Fehlermeldung:
+    Wie erkennt man solch einen Fehler? Endlose Rekursion erkennt man gut im Stacktrace: bei jedem Methodenaufruf wird ein neuer Frame auf den Stack gelegt, bis der Stack  und ein StackOverflowError geworfen wird. Falls also die letzen Methodenaufrufe auf dem Stack alle identisch sind und ein StackOverflowError angezeigt wird, hat mal also vermutlich eine endlose Rekursion im Code.
+    Hier die mit dem obigen Code erzeugete Fehlermeldung:
     ````
     Exception in thread "main" java.lang.StackOverflowError
 	at B1.doCalculation(B1.java:4)
@@ -139,14 +139,57 @@
 	at B1.doCalculation(B1.java:4)
     ...
     ````
+    Falls man eigentlich die Methode der Basisklasse aufrufen wollte, kann man einfach "super." einfügen um den Fehler zu lösen.
 
     ###### Methoden eines Interfaces wurde nicht implementiert
 
-    Fehlerbeschreibung
+    In Interfaces können unter anderem Methoden deklariert werden, welche erst in implementierenden Klassen initialisiert werden. Dafür gibt man bei der Erstellung der implementierenden Klasse mit "implements" an, welche Interfaces implementiert werden sollen.
 
-    Java Beispielcode
+    Falls noch nicht alle Methoden implementiert wurden, kommt es zu einer Fehlermeldung beim kompilieren:
 
-    Java Fehlermedung
+    ```` java linenums="1"
+    public interface I {
+        double foo(int x);
+        void bar();
+    }
+    ````
+    ```` java linenums="1"
+    public class C implements I{
+        //fehlende Implementation der beiden Methoden
+    }
+    ````
+
+    Java Fehlermedung:
+    ````
+    java: C is not abstract and does not override abstract method bar() in I
+    ````   
+    Wie kann man diesen Fehler lösen?
+    
+    Möchte man nicht alle zu implementierenden Methoden in C implementieren, kann man C als abstract definieren. Dann können keine Objekte mit dem dynamischen Typen C erzeugt werden.
+    Wenn man hingegen alle Methoden von I in C implementiert(hierbei auf korrekte Signatur achten!), muss C keine abstrakte Klasse sein, man kann also ganz normal Instanzen erstellen und nutzen.
+    
+    ###### ArrayIndexOutOfBoundsException
+
+    Führt man ein Programm mit den folgenden zwei Zeilen aus:
+    ````
+    int[] intArray = new int[5];
+    for (int i = 0; i <= intArray.length; i++) { //von 0 bis inclusive 5
+        System.out.println(intArray[i]);
+    }
+    ````
+    erhält man solch eine Fehlermeldung: 
+    ````
+    Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 5
+	at Main.main(Main.java:9)
+    ````
+    Hier ist, wie in der Fehlermeldung beschrieben, das Problem, dass versucht wird auf einen Arrayindex zuzugreifen, welcher außerhalb der Bounds des Arrays liegt. 
+
+    Aber was ist eigentlich der Bound eines Arrays und wie hängt dieser mit der Länge zusammen?
+    Die Länge eines Arrays wird bei der Erstellung des Arrays in den eckigen Klammern angegeben und ist zur Laufzeit nicht veränderbar. Hier ist die Länge 5, welche auch durch ".length" abgefragt werden kann, wie man in der Schleife sieht.
+    Das bedeutet aber nicht, dass man auf intArray[5] zugreifen kann: die Indizes beginnen nicht bei 1, sondern bei 0. Der Bound eines Arrays ist nämlich immer {0,...,arrayName.length-1}, es kann also nur auf Indizes von 0 bis zur Länge-1 (!) zugegriffen werden.
+    Im Beispiel kann man also auf die Elemente im Array an den Indizes 0,1,2,3 und 4; nicht jedoch 5 zugreifen, weshalb die Exception geworfen wird.
+
+    Um den Fehler zu beheben sollte man sich die Stelle im Code anschauen, wo das Problem besteht (welche in der Fehlermeldung angegeben ist) und wie es enstanden ist. Im Beispiel wurde in der Schleife bis i<=intArray.length gezählt, also bis inclusive 5. Hier kann also einfach das Gleichheitszeichen entfernt werden.
 
     ###### Weitere Fehler
 
