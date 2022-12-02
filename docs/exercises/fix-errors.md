@@ -61,7 +61,7 @@
 
     ###### NullPointerException
 
-    Dieser Fehler tritt immer dann auf, wenn man auf einer Variable eine Methode aufruft, oder ein auf ein Attribut zugreift, die Variable aber null ist, also ihr kein Wert zugewiesen wurde. Anbei finden Sie ein paar Beispiele wie diser Fehler entstehen kann:
+    Dieser Fehler tritt immer dann auf, wenn man auf einer Variable eine Methode aufruft, oder auf ein Attribut zugreift, die Variable aber null ist, also ihr kein Wert zugewiesen wurde. Anbei finden Sie ein paar Beispiele wie dieser Fehler entstehen kann:
 
     ```` java linenums="1"
     public class MyRobot {
@@ -86,7 +86,7 @@
     }
     ````
 
-    Bei allen drei Aufrufen der move Methode ist die Variable, bzw. das Attribut, auf dem die Methode aufgerufe wird null, wodurch effektiv dort steht null.move(). Da null keinem korrekt initialisiertem Objekt entspricht wirft dies eine NullPointerException. Der geworfene Fehler sieht dabei in etwa wie folgt aus:
+    Bei allen drei Aufrufen der move Methode ist die Variable, bzw. das Attribut, auf dem die Methode aufgerufen wird null, wodurch effektiv dort steht null.move(). Da null keinem korrekt initialisiertem Objekt entspricht wirft dies eine NullPointerException. Der geworfene Fehler sieht dabei in etwa wie folgt aus:
 
     ````
     Exception in thread "main" java.lang.NullPointerException: Cannot invoke "example.Robot.move()" because "robot" is null
@@ -95,7 +95,7 @@
     ````
     ###### Endlose Rekursion bei überschreibenden Methoden
 
-    Beim Überschreiben von Methoden weist man typischerweise einer Methode eine neue Funktionalität zu. Will man in einer abgeleiteten Klasse die Implementation der Methode aus der Basisklasse nutzen, kann man diese mit "super." und dem Methodennamen aufrufen. Das geht natürlich auch in der überschreibenden Methode selbst, wenn man z.B. die ursprüngliche Funktionalität nicht komplett abändern, sondern nutzen und erweitern will.
+    Beim Überschreiben von Methoden weist man typischerweise einer Methode eine neue Funktionalität zu. Will man in einer abgeleiteten Klasse die Implementation der Methode aus der Basisklasse nutzen, kann man diese mit "super." und dem Methodennamen aufrufen. Wenn man z.B. beim Überschreiben die ursprüngliche Funktionalität nicht komplett abändern, sondern nutzen und erweitern möchte, bietet es sich an, in der überschreibenden Methode die Implementation der Methode aus der Basisklasse mit "super." zu verwenden.
 
     Dabei passiert es häufig, dass "super." beim Methodenaufruf innerhalb der überschreibenden Methode vergessen wird. Wird die überschriebene Methode nun mit einem Objekt aufgerufen, ruft sie sich selbst erneut auf (statt die Methode der Basisklasse). In diesem Methodenaufruf ruft die Methode sich dann nochmals auf, diese dann auch wieder und so weiter.
 
@@ -189,7 +189,7 @@
     Das bedeutet aber nicht, dass man auf intArray[5] zugreifen kann: die Indizes beginnen nicht bei 1, sondern bei 0. Der Bound eines Arrays ist nämlich immer {0,...,arrayName.length-1}, es kann also nur auf Indizes von 0 bis zur Länge-1 (!) zugegriffen werden.
     Im Beispiel kann man also auf die Elemente im Array an den Indizes 0,1,2,3 und 4; nicht jedoch 5 zugreifen, weshalb die Exception geworfen wird.
 
-    Um den Fehler zu beheben sollte man sich die Stelle im Code anschauen, wo das Problem besteht (welche in der Fehlermeldung angegeben ist) und wie es enstanden ist. Im Beispiel wurde in der Schleife bis i<=intArray.length gezählt, also bis inclusive 5. Hier kann also einfach das Gleichheitszeichen entfernt werden.
+    Um diesen Fehler zu beheben schaut man sich nochmal die in der Fehlermeldung angegebene Stelle im Code an  und überprüft, wo Indizes verwendet werden, die außerhalb des Bounds des Arrays liegen. Im Beispiel wurde  in der Schleife bis i<=intArray.length gezählt, also bis inklusive 5. Hier kann also einfach das  Gleichheitszeichen entfernt werden, um das Problem zu lösen.
 
     ###### Weitere Fehler
 
