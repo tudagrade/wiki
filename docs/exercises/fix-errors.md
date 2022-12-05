@@ -59,7 +59,7 @@
 
 === "Typische Programmierfehler"
 
-    ###### NullPointerException
+    ### NullPointerException
 
     Dieser Fehler tritt immer dann auf, wenn man auf einer Variable eine Methode aufruft, oder auf ein Attribut zugreift, die Variable aber null ist, also ihr kein Wert zugewiesen wurde. Anbei finden Sie ein paar Beispiele wie dieser Fehler entstehen kann:
 
@@ -93,7 +93,7 @@
     at example.MyRobot.nullPointer1(MyRobot.java:6)
     at example.Main.main(Main.java:18)
     ````
-    ###### Endlose Rekursion bei überschreibenden Methoden
+    ### Endlose Rekursion bei überschreibenden Methoden
 
     Beim Überschreiben von Methoden weist man typischerweise einer Methode eine neue Funktionalität zu. Will man in einer abgeleiteten Klasse die Implementation der Methode aus der Basisklasse nutzen, kann man diese mit "super." und dem Methodennamen aufrufen. Wenn man z.B. beim Überschreiben die ursprüngliche Funktionalität nicht komplett abändern, sondern nutzen und erweitern möchte, bietet es sich an, in der überschreibenden Methode die Implementation der Methode aus der Basisklasse mit "super." zu verwenden.
 
@@ -105,7 +105,7 @@
     public class A {
         public int doCalculation(int z) {
             return z*5;
-        }  
+        }
     }
     ````
 
@@ -115,7 +115,7 @@
         public int doCalculation(int z) {
             int tmp = doCalculation(z); //führt zu Endlosrekursion
             return tmp+1;
-        }  
+        }
     }
     ````
 
@@ -125,11 +125,11 @@
         public int doCalculation(int z) {
             int tmp = super.doCalculation(z); //berechnet z*5
             return tmp+1; //liefert z*5+1 zurück
-        }  
+        }
     }
     ````
-    Wie erkennt man solch einen Fehler? Endlose Rekursion erkennt man gut im Stacktrace: bei jedem Methodenaufruf wird ein neuer Frame auf den Stack gelegt, bis der Stack  und ein StackOverflowError geworfen wird. Falls also die letzen Methodenaufrufe auf dem Stack alle identisch sind und ein StackOverflowError angezeigt wird, hat mal also vermutlich eine endlose Rekursion im Code.
-    Hier die mit dem obigen Code erzeugete Fehlermeldung:
+    Wie erkennt man solch einen Fehler? Endlose Rekursion erkennt man gut im Stacktrace: bei jedem Methodenaufruf wird ein neuer Frame auf den Stack gelegt, bis der Stack  vollläuft und ein StackOverflowError geworfen wird. Falls also die letzen Methodenaufrufe auf dem Stack alle identisch sind und ein StackOverflowError angezeigt wird, hat man vermutlich eine endlose Rekursion im Code, d.h. die Methode ruft sich immer wieder selber auf.
+    Der obigen Code erzeuget dabei folgende Fehlermeldung:
     ````
     Exception in thread "main" java.lang.StackOverflowError
 	at B1.doCalculation(B1.java:4)
@@ -141,11 +141,11 @@
     ````
     Falls man eigentlich die Methode der Basisklasse aufrufen wollte, kann man einfach "super." einfügen um den Fehler zu lösen.
 
-    ###### Methoden eines Interfaces wurde nicht implementiert
+    ### Methoden eines Interfaces wurde nicht implementiert
 
-    In Interfaces können unter anderem Methoden deklariert werden, welche erst in implementierenden Klassen initialisiert werden. Dafür gibt man bei der Erstellung der implementierenden Klasse mit "implements" an, welche Interfaces implementiert werden sollen.
+    In Interfaces können unter anderem Methoden deklariert werden, welche erst in den implementierenden Klassen implementiert werden. Dafür gibt man bei der Erstellung der implementierenden Klasse mit "implements" an, welche Interfaces implementiert werden sollen.
 
-    Falls noch nicht alle Methoden implementiert wurden, kommt es zu einer Fehlermeldung beim kompilieren:
+    Falls noch nicht alle Methoden implementiert wurden, kommt es zu einer Fehlermeldung beim Kompilieren:
 
     ```` java linenums="1"
     public interface I {
@@ -162,38 +162,38 @@
     Java Fehlermedung:
     ````
     java: C is not abstract and does not override abstract method bar() in I
-    ````   
+    ````
     Wie kann man diesen Fehler lösen?
-    
+
     Möchte man nicht alle zu implementierenden Methoden in C implementieren, kann man C als abstract definieren. Dann können keine Objekte mit dem dynamischen Typen C erzeugt werden.
-    Wenn man hingegen alle Methoden von I in C implementiert(hierbei auf korrekte Signatur achten!), muss C keine abstrakte Klasse sein, man kann also ganz normal Instanzen erstellen und nutzen.
-    
-    ###### ArrayIndexOutOfBoundsException
+    Wenn man hingegen alle Methoden von I in C implementiert (hierbei auf korrekte Signatur achten!), muss C keine abstrakte Klasse sein, man kann also ganz normal Instanzen erstellen und nutzen.
+
+    ### ArrayIndexOutOfBoundsException
 
     Führt man ein Programm mit den folgenden zwei Zeilen aus:
-    ````
+    ```` java linenums="1"
     int[] intArray = new int[5];
     for (int i = 0; i <= intArray.length; i++) { //von 0 bis inclusive 5
         System.out.println(intArray[i]);
     }
     ````
-    erhält man solch eine Fehlermeldung: 
+    erhält man solch eine Fehlermeldung:
     ````
     Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 5 out of bounds for length 5
 	at Main.main(Main.java:9)
     ````
-    Hier ist, wie in der Fehlermeldung beschrieben, das Problem, dass versucht wird auf einen Arrayindex zuzugreifen, welcher außerhalb der Bounds des Arrays liegt. 
+    Hier ist, wie in der Fehlermeldung beschrieben, das Problem, dass versucht wird auf einen Arrayindex zuzugreifen, welcher außerhalb der Bounds des Arrays liegt.
 
     Aber was ist eigentlich der Bound eines Arrays und wie hängt dieser mit der Länge zusammen?
     Die Länge eines Arrays wird bei der Erstellung des Arrays in den eckigen Klammern angegeben und ist zur Laufzeit nicht veränderbar. Hier ist die Länge 5, welche auch durch ".length" abgefragt werden kann, wie man in der Schleife sieht.
-    Das bedeutet aber nicht, dass man auf intArray[5] zugreifen kann: die Indizes beginnen nicht bei 1, sondern bei 0. Der Bound eines Arrays ist nämlich immer {0,...,arrayName.length-1}, es kann also nur auf Indizes von 0 bis zur Länge-1 (!) zugegriffen werden.
+    Das bedeutet aber nicht, dass man auf intArray[5] zugreifen kann: die Indizes beginnen nicht bei 1, sondern bei 0. Der Bound eines Arrays ist nämlich immer {0,...,arrayName.length-1}, es kann also nur auf Indizes im Intervall [0, length - 1(!)] zugegriffen werden.
     Im Beispiel kann man also auf die Elemente im Array an den Indizes 0,1,2,3 und 4; nicht jedoch 5 zugreifen, weshalb die Exception geworfen wird.
 
-    Um diesen Fehler zu beheben schaut man sich nochmal die in der Fehlermeldung angegebene Stelle im Code an  und überprüft, wo Indizes verwendet werden, die außerhalb des Bounds des Arrays liegen. Im Beispiel wurde  in der Schleife bis i<=intArray.length gezählt, also bis inklusive 5. Hier kann also einfach das  Gleichheitszeichen entfernt werden, um das Problem zu lösen.
+    Um diesen Fehler zu beheben schaut man sich nochmal die in der Fehlermeldung angegebene Stelle im Code an  und überprüft, wo Indizes verwendet werden, die außerhalb des Bounds des Arrays liegen. Im Beispiel wurde in der Schleife bis i<=intArray.length gezählt, also bis inklusive 5. Hier kann also einfach das  Gleichheitszeichen entfernt werden, um das Problem zu lösen.
 
     ###### Weitere Fehler
 
-    Diese Seite wird bald um weitere Fehler ergänzt.
+    Diese Seite wird fortlaufend um weitere Fehler ergänzt. Falls Sie Vorschläge haben, schreiben Sie diese uns gerne.
 
 === "Debugging"
 
