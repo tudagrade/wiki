@@ -26,7 +26,7 @@
 
 
 4. In dem Projektordner finden Sie nun im Ordner **"build"** einen weiteren Ordner **"libs"**. In diesem befindet sich die Abgabedatei.
-    * Die Datei ist nach dem Schema **"hXX-lastName-firstName-submission.jar"** benannt. Ändern Sie diese Benennung **nicht**.
+    * Die Datei ist nach dem Schema **"hXX-matriculationNumber-firstName-lastName-submission.jar"** benannt. Ändern Sie diese Benennung **nicht**.
     * Beachten Sie, dass IntelliJ die Datei nicht unbedingt sofort anzeigt. Suchen Sie die Datei am besten im File Explorer.
     * Um den Inhalt der Abgabedatei zu überprüfen, können Sie die Jar-Datei entweder mit einem Entpackungsprogramm wie z. B. 7Zip oder mit dem Befehl **"jar -xf <Dateiname\>"** in einer Konsole entpacken. In der Regel ist dies aber nicht notwendig.
     * Beachten Sie, dass die exportierte Jar-Datei nicht ausführbar ist.
