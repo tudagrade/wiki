@@ -199,14 +199,14 @@
     ```` java linenums="1"
     public class Car {
 
-        static int noOfWheels = 4; //Klassenattribut (ist bei jedem Auto gleich)
+        static int numberOfWheels = 4; //Klassenattribut (ist bei jedem Auto gleich)
         Color color; //Objektattribut, wird im Konstruktor Car initialisiert
 
         public Car(Color color){
             this.color = color;
         }
-        public static int noOfWheels(){ //Klassenmethode
-            return noOfWheels;
+        public static int getNumberOfWheels(){ //Klassenmethode
+            return numberOfWheels;
         }
         public Color getColor(){ //Objektmethode
             return color;
@@ -215,18 +215,28 @@
     ````
     ```` java linenums="1"
     //in Main
-    Car myCar = new Car((Color.black));
-    Color myCarColor = myCar.getColor();  //korrekt: Objektmethode mit Objekt aufrufen
-    int myCarWheels = myCar.noOfWheels(); //inkorrekt: Klassenmethode mit Objekt aufrufen
-    int carWheels = Car.noOfWheels();     //korrekt: Klassemnethode mit Klassennamen aufrufen
+    Car myCar = new Car(Color.black);
+    Color myCarColor = myCar.getColor();         //korrekt: Objektmethode mit Objekt aufrufen
+    int myCarWheels = myCar.getNumberOfWheels(); //schlechte Programmierpraxis: Klassenmethode mit Objekt aufrufen
+    Color carColor = Car.getColor();             //inkorrekt: Objektmethode mit Klassennamen aufrufen
+    int carWheels = Car.getNumberOfWheels();     //korrekt: Klassenmethode mit Klassennamen aufrufen
     ````
 
     Bei Zeile 4 in Main wird einem Folgendes angezeigt:
     ````
-    Static member 'Car.noOfWheels()' accessed via instance reference 
+    Static member 'Car.getNumberOfWheels()' accessed via instance reference 
     ````
-    Statt die Klassenmethode mit einem Objekt der Klasse aufzurufen, ruft man sie einfach mit dem Namen der Klasse auf.
+    Es ist zwar möglich, eine Klassenmethode mit einem Objekt der Klasse aufzurufen, aber eher unschöne Programmierpraxis. Normalerweise ruft man sie einfach mit dem Namen der Klasse auf.
+
+    Beim Kompilieren des oben stehenden Codes bekommt erhält man außerdem diese Fehlermeldung:
+    ````
+    non-static method getColor() cannot be referenced from a static context
+    ````
+    Die Objektmethode getColor() gibt normalerweise den Wert des Objektattributs color zurück. Wird sie nun nicht mit einem Objekt, sondern mit dem Klassennamen aufgerufen, kann sie nicht auf color zugreifen: es existiert kein Objekt, dessen color-Wert sie auslesen kann.  
+    Objektmethoden können nur mit Objekten aufgerufen werden.
+
     Mehr zu Klassenmethoden kann im Foliensatz 4c) auf den Seiten 34-50 gefunden werden.
+    
 
     ### isBooleanExpression == false
 
@@ -250,6 +260,18 @@
         a++;
     }
 
+    boolean b = false;
+    if (b = true){
+        System.out.println("b is true"); 
+    }
+    //"b is true" wird ausgegeben, da der Zuweisungsoperator den zugewiesenen Wert zurückgibt
+
+    boolean c = false;
+    if (c == true){
+        System.out.println("c is true"); 
+    }
+    //"c is true" wird nicht ausgegeben, da false==true zu false auswertet
+
     boolean b = myCar.getColor(); 
     //falsch, da getColor eine Farbe und keinen boolean zurückgibt
 
@@ -263,7 +285,7 @@
     Das geschieht bei der Einrichtung von Objekten: hier müssen die Typparameter festgelegt werden.
 
     Hier ein Beispiel anhand des generischen Interfaces java.util.List<E\>:  
-    List ist mit dem Typparameter E parameterisiert (s. Doku von List), welcher den Typen der Elemente angibt. Zuerst die inkorrekte Verwendung von List, mit den Warnungen von Intellij als Kommentar. In Zeilen vier bis sieben sieht man die korrekte Verwendung.
+    List ist mit dem Typparameter E parameterisiert (s. Doku von [List]), welcher den Typen der Elemente angibt. Zuerst die inkorrekte Verwendung von List, mit den Warnungen von Intellij als Kommentar. In Zeilen vier bis sechs sieht man die korrekte Verwendung.
 
     ```` java linenums="1"
     List list = new ArrayList<>(); //Raw use of parameterized class 'List' 
@@ -276,7 +298,7 @@
     Auf der rechten Seite der Zuweisung kann man, wie im Beispiel, die abkürzende Schreibweise des "Diamond-Operators" verwenden. Hierbei werden die spitzen Klammern hingeschrieben, aber der Typparameter nicht erneut (s. Foliensatz 06 Generics S.66f). 
     Auf der linken Seite muss der Typparameter aber explizit angegeben werden!
 
-    Falls ihr also die Warnung "Raw use of parameterized class" bekommt, solltet ihr den Typparameter der generischen Klasse instanziieren, indem ihr nach dem Klassen-/ Interfacenamen in spitzen Klammern die zu verwendende Klasse schreibt.
+    Falls Sie also die Warnung "Raw use of parameterized class" bekommen, sollten Sie den Typparameter der generischen Klasse instanziieren, indem Sie nach dem Klassen-/ Interfacenamen in spitzen Klammern die zu verwendende Klasse schreiben.
 
     ###### Weitere Fehler
 
@@ -498,3 +520,4 @@
 [Typische Programmierfehler]: /exercises/fix-errors/#typische-programmierfehler
 [Bevor Sie eine Sprechstunde besuchen]: /support/good-bad-questions
 [Debugging]: /exercises/fix-errors/#debugging
+[List]: https://docs.oracle.com/javase/8/docs/api/java/util/List.html
