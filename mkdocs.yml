@@ -57,4 +57,6 @@ markdown_extensions:
   - pymdownx.details
   - toc:
       title: Auf dieser Seite
-  
+
+extra_css:
+  - stylesheets/smooth-scroll.css
