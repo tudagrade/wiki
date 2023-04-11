@@ -193,8 +193,8 @@
 
     ### Klassenmethode mit Objekt aufgerufen
 
-    Klassenmethoden und Klassenattribute werden mit dem Schlüsselwort "static" gekennzeichnet. Klassenmethoden können weder auf Objektattribute zugreifen, noch Objektmethoden aufrufen. Da Klassenmethoden also nicht auf Objekte ihrer Klasse zugreifen dürfen, müssen sie auch nicht mit einem Objekt aufgerufen werden.
-    Klassenmethoden sollten immer mit dem Klassenamen aufgerufen werden. Hier ein Beispiel:
+    Klassenmethoden und Klassenattribute werden mit dem Schlüsselwort "static" gekennzeichnet. Klassenmethoden können weder auf Objektattribute zugreifen, noch Objektmethoden aufrufen. Da Klassenmethoden also nicht auf Objekte ihrer Klasse zugreifen dürfen, müssen sie auch nicht mit einem Objekt aufgerufen werden. 
+    Klassenmethoden sollten immer mit dem Klassenamen aufgerufen werden. Hier ein Beispiel: 
 
     ```` java linenums="1"
     public class Car {
@@ -224,7 +224,7 @@
 
     Bei Zeile 4 in Main wird einem Folgendes angezeigt:
     ````
-    Static member 'Car.getNumberOfWheels()' accessed via instance reference
+    Static member 'Car.getNumberOfWheels()' accessed via instance reference 
     ````
     Es ist zwar möglich, eine Klassenmethode mit einem Objekt der Klasse aufzurufen, aber eher unschöne Programmierpraxis. Normalerweise ruft man sie einfach mit dem Namen der Klasse auf.
 
@@ -232,22 +232,22 @@
     ````
     non-static method getColor() cannot be referenced from a static context
     ````
-    Die Objektmethode getColor() gibt normalerweise den Wert des Objektattributs color zurück. Wird sie nun nicht mit einem Objekt, sondern mit dem Klassennamen aufgerufen, kann sie nicht auf color zugreifen: es existiert kein Objekt, dessen color-Wert sie auslesen kann.
+    Die Objektmethode getColor() gibt normalerweise den Wert des Objektattributs color zurück. Wird sie nun nicht mit einem Objekt, sondern mit dem Klassennamen aufgerufen, kann sie nicht auf color zugreifen: es existiert kein Objekt, dessen color-Wert sie auslesen kann.  
     Objektmethoden können nur mit Objekten aufgerufen werden.
 
     Mehr zu Klassenmethoden kann im Foliensatz 4c) auf den Seiten 34-50 gefunden werden.
-
+    
 
     ### isBooleanExpression == false
 
     In der Bedingung einer if-Verzweigung, der Fortsetzungsbedingung einer while-Schleife und an anderen Stellen verwendet man boolesche Ausdrücke. Diese können zu true oder zu false auswerten. Außer man verwendet keinen booleschen Ausdruck, denn dann kompiliert der Code nicht.
 
-    Was sind also alles boolesche Ausdrücke und was nicht?
-    Die booleschen Werte true und false sind die einfachsten booleschen Ausdrücke. Diese können z.B. mit dem logischen Oder (||) bzw. dem logischen Und (&&) oder der Negation (!) zu komplizierteren Ausdrücken kombiniert werden. Vergleiche von Zahlen mit ==, <, >=, != etc. funktionieren auch.
+    Was sind also alles boolesche Ausdrücke und was nicht?  
+    Die booleschen Werte true und false sind die einfachsten booleschen Ausdrücke. Diese können z.B. mit dem logischen Oder (||) bzw. dem logischen Und (&&) oder der Negation (!) zu komplizierteren Ausdrücken kombiniert werden. Vergleiche von Zahlen mit ==, <, >=, != etc. funktionieren auch. 
 
-    Was sind häufig verwendete, aber inkorrekte Ausdrücke?
-    Oft wird beim Vergleich von z.B. zwei Zahlen nur ein = verwendet, gemeint ist meist der Vergleich mit ==.
-    Methoden, die keinen boolean zurückgeben eignen sich nicht direkt, außer man nutzt die Rückgabe und z.B. die equals-Methode, um einen booleschen Ausdruck zu erzeugen.
+    Was sind häufig verwendete, aber inkorrekte Ausdrücke?  
+    Oft wird beim Vergleich von z.B. zwei Zahlen nur ein = verwendet, gemeint ist meist der Vergleich mit ==.  
+    Methoden, die keinen boolean zurückgeben eignen sich nicht direkt, außer man nutzt die Rückgabe und z.B. die equals-Methode, um einen booleschen Ausdruck zu erzeugen.   
     Nicht ganz falsch, aber etwas unnötig, ist es, einen boolean mit true oder false zu vergleichen: isOdd(5)==true ist semantisch äquivalent zu isOdd(5). Auch isEven(4) == false kann einfach zu !isEven(4) vereinfacht werden.
 
     Auch hier nochmal ein paar Beispiele:
@@ -262,20 +262,20 @@
 
     boolean b = false;
     if (b = true){
-        System.out.println("b is true");
+        System.out.println("b is true"); 
     }
     //"b is true" wird ausgegeben, da der Zuweisungsoperator den zugewiesenen Wert zurückgibt
 
     boolean c = false;
     if (c == true){
-        System.out.println("c is true");
+        System.out.println("c is true"); 
     }
     //"c is true" wird nicht ausgegeben, da false==true zu false auswertet
 
-    boolean b = myCar.getColor();
+    boolean b = myCar.getColor(); 
     //falsch, da getColor eine Farbe und keinen boolean zurückgibt
 
-    boolean c = myCar.getColor().equals(Color.green);
+    boolean c = myCar.getColor().equals(Color.green); 
     //korrekt, die equals Methode vergleicht die beiden Farben und gibt einen boolean zurück
     ````
 
@@ -284,18 +284,18 @@
     Bei der Verwendung von generischen Klassen und Interfaces muss man die Typparameter instanziieren.
     Das geschieht bei der Einrichtung von Objekten: hier müssen die Typparameter festgelegt werden.
 
-    Hier ein Beispiel anhand des generischen Interfaces java.util.List<E\>:
+    Hier ein Beispiel anhand des generischen Interfaces java.util.List<E\>:  
     List ist mit dem Typparameter E parameterisiert (s. Doku von [List]), welcher den Typen der Elemente angibt. Zuerst die inkorrekte Verwendung von List, mit den Warnungen von Intellij als Kommentar. In Zeilen vier bis sechs sieht man die korrekte Verwendung.
 
     ```` java linenums="1"
-    List list = new ArrayList<>(); //Raw use of parameterized class 'List'
+    List list = new ArrayList<>(); //Raw use of parameterized class 'List' 
     list.add(myCar); //Unchecked call to 'add(E)' as a member of raw type 'java.util.List'
-
-    List<Car> cars = new ArrayList<>();
+      
+    List<Car> cars = new ArrayList<>(); 
     // bei der Einrichtung der Liste wurde ihr Typparameter mit Car instanziiert
     cars.add(myCar);
     ````
-    Auf der rechten Seite der Zuweisung kann man, wie im Beispiel, die abkürzende Schreibweise des "Diamond-Operators" verwenden. Hierbei werden die spitzen Klammern hingeschrieben, aber der Typparameter nicht erneut (s. Foliensatz 06 Generics S.66f).
+    Auf der rechten Seite der Zuweisung kann man, wie im Beispiel, die abkürzende Schreibweise des "Diamond-Operators" verwenden. Hierbei werden die spitzen Klammern hingeschrieben, aber der Typparameter nicht erneut (s. Foliensatz 06 Generics S.66f). 
     Auf der linken Seite muss der Typparameter aber explizit angegeben werden!
 
     Falls Sie also die Warnung "Raw use of parameterized class" bekommen, sollten Sie den Typparameter der generischen Klasse instanziieren, indem Sie nach dem Klassen-/ Interfacenamen in spitzen Klammern die zu verwendende Klasse schreiben.
@@ -380,7 +380,7 @@
 
 === "Technische Fehler"
 
-    * Stellen Sie zunächst sicher, dass Sie den richtigen Ordner importiert haben. Der oberste Ordner sollte nach der Hausübung benannt sein (z. B. **"FOP-2223-HXX-Student-master"** bzw. **"PX-Student-master"**) und direkt die build.gradle.kts Datei enthalten sein. Wählen Sie beim Importieren **nicht** einen identisch benannten Oberordner aus.
+    * Stellen Sie zunächst sicher, dass Sie den richtigen Ordner importiert haben. Der oberste Ordner sollte nach der Hausübung benannt sein (z. B. **"FOP-2223-HXX-Student-master"**) und direkt die build.gradle.kts Datei enthalten sein. Wählen Sie beim Importieren **nicht** einen identisch benannten Oberordner aus.
     * Beachten Sie, dass es mit Gradle zu Problemen kommen kann, wenn das Projekt auf einer externen Festplatte gespeichert wurde.
     * Anbei finden Sie ein paar mögliche Fehler, welche Ihnen in der Konsole, die sich beim Ausführen der des Programmes oder einer Gradle Task automatisch öffnet, angezeigt werden. Damit Ihnen die vollständigen Fehlermeldungen angezeigt werden, wählen Sie links von der Konsole die zweite Option von oben aus.
 
@@ -397,7 +397,7 @@
 
     2. !!! error ""
         ```
-        A problem occurred configuring root project ...
+        A problem occurred configuring root project 'FOP-2223-H00-Student'.
         Could not resolve all files for configuration ':classpath'.
         Could not resolve org.tudalgo:algomate:0.1.0-SNAPSHOT.
         ```
