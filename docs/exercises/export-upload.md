@@ -21,20 +21,21 @@
     * Alternativ können Sie sich die Gradle Ansicht auch über den Reiter **"View"** anzeigen lassen, indem Sie auf **"Tool Windows" -> "Gradle"** gehen.
 
 
-3. Unter **"FOP-2223-HXX-Student" (bzw. "PX-Student") -> "Task" -> "build"** finden Sie die Gradle Task **"mainBuildSubmission"**. Führen Sie diese mit einem Doppelklick aus.
+3. Unter **"FOP-2223-HXX-Student" -> "Task" -> "build"** finden Sie die Gradle Task **"mainBuildSubmission"**. Führen Sie diese mit einem Doppelklick aus.
     * Wenn unten in der Konsole **"BUILD SUCCESSFUL"** steht, war das Erstellen der Abgabedatei erfolgreich.
 
 
 4. In dem Projektordner finden Sie nun im Ordner **"build"** einen weiteren Ordner **"libs"**. In diesem befindet sich die Abgabedatei.
-    * Die Datei ist nach dem Schema **"hXX-TU-ID-firstName-lastName-submission.jar"** bzw. **"pX-TU-ID-firstName-lastName-submission.jar"** benannt. Ändern Sie diese Benennung **nicht**.
+    * Die Datei ist nach dem Schema **"hXX-TU-ID-firstName-lastName-submission.jar"** benannt. Ändern Sie diese Benennung **nicht**.
     * Beachten Sie, dass IntelliJ die Datei nicht unbedingt sofort anzeigt. Suchen Sie die Datei am besten im File Explorer.
     * Um den Inhalt der Abgabedatei zu überprüfen, können Sie die Jar-Datei entweder mit einem Entpackungsprogramm wie z. B. 7Zip oder mit dem Befehl **"jar -xf <Dateiname\>"** in einer Konsole entpacken. In der Regel ist dies aber nicht notwendig.
     * Beachten Sie, dass die exportierte Jar-Datei nicht ausführbar ist.
 
 ## Hochladen
-* Laden Sie nun die zuvor erstellte Datei in Moodle bei der entsprechenden Abgabe hoch.
+* Laden Sie nun die zuvor erstellte Datei in [Moodle] bei der entsprechenden Abgabe hoch.
     * Sie finden das Abgabemodule auf der selben Seite, wie auch das Übungsblatt, unter dem Namen **"Abgabe zu Übungsblatt X"**
     * Sie können bis zum Abgabeende beliebig oft Ihre Abgabe ändern. Wir empfehlen Ihnen daher regelmäßig Ihren Zwischenstand hochzuladen, damit Sie nicht leer dastehen, wenn Sie die Abgabefrist verpassen.
     * Alle Abgaben, die auf Moodle hochgeladen werden konnten, werden bewertet. Wenn keine Datei nicht hochgeladen werden kann, weil die Abgabefrist überschritten wurde, kann die Aufgabe nicht bewertet werden.
 
+[Moodle]: https://moodle.informatik.tu-darmstadt.de/course/view.php?id=1248
 [Gradle Task]: https://wiki.tudalgo.org/exercises/edit/#gradle-tasks
