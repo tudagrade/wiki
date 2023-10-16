@@ -53,20 +53,37 @@
          ```
 
 === "Mac OS"
-
-     1. Öffnen Sie die <ins> <a href="https://adoptium.net/de/" target="_blank"><span style="color:#349eeb">Adoptium Website</span></a></ins>.
-     2. Drücken Sie auf **"Latest LTS Release"**. Der Download sollte automatisch starten.
-     3. Öffnen Sie den soeben heruntergeladenen Installer und drücken Sie auf **"Fortfahren"**, bzw. **"Installieren"**. Sie können die Standardeinstellungen übernehmen und müssen      nichts weiteres im Installer auswählen.
-     4. Nachdem die Installation abgeschlossen ist, drücken Sie **"Schließen"**.
-         * Das Installationsprogramm benötigen Sie nun nicht mehr.
-     5. Sie können überprüfen, ob Java korrekt installiert wurde, indem Sie im Terminal folgenden Befehl eingeben
-         ```
-         java --version
-         ```
-         * Sie können das Terminal öffnen, indem Sie in der Suche (Cmd + Leertaste) **"Terminal"** eingeben.
-        * Wenn die Ausgabe in etwa so aussieht, ist die Installation erfolgreich. Achten Sie insbesondere darauf, dass es Java 17 ist.
-        ```
-        openjdk 17.0.2 2022-04-19
-        ```
+    === "Manuell"
+         1. Öffnen Sie die <ins> <a href="https://adoptium.net/de/" target="_blank"><span style="color:#349eeb">Adoptium Website</span></a></ins>.
+         2. Drücken Sie auf **"Latest LTS Release"**. Der Download sollte automatisch starten.
+         3. Öffnen Sie den soeben heruntergeladenen Installer und drücken Sie auf **"Fortfahren"**, bzw. **"Installieren"**. Sie können die Standardeinstellungen übernehmen und müssen      nichts weiteres im Installer auswählen.
+         4. Nachdem die Installation abgeschlossen ist, drücken Sie **"Schließen"**.
+             * Das Installationsprogramm benötigen Sie nun nicht mehr.
+         5. Sie können überprüfen, ob Java korrekt installiert wurde, indem Sie im Terminal folgenden Befehl eingeben
+             ```
+             java --version
+             ```
+             * Sie können das Terminal öffnen, indem Sie in der Suche (Cmd + Leertaste) **"Terminal"** eingeben.
+             * Wenn die Ausgabe in etwa so aussieht, ist die Installation erfolgreich. Achten Sie insbesondere darauf, dass es Java 17 ist.
+             ```
+             openjdk 17.0.2 2022-04-19
+             ```
+    === "Homebrew"
+         1. Installieren Sie OpenJDK 17.
+            ```
+            brew install openjdk@17
+            ```
+         2. Am Ende der Installation stellt Homebrew einen Befehl bereit, um OpenJDK 17 mit dem Befehl `java` zu verbinden. Kopieren Sie diesen und führen Sie ihn aus. Der Befehl ähnelt dem folgenden, kann sich jedoch leicht unterscheiden:
+            ```
+            sudo ln -sfn /opt/homebrew/opt/openjdk@17/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-17.jdk
+            ```
+         3. Prüfen Sie die Java Installation.
+            ```
+            java --version
+            ```
+         4. Wenn die Ausgabe in etwa so aussieht, ist die Installation erfolgreich. Achten Sie insbesondere darauf, dass es Java 17 ist.
+            ```
+            openjdk 17.0.8.1 2023-08-24
+            ```
 
 [Adoptium Website]: https://adoptium.net/de/
