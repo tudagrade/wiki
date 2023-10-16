@@ -38,7 +38,7 @@ Diese erhalten sie entweder, indem sie das zugehörige [Git-Repository] klonen, 
             * Sie können ein Terminal öffnen, indem Sie in der Suche (Cmd + Leertaste) **"Terminal"** eingeben
             * Falls Sie Homebrew nicht installiert haben, können Sie es mit folgenden Befehl installieren:
             ```
-            /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)
+            /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
             ```
             * Sie können selbstverständlich auch einen anderen package installer verwenden.
         2. Sie können nun mit dem Befehl **"git --version"** in einem Terminal überprüfen, ob Git erfolgreich installiert wurde.
