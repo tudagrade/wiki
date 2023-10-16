@@ -44,11 +44,19 @@
          5. Nun können Sie Racket Programme ausführen, indem Sie rechts oben auf **"Run"** drücken.
 
 === "Mac OS"
-     1. Laden Sie [hier] DrRacket herunter. Achten Sie darauf, dass Mac OS als Betriebssystem ausgewählt ist.
-     2. Öffnen Sie die heruntergeladenen .dmg Datei.
-     3. Kopieren Sie die Racket Installation in den Applications Ordner.
-     3. Nachdem Sie DrRacket geöffnet haben, gehen Sie auf oben auf **"Language"** -> **"Choose Language"** und wählen Sie unter **"Teaching Languages"** **"Advanced Student"** aus. Bestätigen Sie danach die Auswahl, indem Sie auf **"OK"** drücken.
-     4. Nun können Sie Racket Programme ausführen, indem Sie rechts oben auf **"Run"** drücken.
+    === "Manuell"
+         1. Laden Sie [hier] DrRacket herunter. Achten Sie darauf, dass Mac OS als Betriebssystem ausgewählt ist.
+         2. Öffnen Sie die heruntergeladenen .dmg Datei.
+         3. Kopieren Sie die Racket Installation in den Applications Ordner.
+         4. Öffnen Sie DrRacket. Wählen Sie im Menu **"Language"** -> **"Choose Language"** und dann unter **"Teaching Languages"** -> **"Advanced Student"** aus. Bestätigen Sie die Auswahl, indem Sie auf **"OK"** drücken.
+         5. Nun können Sie Racket Programme ausführen, indem Sie rechts oben auf **"Run"** drücken.
+    === "Homebrew"
+         1. DrRacket installieren
+            ```
+            brew install --cask racket
+            ```
+         2. Öffnen Sie DrRacket. Wählen Sie im Menu **"Language"** -> **"Choose Language"** und dann unter **"Teaching Languages"** -> **"Advanced Student"** aus. Bestätigen Sie die Auswahl, indem Sie auf **"OK"** drücken.
+         3. Nun können Sie Racket Programme ausführen, indem Sie rechts oben auf **"Run"** drücken.
 
 
 
