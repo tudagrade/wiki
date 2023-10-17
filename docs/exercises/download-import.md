@@ -7,41 +7,7 @@ Diese erhalten sie entweder, indem sie das zugehörige [Git-Repository] klonen, 
 
 === "Git"
 
-    * Um die Repositories mit Git zu klonen, müssen Sie zunächst Git lokal installieren.
-
-    === "Windows"
-
-        1. Laden Sie sich [Git] herunter, indem Sie rechts auf **"Download for Windows"** drücken.
-        2. Führen Sie den soeben heruntergeladenen Installer aus.
-        3. Drücken Sie solange auf **"Next"**, bis der Installationsprozess beginnt. Sie können die Standardeinstellungen des Installers übernehmen und müssen nichts weiter auswählen.
-        4. Drücken Sie auf **"Finish** um den Installationsprozess abzuschließen.
-        5. Sie können nun mit dem Befehl **"git --version"** in einer Konsole überprüfen, ob Git erfolgreich installiert wurde.
-           * Sie können ein Terminal öffnen, indem Sie in der Windowssuche (Win+ S) **"cmd"** eingeben.
-
-    === "Linux"
-
-        * Auf Debian/Ubuntu Distributions können Sie Git mit dem folgenden Befehl installieren:
-        ```
-        sudo apt install git
-        ```
-        * Auf Arch Based Linux Systemen können Sie Git mit dem folgenden Befehl installieren:
-        ```
-        sudo pacman -S git
-        ```
-
-    === "MacOS"
-
-        1. Sie können Git mit dem package installer Homebrew installieren. Führen Sie dafür folgenden Befehl in einem Terminal aus:
-            ```
-            brew install git
-            ```
-            * Sie können ein Terminal öffnen, indem Sie in der Suche (Cmd + Leertaste) **"Terminal"** eingeben
-            * Falls Sie Homebrew nicht installiert haben, können Sie es mit folgenden Befehl installieren:
-            ```
-            /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-            ```
-            * Sie können selbstverständlich auch einen anderen package installer verwenden.
-        2. Sie können nun mit dem Befehl **"git --version"** in einem Terminal überprüfen, ob Git erfolgreich installiert wurde.
+    * Um die Repositories mit Git zu klonen, müssen Sie zunächst [Git lokal installieren].
 
     #### Repositories klonen
     !!! warning "Achtung"
@@ -107,5 +73,5 @@ Diese erhalten sie entweder, indem sie das zugehörige [Git-Repository] klonen, 
     * Auch, wenn wir es nicht empfehlen, können Sie die Vorlage alternativ manuell updaten. Kopieren Sie dafür entweder Ihre Implementation in die neue Vorlage oder die Änderungen aus der neuen Vorlage in die alte Vorlage.
 
 [Moodle]: https://moodle.informatik.tu-darmstadt.de/course/view.php?id=1469&sectionid=18762
-[Git]: https://git-scm.com/download
 [Git-Repository]: https://github.com/FOP-2324
+[Git lokal installieren]: https://wiki.tudalgo.org/preparation/installation-git/
