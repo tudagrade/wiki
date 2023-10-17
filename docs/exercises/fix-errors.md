@@ -397,7 +397,7 @@
 
     2. !!! error ""
         ```
-        A problem occurred configuring root project 'FOP-2324s-H00-Student'.
+        A problem occurred configuring root project 'FOP-2324-H00-Student'.
         Could not resolve all files for configuration ':classpath'.
         Could not resolve org.tudalgo:algomate:0.1.0-SNAPSHOT.
         ```
@@ -431,11 +431,12 @@
 
     4. !!! error ""
         ```
-        Execution failed for task ':mainBuildSubmission'.
-        There were some errors preparing your submission. The following required properties were not set:
-        studentId
-        firstName
-        lastName
+        Could not evaluate onlyIf predicate for task ':mainWriteSubmissionInfo'.
+        Could not evaluate spec for 'Task satisfies onlyIf spec'.
+        ```
+        oder 
+        ```
+        Task :mainWriteSubmissionInfo FAILED
         ```
         Sie haben vergessen, Ihre persönlichen Daten in der build.gradle.kts Datei hinzuzufügen. Siehe [Anleitung zum Exportieren].
 

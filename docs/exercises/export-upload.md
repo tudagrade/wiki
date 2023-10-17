@@ -9,10 +9,11 @@
 
 1. Tragen Sie in der **build.gradle.kts** Datei Ihre Tu-ID, sowie Ihren Vor- und Nachnamen ein. Ein Eintrag sieht z.B. wie folgt aus:
    ``` java
-   studentID = "ab12cdef"
-   firstName = "Max"
-   lastName = "Mustermann"
+   studentID.set("ab12cdef")
+   firstName.set("Max")
+   lastName.set("Mustermann")
    ```
+    * Sie müssen die drei Zeilen einkommentieren, d.h. die **//** am Anfang der Zeile entfernen.
     * Verändern Sie bis auf diese drei Zeilen nichts Weiteres an der Datei.
     * Beachten Sie, dass die Anführungszeichen notwendig sind.
 
