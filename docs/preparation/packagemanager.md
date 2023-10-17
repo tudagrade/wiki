@@ -14,7 +14,7 @@ Wir empfehlen Ihnen für die Installation der benötigten Programme einen solche
 
         * Sie können ein Powershell-Fenster öffnen, indem Sie in der Suche (Win + S) **"Powershell"** eingeben.
 
-    2. Führen Sie folgende Befehle aus:
+    2. Führen Sie folgenden Befehl aus:
 
     ```powershell
     Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
