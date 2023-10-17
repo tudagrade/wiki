@@ -53,4 +53,7 @@ Beanstandungen dieser Art werden höchstwahrscheinlich ignoriert:
 	```
 	Ich bitte um eine vollständige Erklärung meiner Fehler!
 	```
-	**Erklärung**: Bestandungen dienen zur Korrektur einer fehlerhaften oder unfairen Bewertung. Eine Erklärung für Aufgaben oder für Ihre Fehler können Sie durch diverse andere Angebote erhalten, wie zum Beispiel: Intensivbetreuung, Lösung der Hausübung, Fragen auf Discord/Moodle, Sprechstunden, ...
+	**Erklärung**: Bestandungen dienen zur Korrektur einer fehlerhaften oder unfairen Bewertung. Eine Erklärung für Aufgaben oder für Ihre Fehler können Sie durch diverse andere Angebote erhalten, wie zum Beispiel: Intensivbetreuung, Lösung der Hausübung, Fragen auf [Discord]/[Moodle], Sprechstunden, ...
+
+	[Discord]: https://moodle.informatik.tu-darmstadt.de/course/view.php?id=1469&sectionid=18782
+	[Moodle]: https://moodle.informatik.tu-darmstadt.de/course/view.php?id=1469

@@ -129,7 +129,7 @@
     * Sie können auch versuchen die Zahl am Ende zu erhöhen, wenn der Fehler weiterhin auftritt.
 
     !!! info "Information"
-        Wenn Sie Ihr Problem nicht selber beheben konnten, können Sie entweder auf unserem Discord Server im Channel **"\#technical-issues"** oder im Moodle Forum für technische Fragen nachfragen. Fügen Sie bei beiden am besten einen Ausschnitt der Konsolenausgabe mit dem Fehler als Screenshot oder Text an.
+        Wenn Sie Ihr Problem nicht selber beheben konnten, können Sie entweder auf unserem [Discord Server] im Channel **"\#technical-issues"** oder im [Moodle Forum für technische Fragen] nachfragen. Fügen Sie bei beiden am besten einen Ausschnitt der Konsolenausgabe mit dem Fehler als Screenshot oder Text an.
 
 === "Public Tests"
     ### Verstehen der Resultate
@@ -522,3 +522,5 @@
 [Bevor Sie eine Sprechstunde besuchen]: /support/good-bad-questions
 [Debugging]: /exercises/fix-errors/#debugging
 [List]: https://docs.oracle.com/javase/8/docs/api/java/util/List.html
+[Moodle Forum für technische Fragen]: https://moodle.informatik.tu-darmstadt.de/mod/forum/view.php?id=60391
+[Discord Server]: https://moodle.informatik.tu-darmstadt.de/course/view.php?id=1469&sectionid=18782

@@ -106,5 +106,6 @@ Diese erhalten sie entweder, indem sie das zugehörige [Git-Repository] klonen, 
 
     * Auch, wenn wir es nicht empfehlen, können Sie die Vorlage alternativ manuell updaten. Kopieren Sie dafür entweder Ihre Implementation in die neue Vorlage oder die Änderungen aus der neuen Vorlage in die alte Vorlage.
 
-[Moodle]: https://moodle.informatik.tu-darmstadt.de/course/view.php?id=1248
+[Moodle]: https://moodle.informatik.tu-darmstadt.de/course/view.php?id=1469&sectionid=18762
 [Git]: https://git-scm.com/download
+[Git-Repository]: https://github.com/FOP-2324

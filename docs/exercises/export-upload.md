@@ -38,5 +38,5 @@
     * Sie können bis zum Abgabeende beliebig oft Ihre Abgabe ändern. Wir empfehlen Ihnen daher regelmäßig Ihren Zwischenstand hochzuladen, damit Sie nicht leer dastehen, wenn Sie die Abgabefrist verpassen.
     * Alle Abgaben, die auf Moodle hochgeladen werden konnten, werden bewertet. Wenn keine Datei nicht hochgeladen werden kann, weil die Abgabefrist überschritten wurde, kann die Aufgabe nicht bewertet werden.
 
-[Moodle]: https://moodle.informatik.tu-darmstadt.de/course/view.php?id=1248
+[Moodle]: https://moodle.informatik.tu-darmstadt.de/course/view.php?id=1469&sectionid=18762
 [Gradle Task]: https://wiki.tudalgo.org/exercises/edit/#gradle-tasks

@@ -47,7 +47,7 @@
 
      * Importieren
      
-        * Sie können die Hausübungen entweder importieren, indem Sie sich die zip Datei von Moodle herunterladen, entpacken und dann über **"File" -> "Import..." -> "Gradle" -> "Existing Gradle Project"** auswählen, oder über **"File" -> "Import..." -> "Git" -> "Projects from Git" -> "Clone URl"** die Daten des Git-Repositories eingeben.
+        * Sie können die Hausübungen entweder importieren, indem Sie sich die zip Datei von [Moodle] herunterladen, entpacken und dann über **"File" -> "Import..." -> "Gradle" -> "Existing Gradle Project"** auswählen, oder über **"File" -> "Import..." -> "Git" -> "Projects from Git" -> "Clone URl"** die Daten des Git-Repositories eingeben.
      
      * Gradle Tasks
     
@@ -60,3 +60,5 @@
 === "Andere"
      * Wenn Sie einen anderen Editor/ein anderes IDE benutzen und denken ein Guide hier könnte helfen können Sie gerne einen Pull Request aufmachen und dieses ergänzen...
 <!-- Vielleicht hilft ihnen [das hier weiter](https://exmatriculate.me). -->
+
+[Moodle]: https://moodle.informatik.tu-darmstadt.de/course/view.php?id=1469&sectionid=18762
