@@ -12,7 +12,7 @@ Diese erhalten sie entweder, indem sie das zugehörige [Git-Repository] klonen, 
     #### Repositories klonen
     !!! warning "Achtung"
         Forken Sie nicht die Repositories. Auf Forks hat jeder Zugriff, weshalb diese als Plagiarismus gewertet werden und Ihre Abgabe dann eventuell nicht von uns bewertet werden kann.
-    1. IntelliJ bietet Ihnen die Möglichkeit, Git-Repositories automatisch zu klonen. Wählen Sie dafür links oben im **"File"** Reiter **"New" -> "Project From Version Controll..."** aus.
+    1. IntelliJ bietet Ihnen die Möglichkeit, Git-Repositories automatisch zu klonen. Gehen Sie dafür links oben auf die drei Punkte und dann im **"File"** Reiter **"New" -> "Project From Version Controll..."** aus.
         * Wenn Sie IntelliJ das erste Mal starten oder momentan kein Projekt geöffnet haben, müssen Sie stattdessen rechts oben auf **"Get from VCS"** drücken.
     2. Geben Sie nun bei **"URL"** die URL zum Repository der entsprechenden Hausübungen ein.
         * Ein Link zu den entsprechenden Repositories finden Sie auf Moodle.
@@ -53,7 +53,7 @@ Diese erhalten sie entweder, indem sie das zugehörige [Git-Repository] klonen, 
           ```
           git commit -am "commit Message"
           ```
-    2. Nun können Sie die Änderungen zu Ihrer Version hinzuzufügen, indem Sie links oben in IntelliJ im Git Reiter auf **"Pull..."** drücken. Drücken Sie im Fenster, welches sich nun öffnet erneut auf **"Pull"**.
+    2. Nun können Sie die Änderungen zu Ihrer Version hinzuzufügen, indem Sie links oben in IntelliJ auf die drei Punkte gehen und dann im Git Reiter auf **"Pull..."** drücken. Drücken Sie im Fenster, welches sich nun öffnet erneut auf **"Pull"**.
        * Alternativer Befehl:
           ```
           git pull origin master

@@ -13,9 +13,8 @@
 
 ## Gradle Tasks
 
-* Um die Übersicht mit allen Gradle Task zu öffnen, drücken Sie am rechten oberen Rand auf **"Gradle"**.
-    * Alternativ können Sie sich die Gradle Ansicht auch über den Reiter **"View"** anzeigen lassen, indem Sie dann auf **"Tool Windows" -> "Gradle"** gehen.
-* Klappen Sie den Ordner, der nach dem Projekt benannt ist, sowie den darin enthaltenen Ordner **"Tasks"**. Nun sehen Sie alle Verzeichnisse, in denen Gradle Tasks enthalten sind.
+* Um die Übersicht mit allen Gradle Task zu öffnen, drücken Sie am rechten oberen Rand auf **"Gradle"** (das Elefantensymbol).
+* Klappen Sie den Ordner, der nach dem Projekt benannt ist, sowie den darin enthaltenen Ordner **"Tasks"** aus. Nun sehen Sie alle Verzeichnisse, in denen Gradle Tasks enthalten sind.
 * Anbei ist eine Tabelle mit allen relevanten Tasks. Die jeweiligen Tasks sind im Format **"<group-name\>/<task-name\>"** angegeben.
 * Sie können eine Task mit einem Doppelklick auf sie ausführen.
 
@@ -36,17 +35,17 @@
     2. Machen Sie links in der Project Ansicht einen Rechtsklick auf eine Klasse mit einer main Methode und drücken Sie auf **"Run '...'"**.
     3. Führen Sie am rechten oberen Rand in der Gradle Ansicht die Task **"run"** im Ordner **"application"** aus.
     4. Drücken Sie am oberen rechten Rand auf das grüne Dreieck.
-        * Beachten Sie, dass diese Methode die letzte Aktion erneut ausführt. Diese ist nicht zwangsläufig immer das Ausführen des Codes.
+        * Beachten Sie, dass diese Methode die letzte Aktion, welche links davon angegeben ist, erneut ausführt. Diese ist nicht zwangsläufig immer das Ausführen des Codes.
 * Wenn Ihr Code nicht terminiert, können Sie das Programm mit dem roten Quadrat am linken Rand stoppen.
 
 ## Public Tests
 
-* Jeweils zwei Wochen vor der Abgabefrist der Übungsblätter stellen wir Ihnen Public Tests zur Verfügung, mit welchen Sie Teile Ihrer Implementation testen können.
+* Zu manchen Übungsblätter stellen wir Ihnen Public Tests zur Verfügung, mit welchen Sie Teile Ihrer Implementation testen können.
     * Tragen Sie zunächst in der build.gradle.kts Datei ihre persönlichen Daten ein. Siehe dafür den ersten Punkt im Abschnitt [Exportieren].
     * Sie können die Public Tests mittels der [Gradle Task] verification/graderPublicRun ausführen. Nach der Ausführung werden Ihnen in der Konsole die erreichte Punktzahl, sowie ein Link zu einer Datei mit weiteren Hinweisen angezeigt.
     * Wenn Sie die Vorlage herunterladen bevor die Public Tests veröffentlicht wurden, müssen Sie diese noch hinzufügen. Hinweise dazu finden Sie [hier].
     * Beachten Sie unbedingt auch die Hinweise bezüglich den Public Tests auf [Moodle].
-    * Wenn Java zu wenig Speicher zur Verfügung hat, kann es dazu kommen, dass Sie den Fehler **"java.lang.outOfMemoryError: Java heap space"** bekommen. Versuchen Sie zunächst die Public Tests erneut auszuführen oder IntelliJ neuzustarten. Falls der Fehler weiterhin auftritt, versuchen Sie[Java mehr Speicher zuzuweisen].
+    * Wenn Java zu wenig Speicher zur Verfügung hat, kann es dazu kommen, dass Sie den Fehler **"java.lang.outOfMemoryError: Java heap space"** bekommen. Versuchen Sie zunächst die Public Tests erneut auszuführen oder IntelliJ neuzustarten. Falls der Fehler weiterhin auftritt, versuchen Sie [Java mehr Speicher zuzuweisen].
 ## Tests ausführen
 
 * Sie können Ihre Tests auf dieselbe Weise ausführen, wie Ihren Code.
@@ -58,7 +57,7 @@
 * IntelliJ zeigt Ihnen Syntaxfehler in Ihrem Code rot unterstrichenen an. Diese müssen behoben werden.
 * Warnungen werden Ihnen gelb unterstrichen angezeigt. Diese müssen zwar nicht behoben werden, sollten es aber.
 * Wenn Sie mit der Maus über den rot oder gelb unterstrichenen Text gehen, wird Ihnen eine Beschreibung des Problems, sowie Vorschläge, wie es automatisch behoben werden kann, angezeigt.
-* Am unteren linken Rand finden Sie im Abschnitt **"Problems"** eine Übersicht mit allen Fehlern und Warnungen.
+* Am linken unteren Rand finden Sie im Abschnitt **"Problems"** eine Übersicht mit allen Fehlern und Warnungen.
 
 ## Fehlermeldungen verstehen
 
