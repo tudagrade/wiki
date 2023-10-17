@@ -9,10 +9,11 @@
 
 1. Tragen Sie in der **build.gradle.kts** Datei Ihre Tu-ID, sowie Ihren Vor- und Nachnamen ein. Ein Eintrag sieht z.B. wie folgt aus:
    ``` java
-   studentID = "ab12cdef"
-   firstName = "Max"
-   lastName = "Mustermann"
+   studentID.set("ab12cdef")
+   firstName.set("Max")
+   lastName.set("Mustermann")
    ```
+    * Sie müssen die drei Zeilen einkommentieren, d.h. die **//** am Anfang der Zeile entfernen.
     * Verändern Sie bis auf diese drei Zeilen nichts Weiteres an der Datei.
     * Beachten Sie, dass die Anführungszeichen notwendig sind.
 
@@ -21,7 +22,7 @@
     * Alternativ können Sie sich die Gradle Ansicht auch über den Reiter **"View"** anzeigen lassen, indem Sie auf **"Tool Windows" -> "Gradle"** gehen.
 
 
-3. Unter **"FOP-2223-HXX-Student" -> "Task" -> "build"** finden Sie die Gradle Task **"mainBuildSubmission"**. Führen Sie diese mit einem Doppelklick aus.
+3. Unter **"FOP-2324-HXX-Student" -> "Task" -> "build"** finden Sie die Gradle Task **"mainBuildSubmission"**. Führen Sie diese mit einem Doppelklick aus.
     * Wenn unten in der Konsole **"BUILD SUCCESSFUL"** steht, war das Erstellen der Abgabedatei erfolgreich.
 
 
@@ -37,5 +38,5 @@
     * Sie können bis zum Abgabeende beliebig oft Ihre Abgabe ändern. Wir empfehlen Ihnen daher regelmäßig Ihren Zwischenstand hochzuladen, damit Sie nicht leer dastehen, wenn Sie die Abgabefrist verpassen.
     * Alle Abgaben, die auf Moodle hochgeladen werden konnten, werden bewertet. Wenn keine Datei hochgeladen werden kann, weil die Abgabefrist überschritten wurde, kann die Aufgabe nicht bewertet werden.
 
-[Moodle]: https://moodle.informatik.tu-darmstadt.de/course/view.php?id=1248
+[Moodle]: https://moodle.informatik.tu-darmstadt.de/course/view.php?id=1469&sectionid=18762
 [Gradle Task]: https://wiki.tudalgo.org/exercises/edit/#gradle-tasks

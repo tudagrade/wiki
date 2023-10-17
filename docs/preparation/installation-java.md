@@ -17,7 +17,7 @@
         * Sie können das Terminal öffnen, indem Sie in der Windowssuche (Win + S) **"cmd"** eingeben.
         * Wenn die Ausgabe in etwa so aussieht, ist die Installation erfolgreich. Achten Sie insbesondere darauf, dass es Java 17 ist.
         ```
-        openjdk 17.0.2 2022-04-19
+        openjdk 17.0.2 2023-08-24
         ```
        * Falls Ihnen bei der Ausgabe eine falsche Java Version oder ein Fehler angezeigt wird, überprüfen Sie wie folgt, ob Ihre Umgebungsvariablen korrekt gesetzt sind.
          1. Geben Sie in die Windowssuche (Win + S) **"Systemumgebungsvariablen bearbeiten"** ein und öffnen Sie das Fenster.
@@ -49,7 +49,7 @@
          ```
      4. Wenn die Ausgabe in etwa so aussieht, ist die Installation erfolgreich. Achten Sie insbesondere darauf, dass es Java 17 ist.
          ```
-         openjdk 17.0.3 2022-04-19
+         openjdk 17.0.3 2023-08-24
          ```
 
 === "Mac OS"

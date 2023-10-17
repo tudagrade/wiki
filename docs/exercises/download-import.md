@@ -66,7 +66,7 @@ Diese erhalten sie entweder, indem sie das zugehörige [Git-Repository] klonen, 
     3. Gehen Sie nun in IntelliJ links oben im **"File"** Reiter auf **"open..."**
         * Wenn Sie IntelliJ das erste Mal öffnen, drücken Sie stattdessen rechts oben auf **"open"**
     4. Wählen Sie nun den Pfad zu dem Ordner, in dem die Vorlage gespeichert ist, aus und drücken Sie auf **"OK"**.
-       * Achten Sie darauf, dass Sie den richtigen Ordner importieren. Der Ordner sollte nach der Hausübung benannt sein (z. B. **"FOP-2223-HXX-Student-master"**) und direkt die     build.gradle.kts Datei enthalten sein. Wählen Sie beim Importieren **nicht** einen identisch benannten Oberordner aus.
+       * Achten Sie darauf, dass Sie den richtigen Ordner importieren. Der Ordner sollte nach der Hausübung benannt sein (z. B. **"FOP-2324-HXX-Student-master"**) und direkt die     build.gradle.kts Datei enthalten sein. Wählen Sie beim Importieren **nicht** einen identisch benannten Oberordner aus.
     5. Falls Sie bereits ein Projekt geöffnet hatten, drücken Sie auf **"This Window"**.
     6. Drücken Sie zum Schluss auf **"Trust Project"**, wodurch sich die Vorlage öffnet.
     7. Nun können Sie die Hausübung bearbeiten.
@@ -106,5 +106,6 @@ Diese erhalten sie entweder, indem sie das zugehörige [Git-Repository] klonen, 
 
     * Auch, wenn wir es nicht empfehlen, können Sie die Vorlage alternativ manuell updaten. Kopieren Sie dafür entweder Ihre Implementation in die neue Vorlage oder die Änderungen aus der neuen Vorlage in die alte Vorlage.
 
-[Moodle]: https://moodle.informatik.tu-darmstadt.de/course/view.php?id=1248
+[Moodle]: https://moodle.informatik.tu-darmstadt.de/course/view.php?id=1469&sectionid=18762
 [Git]: https://git-scm.com/download
+[Git-Repository]: https://github.com/FOP-2324
