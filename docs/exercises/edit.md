@@ -40,7 +40,7 @@
 
 ## Public Tests
 
-* Zu manchen Übungsblätter stellen wir Ihnen Public Tests zur Verfügung, mit welchen Sie Teile Ihrer Implementation testen können.
+* Zu manchen Übungsblättern stellen wir Ihnen Public Tests zur Verfügung, mit welchen Sie Teile Ihrer Implementation testen können.
     * Tragen Sie zunächst in der build.gradle.kts Datei ihre persönlichen Daten ein. Siehe dafür den ersten Punkt im Abschnitt [Exportieren].
     * Sie können die Public Tests mittels der [Gradle Task] verification/graderPublicRun ausführen. Nach der Ausführung werden Ihnen in der Konsole die erreichte Punktzahl, sowie ein Link zu einer Datei mit weiteren Hinweisen angezeigt.
     * Wenn Sie die Vorlage herunterladen bevor die Public Tests veröffentlicht wurden, müssen Sie diese noch hinzufügen. Hinweise dazu finden Sie [hier].

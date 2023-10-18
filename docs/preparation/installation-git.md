@@ -7,14 +7,14 @@
 === "Windows"
     === "Scoop"
         1. Falls noch nicht geschehen, installieren Sie [Scoop].
-        2. Führen Sie folgende Befehle in einem [Terminal] aus um Git zu installieren:
+        2. Führen Sie folgende Befehle in einem [Terminal] aus, um Git zu installieren:
             ```
             scoop install git
             ```
     === "Manuell"
         1. Laden Sie sich [Git] herunter, indem Sie rechts auf **"Download for Windows"** drücken.
         2. Führen Sie den soeben heruntergeladenen Installer aus.
-        3. Drücken Sie solange auf **"Next"**, bis der Installationsprozess beginnt. Sie können die Standardeinstellungen des Installers übernehmen und müssen nichts weiter auswählen.
+        3. Drücken Sie so lange auf **"Next"**, bis der Installationsprozess beginnt. Sie können die Standardeinstellungen des Installers übernehmen und müssen nichts weiter auswählen.
         4. Drücken Sie auf **"Finish** um den Installationsprozess abzuschließen.
         5. Sie können nun mit dem Befehl **"git --version"** in einer Konsole überprüfen, ob Git erfolgreich installiert wurde.
            * Sie können ein Terminal öffnen, indem Sie in der Windowssuche (Win+ S) **"cmd"** eingeben.

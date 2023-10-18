@@ -10,7 +10,7 @@
     === "Scoop"
 
         1. Falls noch nicht geschehen, installieren Sie [Scoop].
-        2. Führen Sie folgende Befehle in einem [Terminal] aus um Java zu installieren:
+        2. Führen Sie folgende Befehle in einem [Terminal] aus, um Java zu installieren:
             ```
             scoop bucket add java
             ```
@@ -30,7 +30,7 @@
 === "Mac OS"
     === "Homebrew"
         1. Falls noch nicht geschehen, installieren Sie [Homebrew].
-        2. Führen Sie in einem [Terminal] folgenden Befehl aus um Java zu installieren.
+        2. Führen Sie in einem [Terminal] folgenden Befehl aus, um Java zu installieren.
            ```
            brew install java
            ```
@@ -42,15 +42,15 @@
     === "Manuell"
          1. Öffnen Sie die [Adoptium Website].
          2. Drücken Sie auf **"Latest LTS Release"**. Der Download sollte automatisch starten.
-         3. Öffnen Sie den soeben heruntergeladenen Installer und drücken Sie auf **"Fortfahren"**, bzw. **"Installieren"**. Sie können die Standardeinstellungen übernehmen und müssen nichts weiteres im Installer auswählen.
+         3. Öffnen Sie den soeben heruntergeladenen Installer und drücken Sie auf **"Fortfahren"**, bzw. **"Installieren"**. Sie können die Standardeinstellungen übernehmen und müssen nichts Weiteres im Installer auswählen.
 
 === "Arch Based Linux"
 
-     1. Installieren Sie Java 17 (Als Root).
+     1. Installieren Sie Java 17 (als Root).
          ```
          pacman -S openjdk17-src --needed
          ```
-     2. Setzen Sie diese Java Version als Standard (Als Root).
+     2. Setzen Sie diese Java Version als Standard (als Root).
          ```
          archlinux-java set java-17-openjdk
          ```

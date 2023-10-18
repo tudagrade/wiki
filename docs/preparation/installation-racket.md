@@ -5,7 +5,7 @@
     === "Scoop"
 
           1. Falls noch nicht geschehen, installieren Sie [Scoop].
-          2. Führen Sie folgenden Befehl in einem [Terminal] aus um Racket zu installieren:
+          2. Führen Sie folgenden Befehl in einem [Terminal] aus, um Racket zu installieren:
               ```
               scoop install racket
               ```
@@ -20,7 +20,7 @@
     === "Homebrew"
 
           1. Falls noch nicht geschehen, installieren Sie [Homebrew].
-          2. Führen Sie in einem [Terminal] folgenden Befehl aus um Racket zu installieren.
+          2. Führen Sie in einem [Terminal] folgenden Befehl aus, um Racket zu installieren.
             ```
             brew install --cask racket
             ```
@@ -50,14 +50,14 @@
 
     === "Arch Based Linux"
 
-         1. Installieren Sie Racket (Als Root).
+         1. Installieren Sie Racket (als Root).
             ```
             pacman -S racket --needed
             ```
 
 ## DrRacket einrichten
 
-* Öffnen sie nun DrRacket und gehen Sie auf oben auf **"Language"** -> **"Choose Language"** und wählen Sie unter **"Teaching Languages"** **"Advanced Student"** aus. Bestätigen Sie danach die Auswahl, indem Sie auf **"OK"** drücken.
+* Öffnen Sie nun DrRacket und gehen Sie auf oben auf **"Language"** -> **"Choose Language"** und wählen Sie unter **"Teaching Languages"** **"Advanced Student"** aus. Bestätigen Sie danach die Auswahl, indem Sie auf **"OK"** drücken.
 * Nun können Sie Racket Programme ausführen, indem Sie rechts oben auf **"Run"** drücken.
 
 [hier]: https://download.racket-lang.org/

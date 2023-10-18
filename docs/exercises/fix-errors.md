@@ -156,7 +156,7 @@
         der das Überprüfen Ihrer Lösung verhindert!
         Sie werden im Kommentar auf solche Fehler hingewiesen.
 
-        Informationen zu solchen Fehlern finden Sie aut der Abschnitt [Typische Programmierfehler]
+        Informationen zu solchen Fehlern finden Sie im Abschnitt [Typische Programmierfehler]
 
     ##### Kommentar
 

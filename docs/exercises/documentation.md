@@ -11,7 +11,7 @@
 * Jeder JavaDoc Kommentar beginnt dabei mit **/\*\*** und endet mit **\*/**.
   Jede neue Zeile beginnt mit einem **\***.
 * JavaDoc Kommentare werden direkt über die zugehörige Klasse, Methode, etc. geschrieben.
-* Wenn Sie in IntelliJ über einer über einer Methode, Klasse, etc. **/\*\*** schreiben und dann **Enter** drücken, wird automatisch eine Vorlage für Sie erstellt.
+* Wenn Sie in IntelliJ über einer Methode, Klasse, etc. **/\*\*** schreiben und dann **Enter** drücken, wird automatisch eine Vorlage für Sie erstellt.
 * Ein JavaDoc Kommentar sieht dabei z.B. wie folgt aus:
 
 !!! example "Beispiel"
@@ -34,7 +34,7 @@
 
 ## Aufbau
 
-* Zu Beginn eines JavaDoc Kommentars steht eine allgemeine Beschreibung der Methode, welche auf alle Details der Methode eingeht und beschreibt was sie bewirkt, wie sie zu benutzten ist und was man dabei beachten muss.
+* Zu Beginn eines JavaDoc Kommentars steht eine allgemeine Beschreibung der Methode, welche auf alle Details der Methode eingeht und beschreibt, was sie bewirkt, wie sie zu benutzten ist und was man dabei beachten muss.
 * Danach folgen sogenannte Tags, welche mit einem **@** und dem Namen des Tags beginnen.
 * Jeder JavaDoc Kommentar muss dabei, falls notwendig, folgende Tags haben:
     * **@param Parametername description** Beschreibt kurz die Bedeutung des Parameters **Parametername**.
@@ -43,7 +43,7 @@
       Wenn die Methode keine Rückgabe hat, wird dieser Tag weggelassen.
     * **@throws Exceptionname description** Beschreibt kurz, in welchem Fall die Exception **Exceptionname** geworfen wird.
       Für jede Exception, welche in der throws-Klausel der Methode angegeben wird, muss ein solcher Tag vorhanden sein.
-        * Optional können Sie diesen Tag auch für Runtimeexceptions hinzufügen, welche geworfen werden können.
+        * Optional können Sie diesen Tag auch für Runtime Exceptions hinzufügen, welche geworfen werden können.
 
 ## Verpflichtende Dokumentation
 

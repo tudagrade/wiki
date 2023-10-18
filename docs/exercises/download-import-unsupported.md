@@ -1,7 +1,7 @@
 # Importieren von Hausübungen in nicht-unterstützten IDEs
 
 !!! warning "Achtung"
-    Bis auf dieses Guide wird kein Support für nicht-unterstützte IDEs angeboten und die Verwendung solcher wird nicht empfohlen.
+    Bis auf diesen Guide wird kein Support für nicht-unterstützte IDEs angeboten und die Verwendung solcher wird nicht empfohlen.
     Wenden Sie sich nicht an das Tutorium, wenn Sie Probleme mit der Verwendung von nicht-unterstützten IDEs haben.
 
 === "VS Code"

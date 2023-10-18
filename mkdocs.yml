@@ -31,7 +31,7 @@ theme:
 nav:
   - Vorbereitung:
     - "Terminal Verwendung": "preparation/terminal.md"
-    - Packet Manager: preparation/packagemanager.md
+    - Paket Manager: preparation/packagemanager.md
     - Installieren von Java: preparation/installation-java.md
     - Installieren von IntelliJ: preparation/installation-intellij.md
     - Installieren von DrRacket: preparation/installation-racket.md

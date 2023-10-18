@@ -46,14 +46,14 @@ Diese erhalten sie entweder, indem sie das zugehörige [Git-Repository] klonen, 
 
     * Wenn Sie die Vorlage mithilfe von Git geklont haben, können Sie sich die neuste Version der Vorlage ganz einfach herunterladen.
     * In IntelliJ gibt es eine Git Integration, die alle benötigten Befehle für Sie ausführt. Die Befehle stehen hier trotzdem nochmal dabei, falls Sie nicht mit IntelliJ arbeiten.
-    1. Zunächst müssen Sie Ihre Änderungen commiten. Öffnen Sie dafür in IntelliJ am linken oberen Rand die Commit Ansicht, wählen Sie alle Dateien aus, die Sie bearbeitet haben, geben Sie eine commit Message und drücken Sie auf **"Commit"**.
-       * Alternativ können Sie die Commit Ansicht auch über **"View" -> "Tool Windows" -> "Commit"** öffnen.
+    1. Zunächst müssen Sie Ihre Änderungen commiten. Öffnen Sie dafür in IntelliJ am linken oberen Rand die Commit-Ansicht, wählen Sie alle Dateien aus, die Sie bearbeitet haben, geben Sie eine commit Message und drücken Sie auf **"Commit"**.
+       * Alternativ können Sie die Commit-Ansicht auch über **"View" -> "Tool Windows" -> "Commit"** öffnen.
        * Falls das Commiten fehlschlägt, weil gewisse checks nicht erfolgreich durchlaufen, drücken Sie auf **"Commit Anyway"**.
        * Alternativer Befehl:
           ```
           git commit -am "commit Message"
           ```
-    2. Nun können Sie die Änderungen zu Ihrer Version hinzuzufügen, indem Sie links oben in IntelliJ auf die drei Punkte gehen und dann im Git Reiter auf **"Pull..."** drücken. Drücken Sie im Fenster, welches sich nun öffnet erneut auf **"Pull"**.
+    2. Nun können Sie die Änderungen zu Ihrer Version hinzuzufügen, indem Sie links oben in IntelliJ auf die drei Punkte gehen und dann im Git Reiter auf **"Pull..."** drücken. Drücken Sie im Fenster, welches sich nun öffnet, erneut auf **"Pull"**.
        * Alternativer Befehl:
           ```
           git pull origin master

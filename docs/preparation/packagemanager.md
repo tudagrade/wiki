@@ -1,7 +1,7 @@
-# Packet Manger
+# Paket Manager
 
-Ein Packet Manager ist ein Program, welches Ihnen dabei hilft Programme einfach zu installieren, aktualisieren und deinstallieren.
-Wir empfehlen Ihnen für die Installation der benötigten Programme einen solchen Packet Manager zu verwenden.
+Ein Paket Manager ist ein Programm, welches Ihnen dabei hilft Programme einfach zu installieren, aktualisieren und deinstallieren.
+Wir empfehlen Ihnen für die Installation der benötigten Programme einen solchen Paket Manager zu verwenden.
 
 !!! info "Hinweis"
     Nach der Installation eines Programmes müssen Sie u.U. Ihr Terminal schließen und wieder öffnen, damit die Änderungen übernommen werden.
@@ -20,7 +20,7 @@ Wir empfehlen Ihnen für die Installation der benötigten Programme einen solche
     Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
     ```
     
-    3. Geben Sie in Powershell **"A"** ein und drücken Sie **"Enter"** um die Änderung zu bestätigen.
+    3. Geben Sie in Powershell **"A"** ein und drücken Sie **"Enter"**, um die Änderung zu bestätigen.
 
     4. Führen Sie zum Schluss folgenden Befehl aus:
     ```powershell
@@ -40,7 +40,7 @@ Wir empfehlen Ihnen für die Installation der benötigten Programme einen solche
 
 === "Linux"
 
-    Unter Linux können Sie den Packet Manager Ihrer Distribution verwenden.
+    Unter Linux können Sie den Paket Manager Ihrer Distribution verwenden.
 
 [Scoop]: https://scoop.sh/
 [Homebrew]: (https://brew.sh/)

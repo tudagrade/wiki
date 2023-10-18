@@ -28,7 +28,7 @@
 
 3. Unter **"FOP-2324-HXX-Student" -> "Task" -> "build"** finden Sie die Gradle Task **"mainBuildSubmission"**. Führen Sie diese mit einem Doppelklick aus.
     * Wenn unten in der Konsole **"BUILD SUCCESSFUL"** steht, war das Erstellen der Abgabedatei erfolgreich.
-    * Achten Sie darauf, dass Sie nicht die Task **"build"** ausführen, da diese nicht die Abgabedatei erstellt. Abgaben die mit dieser Task erstellt wurden, können nicht bewertet werden.
+    * Achten Sie darauf, dass Sie nicht die Task **"build"** ausführen, da diese nicht die Abgabedatei erstellt. Abgaben, die mit dieser Task erstellt wurden, können nicht bewertet werden.
 
 4. In dem Projektordner finden Sie nun im Ordner **"build"** einen weiteren Ordner **"libs"**. In diesem befindet sich die Abgabedatei.
     * Die Datei ist nach dem Schema **"hXX-TU-ID-firstName-lastName-submission.jar"** benannt. Ändern Sie diese Benennung **nicht**.
@@ -38,7 +38,7 @@
 
 ## Hochladen
 * Laden Sie nun die zuvor erstellte Datei in [Moodle] bei der entsprechenden Abgabe hoch.
-    * Sie finden das Abgabemodule auf der selben Seite, wie auch das Übungsblatt, unter dem Namen **"Abgabe zu Übungsblatt X"**
+    * Sie finden das Abgabemodul auf der selben Seite, wie auch das Übungsblatt, unter dem Namen **"Abgabe zu Übungsblatt X"**
     * Sie können bis zum Abgabeende beliebig oft Ihre Abgabe ändern. Wir empfehlen Ihnen daher regelmäßig Ihren Zwischenstand hochzuladen, damit Sie nicht leer dastehen, wenn Sie die Abgabefrist verpassen.
     * Alle Abgaben, die auf Moodle hochgeladen werden konnten, werden bewertet. Wenn keine Datei hochgeladen werden kann, weil die Abgabefrist überschritten wurde, kann die Aufgabe nicht bewertet werden.
 
