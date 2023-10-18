@@ -5,7 +5,7 @@
     Man gibt einen Befehl ein und erhält (meistens) eine direkte Rückmeldung, ob dieser erfolgreich ausgeführt wurde oder nicht.
     Die Kommandozeile ist eine textbasierte Schnittstelle zum Betriebssystem.
     Sie wird auch als „Konsole“ oder „Terminal“ bezeichnet.
-    Sie ist nicht nur auf Unix-Systemen (Linux, macOS,...) verfügbar, sondern auch auf Windows.
+    Sie ist nicht nur auf unixähnlichen Systemen (Linux, macOS,...) verfügbar, sondern auch auf Windows.
     Die Kommandozeile ist sehr hilfreich für verschiedenste Aufgaben und wird hier für die Installation der benötigten Programme verwendet.
     Sie können natürlich die Programme auch manuell installieren, aber wir empfehlen Ihnen die Kommandozeile zu verwenden, da dies schneller und einfacher ist.
 
