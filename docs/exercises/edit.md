@@ -31,7 +31,7 @@
 ## Code ausführen
 
 * In IntelliJ gibt es verschiedene Methoden, wie Sie Ihren Code ausführen können. Sie können eine der folgenden Methoden benutzten:
-    1. Wenn Sie eine Klasse mit einer main Methode betrachten, befindet sich bei der Zeilenangabe auf der Höhe der main Methode und der Klassendefinition ein grünes Dreieck. Wenn Sie auf dieses draufdrücken und dann auf **"Run '...'"** drücken.
+    1. Wenn Sie eine Klasse mit einer main Methode betrachten, befindet sich bei der Zeilenangabe auf der Höhe der main Methode und der Klassendefinition ein grünes Dreieck. Wenn Sie auf dieses draufdrücken und dann auf **"Run '...'"** drücken, können Sie das Programm ausführen.
     2. Machen Sie links in der Project Ansicht einen Rechtsklick auf eine Klasse mit einer main Methode und drücken Sie auf **"Run '...'"**.
     3. Führen Sie am rechten oberen Rand in der Gradle Ansicht die Task **"run"** im Ordner **"application"** aus.
     4. Drücken Sie am oberen rechten Rand auf das grüne Dreieck.

@@ -20,7 +20,7 @@ Wir empfehlen Ihnen für die Installation der benötigten Programme einen solche
         Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
         ```
     
-    3. Geben Sie in Powershell **"A"** ein und drücken Sie **"Enter"**, um die Änderung zu bestätigen.
+    3. Wenn Sie gefragt werden, ob Sie die Änderungen übernehmen möchten, geben Sie in Powershell **"A"** ein und drücken Sie **"Enter"**, um dies zu bestätigen.
 
     4. Führen Sie zum Schluss folgenden Befehl aus:
     ```powershell
