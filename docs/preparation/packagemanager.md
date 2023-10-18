@@ -16,9 +16,9 @@ Wir empfehlen Ihnen für die Installation der benötigten Programme einen solche
 
     2. Führen Sie folgenden Befehl aus:
 
-    ```powershell
-    Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-    ```
+        ```powershell
+        Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+        ```
     
     3. Geben Sie in Powershell **"A"** ein und drücken Sie **"Enter"**, um die Änderung zu bestätigen.
 
