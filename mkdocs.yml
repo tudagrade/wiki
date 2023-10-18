@@ -27,6 +27,8 @@ theme:
   features:
     - navigation.instant
     - navigation.sections
+    - content.code.copy
+    - content.code.select
 
 nav:
   - Vorbereitung:
