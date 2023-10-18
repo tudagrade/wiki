@@ -7,46 +7,12 @@ Diese erhalten sie entweder, indem sie das zugehörige [Git-Repository] klonen, 
 
 === "Git"
 
-    * Um die Repositories mit Git zu klonen, müssen Sie zunächst Git lokal installieren.
-
-    === "Windows"
-
-        1. Laden Sie sich [Git] herunter, indem Sie rechts auf **"Download for Windows"** drücken.
-        2. Führen Sie den soeben heruntergeladenen Installer aus.
-        3. Drücken Sie solange auf **"Next"**, bis der Installationsprozess beginnt. Sie können die Standardeinstellungen des Installers übernehmen und müssen nichts weiter auswählen.
-        4. Drücken Sie auf **"Finish** um den Installationsprozess abzuschließen.
-        5. Sie können nun mit dem Befehl **"git --version"** in einer Konsole überprüfen, ob Git erfolgreich installiert wurde.
-           * Sie können ein Terminal öffnen, indem Sie in der Windowssuche (Win+ S) **"cmd"** eingeben.
-
-    === "Linux"
-
-        * Auf Debian/Ubuntu Distributions können Sie Git mit dem folgenden Befehl installieren:
-        ```
-        sudo apt install git
-        ```
-        * Auf Arch Based Linux Systemen können Sie Git mit dem folgenden Befehl installieren:
-        ```
-        sudo pacman -S git
-        ```
-
-    === "MacOS"
-
-        1. Sie können Git mit dem package installer Homebrew installieren. Führen Sie dafür folgenden Befehl in einem Terminal aus:
-            ```
-            brew install git
-            ```
-            * Sie können ein Terminal öffnen, indem Sie in der Suche (Cmd + Leertaste) **"Terminal"** eingeben
-            * Falls Sie Homebrew nicht installiert haben, können Sie es mit folgenden Befehl installieren:
-            ```
-            /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)
-            ```
-            * Sie können selbstverständlich auch einen anderen package installer verwenden.
-        2. Sie können nun mit dem Befehl **"git --version"** in einem Terminal überprüfen, ob Git erfolgreich installiert wurde.
+    * Um die Repositories mit Git zu klonen, müssen Sie zunächst [Git lokal installieren].
 
     #### Repositories klonen
     !!! warning "Achtung"
         Forken Sie nicht die Repositories. Auf Forks hat jeder Zugriff, weshalb diese als Plagiarismus gewertet werden und Ihre Abgabe dann eventuell nicht von uns bewertet werden kann.
-    1. IntelliJ bietet Ihnen die Möglichkeit, Git-Repositories automatisch zu klonen. Wählen Sie dafür links oben im **"File"** Reiter **"New" -> "Project From Version Controll..."** aus.
+    1. IntelliJ bietet Ihnen die Möglichkeit, Git-Repositories automatisch zu klonen. Gehen Sie dafür links oben auf die drei Punkte und dann im **"File"** Reiter **"New" -> "Project From Version Controll..."** aus.
         * Wenn Sie IntelliJ das erste Mal starten oder momentan kein Projekt geöffnet haben, müssen Sie stattdessen rechts oben auf **"Get from VCS"** drücken.
     2. Geben Sie nun bei **"URL"** die URL zum Repository der entsprechenden Hausübungen ein.
         * Ein Link zu den entsprechenden Repositories finden Sie auf Moodle.
@@ -66,7 +32,7 @@ Diese erhalten sie entweder, indem sie das zugehörige [Git-Repository] klonen, 
     3. Gehen Sie nun in IntelliJ links oben im **"File"** Reiter auf **"open..."**
         * Wenn Sie IntelliJ das erste Mal öffnen, drücken Sie stattdessen rechts oben auf **"open"**
     4. Wählen Sie nun den Pfad zu dem Ordner, in dem die Vorlage gespeichert ist, aus und drücken Sie auf **"OK"**.
-       * Achten Sie darauf, dass Sie den richtigen Ordner importieren. Der Ordner sollte nach der Hausübung benannt sein (z. B. **"FOP-2223-HXX-Student-master"**) und direkt die     build.gradle.kts Datei enthalten sein. Wählen Sie beim Importieren **nicht** einen identisch benannten Oberordner aus.
+       * Achten Sie darauf, dass Sie den richtigen Ordner importieren. Der Ordner sollte nach der Hausübung benannt sein (z. B. **"FOP-2324-HXX-Student-master"**) und direkt die     build.gradle.kts Datei enthalten sein. Wählen Sie beim Importieren **nicht** einen identisch benannten Oberordner aus.
     5. Falls Sie bereits ein Projekt geöffnet hatten, drücken Sie auf **"This Window"**.
     6. Drücken Sie zum Schluss auf **"Trust Project"**, wodurch sich die Vorlage öffnet.
     7. Nun können Sie die Hausübung bearbeiten.
@@ -80,14 +46,14 @@ Diese erhalten sie entweder, indem sie das zugehörige [Git-Repository] klonen, 
 
     * Wenn Sie die Vorlage mithilfe von Git geklont haben, können Sie sich die neuste Version der Vorlage ganz einfach herunterladen.
     * In IntelliJ gibt es eine Git Integration, die alle benötigten Befehle für Sie ausführt. Die Befehle stehen hier trotzdem nochmal dabei, falls Sie nicht mit IntelliJ arbeiten.
-    1. Zunächst müssen Sie Ihre Änderungen commiten. Öffnen Sie dafür in IntelliJ am linken oberen Rand die Commit Ansicht, wählen Sie alle Dateien aus, die Sie bearbeitet haben, geben Sie eine commit Message und drücken Sie auf **"Commit"**.
-       * Alternativ können Sie die Commit Ansicht auch über **"View" -> "Tool Windows" -> "Commit"** öffnen.
+    1. Zunächst müssen Sie Ihre Änderungen commiten. Öffnen Sie dafür in IntelliJ am linken oberen Rand die Commit-Ansicht, wählen Sie alle Dateien aus, die Sie bearbeitet haben, geben Sie eine commit Message und drücken Sie auf **"Commit"**.
+       * Alternativ können Sie die Commit-Ansicht auch über **"View" -> "Tool Windows" -> "Commit"** öffnen.
        * Falls das Commiten fehlschlägt, weil gewisse checks nicht erfolgreich durchlaufen, drücken Sie auf **"Commit Anyway"**.
        * Alternativer Befehl:
           ```
           git commit -am "commit Message"
           ```
-    2. Nun können Sie die Änderungen zu Ihrer Version hinzuzufügen, indem Sie links oben in IntelliJ im Git Reiter auf **"Pull..."** drücken. Drücken Sie im Fenster, welches sich nun öffnet erneut auf **"Pull"**.
+    2. Nun können Sie die Änderungen zu Ihrer Version hinzuzufügen, indem Sie links oben in IntelliJ auf die drei Punkte gehen und dann im Git Reiter auf **"Pull..."** drücken. Drücken Sie im Fenster, welches sich nun öffnet, erneut auf **"Pull"**.
        * Alternativer Befehl:
           ```
           git pull origin master
@@ -106,5 +72,6 @@ Diese erhalten sie entweder, indem sie das zugehörige [Git-Repository] klonen, 
 
     * Auch, wenn wir es nicht empfehlen, können Sie die Vorlage alternativ manuell updaten. Kopieren Sie dafür entweder Ihre Implementation in die neue Vorlage oder die Änderungen aus der neuen Vorlage in die alte Vorlage.
 
-[Moodle]: https://moodle.informatik.tu-darmstadt.de/course/view.php?id=1248
-[Git]: https://git-scm.com/download
+[Moodle]: https://moodle.informatik.tu-darmstadt.de/course/view.php?id=1469&sectionid=18762
+[Git-Repository]: https://github.com/FOP-2324
+[Git lokal installieren]: https://wiki.tudalgo.org/preparation/installation-git/

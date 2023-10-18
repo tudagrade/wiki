@@ -4,9 +4,9 @@ In unseren Sprechstunden können Sie Ihre Fragen zur Vorlesung und zu Hausübung
 Die Sprechstunden dienen jedoch *keinesfalls* als Ersatz für die Vorlesung.
 Daher wird von Ihnen erwartet, dass Sie sich vorab mit folgenden Punkten auseinandergesetzt haben:
 
-* Vorlesungsinhalten – für Hausübung auf jedem Blatt angegeben
+* [Vorlesungsinhalten] – für Hausübung auf jedem Blatt angegeben
 * diesem Studierenden-Guide
-* dem Moodle-Forum – bei Hausübungen insbesondere auch FAQ
+* dem [Moodle-Forum] – bei Hausübungen insbesondere auch FAQ
 * der Dokumentation der verwendeten Materialien
 
 ### Fragen zu Lösungen von Hausübungen
@@ -53,3 +53,6 @@ Folgende Fragen wurden bereits in abgewandelter Form in unseren Sprechstunden ge
 * *Ich habe die Aufgabe korrekt bearbeitet, aber Ihre Public Tests sind falsch!*
 * *Ich bekomme diese Fehlermeldung. Was bedeutet die?* (Ohne Versuch, diese zu verstehen.)
 * *Mein Code macht nicht das, was er soll :(*
+
+[Moodle-Forum]: https://moodle.informatik.tu-darmstadt.de/course/view.php?id=1469&sectionid=18762
+[Vorlesungsinhalten ]: https://moodle.informatik.tu-darmstadt.de/mod/folder/view.php?id=61435

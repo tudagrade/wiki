@@ -6,4 +6,4 @@ You can view the guide by following [this] link.
 For further questions please contact us via our [Moodle course].
 
 [this]: https://wiki.tudalgo.org/
-[Moodle course]: https://moodle.informatik.tu-darmstadt.de/course/view.php?id=1248
+[Moodle course]: https://moodle.informatik.tu-darmstadt.de/course/view.php?id=1469
