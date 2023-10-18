@@ -112,7 +112,7 @@ java --version
 
 [Adoptium Website]: https://adoptium.net/de/
 [Terminal]: https://wiki.tudalgo.org/preparation/installation-java/
-[Überprüfung der Installation]: #installation-überprüfen
+[Überprüfung der Installation]: #installation-uberprufen
 [Homebrew]: https://wiki.tudalgo.org/preparation/packagemanager/
 [Scoop]: https://wiki.tudalgo.org/preparation/packagemanager/
 [Installation von IntelliJ]: https://wiki.tudalgo.org/preparation/installation-intellij/
