@@ -44,16 +44,35 @@
          2. Drücken Sie auf **"Latest LTS Release"**. Der Download sollte automatisch starten.
          3. Öffnen Sie den soeben heruntergeladenen Installer und drücken Sie auf **"Fortfahren"**, bzw. **"Installieren"**. Sie können die Standardeinstellungen übernehmen und müssen nichts Weiteres im Installer auswählen.
 
-=== "Arch Based Linux"
+=== "Linux"
+    === "Debian/Ubuntu"
 
-     1. Installieren Sie Java 17 (als Root).
-         ```
-         pacman -S openjdk17-src --needed
-         ```
-     2. Setzen Sie diese Java Version als Standard (als Root).
-         ```
-         archlinux-java set java-17-openjdk
-         ```
+        1. Führen Sie folgende Befehle in einem [Terminal] aus, um Java zu installieren:
+            ```
+            sudo apt update
+            ```
+            und
+            ```
+            sudo apt install openjdk-17-jdk
+            ```
+
+    === "Fedora"
+
+        1. Führen Sie folgenden Befehl in einem [Terminal] aus, um Java zu installieren:
+            ```
+            sudo dnf install java-17-openjdk-devel
+            ```
+
+    === "Arch Based Linux"
+
+        1. Installieren Sie Java 17 (als Root).
+            ```
+            pacman -S openjdk17-src --needed
+            ```
+        2. Setzen Sie diese Java Version als Standard (als Root).
+            ```
+            archlinux-java set java-17-openjdk
+            ```
 
 ## Installation Überprüfen
 

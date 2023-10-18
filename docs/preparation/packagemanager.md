@@ -40,7 +40,7 @@ Wir empfehlen Ihnen für die Installation der benötigten Programme einen solche
 
 === "Linux"
 
-    Unter Linux können Sie den Paket Manager Ihrer Distribution verwenden.
+    Sie wissen, wie Sie einen Paket Manager verwenden.
 
 [Scoop]: https://scoop.sh/
 [Homebrew]: (https://brew.sh/)

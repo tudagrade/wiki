@@ -21,7 +21,7 @@
     firstName.set("Max")
     lastName.set("Mustermann")
     ``` 
-    * Bei der alten Version müssen Sie die drei Zeilen noch einkommentieren, d.h. die **//** am Anfang der Zeile entfernen.
+    * Bei der alten Version müssen Sie die drei Zeilen noch einkommentieren, d.h. die **//** am Anfang der Zeile entfernen. Anschließend einmal auf die Blauen Pfeile oben in der Gradle Übersicht klicken, um die Konfiguration neu zu laden.
 
 
 2. Öffnen Sie am rechten oberen Rand die Gradle Übersicht (das Elefantensymbol).

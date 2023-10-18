@@ -29,6 +29,11 @@
             ```
             sudo apt install git
             ```
+    === "Fedora"
+        1. Installieren Sie Git mit dem folgenden Befehl:
+            ```
+            sudo dnf install git
+            ```
     === "Arch Based Linux"
         1. Installieren Sie Git mit dem folgenden Befehl:
             ```

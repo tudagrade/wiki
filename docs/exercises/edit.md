@@ -38,6 +38,9 @@
         * Beachten Sie, dass diese Methode die letzte Aktion, welche links davon angegeben ist, erneut ausführt. Diese ist nicht zwangsläufig immer das Ausführen des Codes.
 * Wenn Ihr Code nicht terminiert, können Sie das Programm mit dem roten Quadrat am linken Rand stoppen.
 
+!!! info "Hinweis"
+    Das ausführen über den Gradle Task **"run"** oder rechtsklick darauf + debuggen hat sich als die zuverlässigste Methode unabhängig vom Betriebssystem herausgestellt.
+
 ## Public Tests
 
 * Zu manchen Übungsblättern stellen wir Ihnen Public Tests zur Verfügung, mit welchen Sie Teile Ihrer Implementation testen können.

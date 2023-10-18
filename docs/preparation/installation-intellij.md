@@ -42,30 +42,39 @@
      3. Starten Sie nun die Toolbox. Drücken Sie nun auf **"Continue"**, akzeptieren Sie die Nutzungsbedingungen und drücken Sie zum Schluss auf **"Get started"**.
      4. Installieren Sie nun die Community oder Ultimate Edition von IntelliJ.
 
-=== "Arch Based Linux"
+=== "Linux"
+    === "Alles was nicht Arch ist"
+        1. Laden Sie sich die Jetbrains Toolbox von der [Toolbox] Seite herunter.
+        2. Öffnen Sie die heruntergeladene .tar.gz Datei und extrahieren Sie den Inhalt in einen Ordner Ihrer Wahl.
+        3. Öffnen Sie nun den Ordner und starten Sie die Toolbox mit einem Doppelklick auf die Datei **"jetbrains-toolbox"**.
+        4. Installieren Sie nun die Community oder Ultimate Edition von IntelliJ über die Toolbox.
 
-    === "AUR-Helper"
+    === "Arch Based Linux"
+        === "AUR-Helper"
 
-        Falls Sie einen [AUR-Helper] installiert haben, können Sie das Paket [intellij-idea-ce], bzw. [intellij-idea-ultimate-edition], installieren.
+            Falls Sie einen [AUR-Helper] installiert haben, können Sie das Paket [intellij-idea-ce], bzw. [intellij-idea-ultimate-edition], installieren.
 
-    === "Manuell"
+            !!! info "Hinweis"
+                Bei größeren Updates von IntelliJ kann es vorkommen, dass ihre Einstellungen beim AUR Paket nicht übernommen werden. Wir empfehlen daher eine Installation über die Toolbox.
 
-        1. Installieren Sie die Abhängigkeiten.
-            ```
-            pacman -S base-devel git --needed
-            ```
-            * Für die Community Edition klonen Sie:
+        === "Manuell"
+
+            1. Installieren Sie die Abhängigkeiten.
                 ```
-                git clone https://aur.archlinux.org/intellij-idea-ce.git
+                pacman -S base-devel git --needed
                 ```
-            * Für die Ultimate Edition klonen Sie:
+                * Für die Community Edition klonen Sie:
+                    ```
+                    git clone https://aur.archlinux.org/intellij-idea-ce.git
+                    ```
+                * Für die Ultimate Edition klonen Sie:
+                    ```
+                    git clone https://aur.archlinux.org/intellij-idea-ultimate-edition.git
+                    ```
+            2. Wechseln Sie in das jeweilige Verzeichnis und installieren Sie das Paket.
                 ```
-                git clone https://aur.archlinux.org/intellij-idea-ultimate-edition.git
+                cd intellij-idea-* && makepgk -ifs
                 ```
-        2. Wechseln Sie in das jeweilige Verzeichnis und installieren Sie das Paket.
-            ```
-            cd intellij-idea-* && makepgk -ifs
-            ```
 
 * Nun können Sie die Hausübung mit IntelliJ bearbeiten. Befolgen Sie dafür die Schritte der Anleitungen im Abschnitt [Herunterladen und exportieren].
     * Wenn Sie IntelliJ das erste Mal starten, werden Sie möglicherweise noch gefragt, ob Sie Einstellungen importieren möchten. Dies benötigen Sie nicht.
