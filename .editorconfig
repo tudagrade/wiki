@@ -1,12 +1,28 @@
 # Editor configuration, see https://editorconfig.org
 root = true
 
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
 [*]
-charset = utf-8
 indent_style = space
 indent_size = 4
-insert_final_newline = true
+end_of_line = lf
+charset = utf-8
 trim_trailing_whitespace = true
+insert_final_newline = true
 
-[{*.html,*js,*.json,*.yml}]
+[*.{md,mf}]
+trim_trailing_whitespace = false
+
+[*.{html,js,json,yml}]
 indent_size = 2
+trim_trailing_whitespace = false
+
+[Makefile]
+indent_style = tab
+
+[{COPYING,LICENSE,NOTICE,*.{md,mf,xmp}}]
+indent_size = unset
