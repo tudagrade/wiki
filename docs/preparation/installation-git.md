@@ -22,6 +22,10 @@
 === "macOS"
     === "Homebrew"
         1. Falls noch nicht geschehen, installieren Sie [Homebrew].
+        2. Führen Sie in einem [Terminal] folgenden Befehl aus, um Git zu installieren.
+            ```
+            brew install git
+            ```
 
 === "Linux"
     === "Debian/Ubuntu"
