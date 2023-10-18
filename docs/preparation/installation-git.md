@@ -19,7 +19,7 @@
         5. Sie können nun mit dem Befehl **"git --version"** in einer Konsole überprüfen, ob Git erfolgreich installiert wurde.
            * Sie können ein Terminal öffnen, indem Sie in der Windowssuche (Win+ S) **"cmd"** eingeben.
 
-=== "Mac OS"
+=== "macOS"
     === "Homebrew"
         1. Falls noch nicht geschehen, installieren Sie [Homebrew].
 

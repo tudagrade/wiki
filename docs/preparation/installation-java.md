@@ -27,7 +27,7 @@
             * Wählen Sie im Abschnitt **"Benutzerdefiniertes Setup"** bei **"JAVA_HOME-Variable konfigurieren"** die Option **"Wird auf der lokalen Festplatte installiert"** aus, indem Sie auf das rote Kreuz daneben drücken.
         4. Nachdem die Installation abgeschlossen ist, drücken Sie **"Fertig stellen"**.
     
-=== "Mac OS"
+=== "macOS"
     === "Homebrew"
         1. Falls noch nicht geschehen, installieren Sie [Homebrew].
         2. Führen Sie in einem [Terminal] folgenden Befehl aus, um Java zu installieren.

@@ -15,7 +15,7 @@
           1. Laden Sie [hier] DrRacket herunter. Achten Sie darauf, dass Windows als Betriebssystem ausgewählt ist.
           2. Führen Sie den heruntergeladenen Installer aus und drücken Sie auf **"Next"**, bzw. **"Install"**, bis der Installationsprozess abgeschlossen ist und am Ende auf **"Finish"**.
 
-=== "Mac OS"
+=== "macOS"
 
     === "Homebrew"
 

@@ -26,9 +26,9 @@ Wir empfehlen Ihnen für die Installation der benötigten Programme einen solche
     ```powershell
     irm get.scoop.sh | iex
     ```
-=== "MacOS"
+=== "macOS"
 
-    Für MacOS empfehlen wir Ihnen [Homebrew] zu verwenden.
+    Für macOS empfehlen wir Ihnen [Homebrew] zu verwenden.
 
     1. Öffnen Sie ein Terminal.
 
