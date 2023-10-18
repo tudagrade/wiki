@@ -1,4 +1,4 @@
-# Terminal verwenden
+# Terminal Verwendung
 
 !!! info "Information"
     Die „Kommandozeile“ ist ein mächtiges Werkzeug, mit dem man viele Aufgaben schnell und effizient erledigen kann.
