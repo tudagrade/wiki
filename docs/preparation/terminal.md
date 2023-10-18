@@ -23,4 +23,4 @@
 ## Befehle ausführen
 
 * Um einen Befehl auszuführen, geben Sie diesen in das Terminal ein und drücken **Enter**.
-* Sie können die Befehle auch kopieren und im Terminal mit **"Strg/Cmd + V"** einfügen.
+* Sie können die Befehle auch kopieren und im Terminal mit **"Strg/Cmd + V"** bzw **Strg/Cmd + Shift + V"** einfügen. (je nach Betriebssystem)
