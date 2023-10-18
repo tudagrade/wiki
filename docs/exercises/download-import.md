@@ -28,7 +28,7 @@ Diese erhalten sie entweder, indem sie das zugehörige [Git-Repository] klonen, 
     1. Alternativ können Sie auch mit der bereitgestellten Zip-Datei arbeiten. Laden Sie sich dafür aus dem Moodle Kurs die Zip-Datei der Vorlage für die entsprechende Hausübung herunter.
     2. Entpacken Sie die Zip-Datei und speichern Sie den entpackten Ordner an einem Ort Ihrer Wahl.
         * Unter Windows können Sie Zip-Dateien entpacken, indem Sie im File Explorer einen Rechtsklick auf die Datei machen und auf **"Alles extrahieren..."** drücken. Nachdem Sie     einen Speicherort angeben haben, müssen Sie noch auf **"extrahieren"** drücken, um die Datei zu entpacken.
-        * Unter Mac OS können Sie Zip-Dateien entpacken, indem Sie im Finder einen Doppelklick auf diese machen.
+        * Unter macOS können Sie Zip-Dateien entpacken, indem Sie im Finder einen Doppelklick auf diese machen.
     3. Gehen Sie nun in IntelliJ links oben im **"File"** Reiter auf **"open..."**
         * Wenn Sie IntelliJ das erste Mal öffnen, drücken Sie stattdessen rechts oben auf **"open"**
     4. Wählen Sie nun den Pfad zu dem Ordner, in dem die Vorlage gespeichert ist, aus und drücken Sie auf **"OK"**.

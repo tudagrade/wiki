@@ -19,9 +19,13 @@
         5. Sie können nun mit dem Befehl **"git --version"** in einer Konsole überprüfen, ob Git erfolgreich installiert wurde.
            * Sie können ein Terminal öffnen, indem Sie in der Windowssuche (Win+ S) **"cmd"** eingeben.
 
-=== "Mac OS"
+=== "macOS"
     === "Homebrew"
         1. Falls noch nicht geschehen, installieren Sie [Homebrew].
+        2. Führen Sie in einem [Terminal] folgenden Befehl aus, um Git zu installieren.
+            ```
+            brew install git
+            ```
 
 === "Linux"
     === "Debian/Ubuntu"
@@ -45,6 +49,6 @@
 
 [GitHub]: https://github.com/FOP-2324
 [Git]: https://git-scm.com/download
-[Terminal]: https://wiki.tudalgo.org/preparation/installation-java/
+[Terminal]: https://wiki.tudalgo.org/preparation/terminal/
 [Homebrew]: https://wiki.tudalgo.org/preparation/packagemanager/
 [Scoop]: https://wiki.tudalgo.org/preparation/packagemanager/

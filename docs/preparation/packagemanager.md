@@ -4,7 +4,7 @@ Ein Paket Manager ist ein Programm, welches Ihnen dabei hilft Programme einfach 
 Wir empfehlen Ihnen für die Installation der benötigten Programme einen solchen Paket Manager zu verwenden.
 
 !!! info "Hinweis"
-    Nach der Installation eines Programmes müssen Sie u.U. Ihr Terminal schließen und wieder öffnen, damit die Änderungen übernommen werden.
+    Nach der Installation eines Programmes müssen Sie u.U. Ihr [Terminal] schließen und wieder öffnen, damit die Änderungen übernommen werden.
 
 === "Windows"
 
@@ -26,11 +26,11 @@ Wir empfehlen Ihnen für die Installation der benötigten Programme einen solche
     ```powershell
     irm get.scoop.sh | iex
     ```
-=== "MacOS"
+=== "macOS"
 
-    Für MacOS empfehlen wir Ihnen [Homebrew] zu verwenden.
+    Für macOS empfehlen wir Ihnen [Homebrew] zu verwenden.
 
-    1. Öffnen Sie ein Terminal.
+    1. Öffnen Sie ein [Terminal].
 
     2. Führen Sie folgenden Befehl aus:
 
@@ -43,4 +43,4 @@ Wir empfehlen Ihnen für die Installation der benötigten Programme einen solche
     Sie wissen, wie Sie einen Paket Manager verwenden.
 
 [Scoop]: https://scoop.sh/
-[Homebrew]: (https://brew.sh/)
+[Homebrew]: https://brew.sh/

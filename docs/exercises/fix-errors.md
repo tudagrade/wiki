@@ -120,7 +120,7 @@
     ### Java mehr Speicher zuweisen
 
     1. Gehen Sie in Ihrem User Ordner in der Ordner **".gradle"**
-    * Unter Windows finden Sie den Ordner unter **"C:\Users\<UserName\>\\.gradle"** und auf Linux und Mac unter **"~/.gradle"**
+    * Unter Windows finden Sie den Ordner unter **"C:\Users\<UserName\>\\.gradle"** und auf Linux und macOS unter **"~/.gradle"**
     2. Falls nicht vorhanden, erstellen Sie die Datei **"gradle.properties"**.
     3. Fügen Sie in dieser Datei eine Zeile mit folgendem Eintrag hinzu:
     ```

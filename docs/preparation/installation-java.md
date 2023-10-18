@@ -27,16 +27,16 @@
             * Wählen Sie im Abschnitt **"Benutzerdefiniertes Setup"** bei **"JAVA_HOME-Variable konfigurieren"** die Option **"Wird auf der lokalen Festplatte installiert"** aus, indem Sie auf das rote Kreuz daneben drücken.
         4. Nachdem die Installation abgeschlossen ist, drücken Sie **"Fertig stellen"**.
     
-=== "Mac OS"
+=== "macOS"
     === "Homebrew"
         1. Falls noch nicht geschehen, installieren Sie [Homebrew].
         2. Führen Sie in einem [Terminal] folgenden Befehl aus, um Java zu installieren.
            ```
            brew install java
            ```
-        3. Am Ende der Installation stellt Homebrew einen Befehl bereit, um OpenJDK 17 mit dem Befehl `java` zu verbinden. Kopieren Sie diesen und führen Sie ihn aus. Der Befehl ähnelt dem folgenden, kann sich jedoch leicht unterscheiden:
+        3. Am Ende der Installation stellt Homebrew einen Befehl bereit, welchen Sie kopieren und ausführen müssen. Der Befehl ähnelt dem folgenden, kann sich jedoch leicht unterscheiden:
            ```
-           sudo ln -sfn /opt/homebrew/opt/openjdk@17/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk-17.jdk
+           sudo ln -sfn /opt/homebrew/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
            ```
 
     === "Manuell"
@@ -111,8 +111,8 @@ java --version
 
 
 [Adoptium Website]: https://adoptium.net/de/
-[Terminal]: https://wiki.tudalgo.org/preparation/installation-java/
-[Überprüfung der Installation]: #installation-überprüfen
+[Terminal]: https://wiki.tudalgo.org/preparation/terminal/
+[Überprüfung der Installation]: #installation-uberprufen
 [Homebrew]: https://wiki.tudalgo.org/preparation/packagemanager/
 [Scoop]: https://wiki.tudalgo.org/preparation/packagemanager/
 [Installation von IntelliJ]: https://wiki.tudalgo.org/preparation/installation-intellij/

@@ -1,11 +1,11 @@
-# Terminal verwenden
+# Terminal Verwendung
 
 !!! info "Information"
     Die „Kommandozeile“ ist ein mächtiges Werkzeug, mit dem man viele Aufgaben schnell und effizient erledigen kann.
     Man gibt einen Befehl ein und erhält (meistens) eine direkte Rückmeldung, ob dieser erfolgreich ausgeführt wurde oder nicht.
     Die Kommandozeile ist eine textbasierte Schnittstelle zum Betriebssystem.
     Sie wird auch als „Konsole“ oder „Terminal“ bezeichnet.
-    Sie ist nicht nur auf Unix-Systemen (Linux, Mac OS,...) verfügbar, sondern auch auf Windows.
+    Sie ist nicht nur auf unixähnlichen Systemen (Linux, macOS,...) verfügbar, sondern auch auf Windows.
     Die Kommandozeile ist sehr hilfreich für verschiedenste Aufgaben und wird hier für die Installation der benötigten Programme verwendet.
     Sie können natürlich die Programme auch manuell installieren, aber wir empfehlen Ihnen die Kommandozeile zu verwenden, da dies schneller und einfacher ist.
 
@@ -14,7 +14,7 @@
 === "Windows"
     * Sie können ein Terminal öffnen, indem Sie in der Suche (Win + S) **"cmd"** eingeben und **Enter** drücken.
 
-=== "MacOS"
+=== "macOS"
     * Sie können ein Terminal öffnen, indem Sie in der Suche (Cmd + Leertaste) **"Terminal"** eingeben und **Enter** drücken.
 
 === "Linux"

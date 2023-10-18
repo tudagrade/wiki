@@ -15,7 +15,7 @@
           1. Laden Sie [hier] DrRacket herunter. Achten Sie darauf, dass Windows als Betriebssystem ausgewählt ist.
           2. Führen Sie den heruntergeladenen Installer aus und drücken Sie auf **"Next"**, bzw. **"Install"**, bis der Installationsprozess abgeschlossen ist und am Ende auf **"Finish"**.
 
-=== "Mac OS"
+=== "macOS"
 
     === "Homebrew"
 
@@ -61,6 +61,6 @@
 * Nun können Sie Racket Programme ausführen, indem Sie rechts oben auf **"Run"** drücken.
 
 [hier]: https://download.racket-lang.org/
-[Terminal]: https://wiki.tudalgo.org/preparation/installation-java/
+[Terminal]: https://wiki.tudalgo.org/preparation/terminal/
 [Homebrew]: https://wiki.tudalgo.org/preparation/packagemanager/
 [Scoop]: https://wiki.tudalgo.org/preparation/packagemanager/
