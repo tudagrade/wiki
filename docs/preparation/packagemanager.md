@@ -43,4 +43,4 @@ Wir empfehlen Ihnen für die Installation der benötigten Programme einen solche
     Sie wissen, wie Sie einen Paket Manager verwenden.
 
 [Scoop]: https://scoop.sh/
-[Homebrew]: (https://brew.sh/)
+[Homebrew]: https://brew.sh/
