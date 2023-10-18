@@ -87,6 +87,6 @@
 [intellij-idea-ce]: https://aur.archlinux.org/packages/intellij-idea-ce
 [intellij-idea-ultimate-edition]: https://aur.archlinux.org/packages/intellij-idea-ultimate-edition
 [Herunterladen und Exportieren]: https://wiki.tudalgo.org/exercises/download-import/
-[Terminal]: https://wiki.tudalgo.org/preparation/installation-java/
+[Terminal]: https://wiki.tudalgo.org/preparation/terminal/
 [Homebrew]: https://wiki.tudalgo.org/preparation/packagemanager/
 [Scoop]: https://wiki.tudalgo.org/preparation/packagemanager/

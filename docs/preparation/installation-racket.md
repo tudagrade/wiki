@@ -61,6 +61,6 @@
 * Nun können Sie Racket Programme ausführen, indem Sie rechts oben auf **"Run"** drücken.
 
 [hier]: https://download.racket-lang.org/
-[Terminal]: https://wiki.tudalgo.org/preparation/installation-java/
+[Terminal]: https://wiki.tudalgo.org/preparation/terminal/
 [Homebrew]: https://wiki.tudalgo.org/preparation/packagemanager/
 [Scoop]: https://wiki.tudalgo.org/preparation/packagemanager/

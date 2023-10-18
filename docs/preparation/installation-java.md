@@ -111,7 +111,7 @@ java --version
 
 
 [Adoptium Website]: https://adoptium.net/de/
-[Terminal]: https://wiki.tudalgo.org/preparation/installation-java/
+[Terminal]: https://wiki.tudalgo.org/preparation/terminal/
 [Überprüfung der Installation]: #installation-uberprufen
 [Homebrew]: https://wiki.tudalgo.org/preparation/packagemanager/
 [Scoop]: https://wiki.tudalgo.org/preparation/packagemanager/

@@ -45,6 +45,6 @@
 
 [GitHub]: https://github.com/FOP-2324
 [Git]: https://git-scm.com/download
-[Terminal]: https://wiki.tudalgo.org/preparation/installation-java/
+[Terminal]: https://wiki.tudalgo.org/preparation/terminal/
 [Homebrew]: https://wiki.tudalgo.org/preparation/packagemanager/
 [Scoop]: https://wiki.tudalgo.org/preparation/packagemanager/
