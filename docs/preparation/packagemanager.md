@@ -38,9 +38,12 @@ Wir empfehlen Ihnen für die Installation der benötigten Programme einen solche
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     ```
 
+    3. Nachdem Homebrew installiert wurde, wird ihnen u.U. in der Konsolenausgabe vorgeschlagen bestimmte Befehle auszuführen. Wenn dies der Fall ist, kopieren Sie diese und führen Sie diese ebenfalls aus.
+
 === "Linux"
 
     Sie wissen, wie Sie einen Paket Manager verwenden.
 
 [Scoop]: https://scoop.sh/
 [Homebrew]: https://brew.sh/
+[Terminal]: https://wiki.tudalgo.org/preparation/terminal/
