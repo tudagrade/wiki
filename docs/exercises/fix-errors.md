@@ -123,9 +123,9 @@
 
     ### Korrekte Java Version in IntelliJ einstellen
 
-    1. Überprüfen Sie zunächst in einem Terminal mit **"java --version"**, ob Java 17 benutzt wird (s. [Anleitung zum Installieren von Java])
-    2. Überprüfen Sie in IntelliJ, ob unter **"File" -> "Project Structure..." -> "Project" -> "SDK"** Java 17 als Version angegeben ist.
-    * Falls dies nicht der Fall ist, wählen Sie Java 17 aus und drücken Sie auf **"Apply"**.
+    1. Überprüfen Sie zunächst in einem Terminal mit **"java --version"**, ob Java 17 oder höher benutzt wird. Siehe auch: [Anleitung zum Installieren von Java]
+    2. Überprüfen Sie in IntelliJ, ob unter **"File" -> "Project Structure..." -> "Project" -> "SDK"** Java 17 oder höher als Version angegeben ist.
+    * Falls dies nicht der Fall ist, wählen Sie Java 17 oder höher aus und drücken Sie auf **"Apply"**.
     3. Gehen Sie ebenfalls sicher, dass unter **"File" -> "Settings" -> "Build, Execution, Deployment" -> "Build Tools" -> "Gradle" -> "Gradle JVM"** als Option **"Project SDK"** ausgewählt ist.
 
     ### Java mehr Speicher zuweisen
