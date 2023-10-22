@@ -12,7 +12,7 @@
         2. Führen Sie folgende Befehle in einem [Terminal] aus, um die Jetbrains Toolbox zu installieren:
             ```
             scoop bucket add extras
-            scoop install intellij-idea-community
+            scoop install jetbrains-toolbox
             ```
         3. Öffnen Sie die Toolbox und installieren Sie die Community oder Ultimate Edition von IntelliJ.
 
