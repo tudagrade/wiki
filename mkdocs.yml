@@ -1,8 +1,8 @@
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 
-site_name: Haudy
-repo_name: tudalgo/haudy
-repo_url: https://github.com/tudalgo/haudy
+site_name: tudagrade wiki
+repo_name: tudagrade/wiki
+repo_url: https://github.com/tudagrade/wiki
 theme:
   name: material
   favicon: assets/favicon.png
