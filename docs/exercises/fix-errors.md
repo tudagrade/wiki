@@ -119,7 +119,7 @@
          - Use Java 20 as Gradle JVM: Open Gradle settings 
          - Open Gradle wrapper settings, change `distributionUrl` property to use compatible Gradle version and reload the project
         ```
-        Offiziell wird Java 21 noch nicht von Gradle unterstützt. Für die Bearbeitung der Hausübungen ist dies allerdings eigentlich kein Problem. Falls Sie die Fehlermeldung beim Erstellen der Abgabedatei erhalten, überprüfen Sie, ob Sie ihre Daten in der build.gradle.kts Datei richtig eingetragen haben. Falls Sie die Nachricht beim Öffnen der Hausübung als Hinweis erhalten, können Sie diese zunächst ignorieren. Als letzte Möglichkeit können Sie auch versuchen, die Java Version in IntelliJ auf Java 17 zu ändern. Siehe [Korrekte Java Version in IntelliJ einstellen]. 
+        Offiziell wird Java 21 noch nicht von Gradle unterstützt. Für die Bearbeitung der Hausübungen ist dies allerdings eigentlich kein Problem. Falls Sie die Fehlermeldung in der Konsole angezigt bekommen, liegt dies meist eigentlich ein anderes Problem vor. Überprüfen Sie, ob links neben der Fehlermeldung in einem der anderen Logs eine andere Fehlermeldung angezeigt wird und beheben sie diese. Meist liegt es an kompilierfehler oder an fehlenden Daten in der build.gradle.kts Datei. Falls Sie die Nachricht beim Öffnen der Hausübung als Hinweis erhalten, können Sie diese zunächst ignorieren. Als letzte Möglichkeit können Sie auch versuchen, die Java Version in IntelliJ auf Java 17 zu ändern. Siehe dafür [Korrekte Java Version in IntelliJ einstellen]. 
 
     ### Korrekte Java Version in IntelliJ einstellen
 
