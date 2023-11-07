@@ -3,6 +3,10 @@
 Zum Bearbeiten der Hausübungen benötigen Sie die von uns zur Verfügung gestellten Vorlagen.
 Diese erhalten sie entweder, indem sie das zugehörige [Git-Repository] klonen, oder die Zip-Datei von [Moodle] herunterladen.
 
+!!! warning "Warnung"
+
+    Speichern Sie die Vorlage an einem Dateipfad, welcher **keine** Leerzeichen oder Sonderzeichen enthält. Dies kann u.U. zu Problemen führen.
+
 ## Importieren der Vorlage
 
 === "Git"
