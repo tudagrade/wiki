@@ -36,8 +36,7 @@
 4. In dem Projektordner finden Sie nun im Ordner **"build"** einen weiteren Ordner **"libs"**. In diesem befindet sich die Abgabedatei.
     * Die Datei ist nach dem Schema **"hXX-TU-ID-firstName-lastName-submission.jar"** benannt. Ändern Sie diese Benennung **nicht**.
     * Beachten Sie, dass IntelliJ die Datei nicht unbedingt sofort anzeigt. Suchen Sie die Datei am besten im File Explorer.
-    * Um den Inhalt der Abgabedatei zu überprüfen, können Sie die Jar-Datei entweder mit einem Entpackungsprogramm wie z. B. 7Zip oder mit dem Befehl **"jar -xf <Dateiname\>"** in einer Konsole entpacken. In der Regel ist dies aber nicht notwendig.
-    * Beachten Sie, dass die exportierte Jar-Datei nicht ausführbar ist.
+    * Um den Inhalt der Abgabedatei zu überprüfen, befolgen Sie die Schritte unter [Abgabe Verifizieren].
 
 ## Hochladen
 * Laden Sie nun die zuvor erstellte Datei in [Moodle] bei der entsprechenden Abgabe hoch.
@@ -45,6 +44,19 @@
     * Sie können bis zum Abgabeende beliebig oft Ihre Abgabe ändern. Wir empfehlen Ihnen daher regelmäßig Ihren Zwischenstand hochzuladen, damit Sie nicht leer dastehen, wenn Sie die Abgabefrist verpassen.
     * Alle Abgaben, die auf Moodle hochgeladen werden konnten, werden bewertet. Wenn keine Datei hochgeladen werden kann, weil die Abgabefrist überschritten wurde, kann die Aufgabe nicht bewertet werden.
 
+## Abgabe Verifizieren
+
+Sie können wie folgt sicherstellen, dass Sie die Abgabedatei korrekt erstellt haben.
+
+1. Nach dem Ausführen der Task **"build/mainBuildSubmission"** sollte die Abgabedatei sich im Ordner **"build/libs"** befinden und nach dem Schema **"hXX-TU-ID-firstName-lastName-submission.jar"** benannt sein.
+2. Entpacken Sie die .jar Datei entweder mit einem Entpackungsprogramm wie z.B. 7Zip oder in einem [Terminal] mit dem Befehl **"jar -xf <Dateiname\>"**.
+3. Nach dem Entpacken sollte nun im Besonderen folgendes vorhanden sein:
+    * eine Datei **"Submission-info.json"**
+    * ein Ordner **hXX**, welcher der Package Struktur des Projektes entspricht und die Quelldateien (.java) enthält.
+        * Falls nur .class Dateien vorhanden sind, haben Sie vermutlich die Task **"build/build"** und nicht **"build/mainBuildSubmission"** ausgeführt. Abgaben, die auf diese Art erstellt wurden, werden nicht bewertet.
+
 [Moodle]: https://moodle.informatik.tu-darmstadt.de/course/view.php?id=1469&sectionid=18762
 [Gradle Task]: https://wiki.tudalgo.org/exercises/edit/#gradle-tasks
 [hier]: https://wiki.tudalgo.org/exercises/fix-errors/ 
+[Terminal]: https://wiki.tudalgo.org/preparation/terminal/
+[Abgabe Verifizieren]: https://wiki.tudalgo.org/exercises/export-upload/#abgabe-verifizieren
