@@ -108,7 +108,7 @@
         ```
         Java.lang.OutOfMemoryError: java heap space
         ```
-        Dieser Fehler kann manchmal beim Ausführen der Public Tests auftreten. Versuchen Sie zunächst die Public Tests erneut auszuführen oder IntelliJ neuzustarten. Falls der Fehler weiterhin auftritt, versuchen Sie [Java mehr Speicher zuzuweisen].
+        Dieser Fehler kann manchmal beim Ausführen der Public Tests auftreten. Versuchen Sie zunächst die Public Tests erneut auszuführen, im IntelliJ Terminal, welches sich am linken unteren Rand öffnen lässt, den Befehl "**./gradlew --stop**" auszuführen, oder IntelliJ neuzustarten. Falls der Fehler weiterhin auftritt, versuchen Sie [Java mehr Speicher zuzuweisen].
 
     11. !!! error ""
         ```
