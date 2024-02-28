@@ -2,7 +2,7 @@
 
 === "Technische Fehler"
 
-    * Stellen Sie zunächst sicher, dass Sie den richtigen Ordner importiert haben. Der oberste Ordner sollte nach der Hausübung benannt sein (z. B. **"FOP-2324-HXX-Student-master"**) und direkt die build.gradle.kts Datei enthalten sein. Wählen Sie beim Importieren **nicht** einen identisch benannten Oberordner aus.
+    * Stellen Sie zunächst sicher, dass Sie den richtigen Ordner importiert haben. Der oberste Ordner sollte nach der Hausübung benannt sein (z. B. **"<Veranstaltung\>-<Jahr\>-XXX-Student-master"**) und direkt die build.gradle.kts Datei enthalten. Wählen Sie beim Importieren **nicht** einen identisch benannten Oberordner aus.
     * Beachten Sie, dass es mit Gradle zu Problemen kommen kann, wenn das Projekt auf einer externen Festplatte gespeichert wurde.
     * Anbei finden Sie ein paar mögliche Fehler, welche Ihnen in der Konsole, die sich beim Ausführen der des Programmes oder einer Gradle Task automatisch öffnet, angezeigt werden. Damit Ihnen die vollständigen Fehlermeldungen angezeigt werden, wählen Sie links von der Konsole die zweite Option von oben aus.
 
@@ -19,7 +19,7 @@
 
     2. !!! error ""
         ```
-        A problem occurred configuring root project 'FOP-2324-H00-Student'.
+        A problem occurred configuring root project '<Projektname>'.
         Could not resolve all files for configuration ':classpath'.
         Could not resolve org.tudalgo:algomate:0.1.0-SNAPSHOT.
         ```
@@ -78,7 +78,7 @@
         execution failed for task ':graderPublicRun'.
         There were failing tests.
         ```
-        Die von uns zur Verfügung gestellten public-Tests laufen nicht erfolgreich durch. Um dies zu beheben, fixen Sie entweder den Fehler, den die Tests aufzeigen, oder ändern Sie in der build.gradle.kts Datei direkt unter Ihren persönlichen Daten requirePublicTests von true auf false:
+        Die von uns zur Verfügung gestellten public-Tests laufen nicht erfolgreich durch. Um dies zu beheben, fixen Sie entweder den Fehler, den die Tests aufzeigen, oder ändern Sie in der build.gradle.kts Datei direkt unter Ihren persönlichen Daten requirePublicTests von true auf false.
         ```
         requireGraderPublic = false
         ```
@@ -110,17 +110,6 @@
         ```
         Dieser Fehler kann manchmal beim Ausführen der Public Tests auftreten. Versuchen Sie zunächst die Public Tests erneut auszuführen, im IntelliJ Terminal, welches sich am linken unteren Rand öffnen lässt, den Befehl "**./gradlew --stop**" auszuführen, oder IntelliJ neuzustarten. Falls der Fehler weiterhin auftritt, versuchen Sie [Java mehr Speicher zuzuweisen].
 
-    11. !!! error ""
-        ```
-        Unsupported Java. 
-        Your build is currently configured to use Java 21 and Gradle 8.4.
-
-        Possible solution:
-         - Use Java 20 as Gradle JVM: Open Gradle settings 
-         - Open Gradle wrapper settings, change `distributionUrl` property to use compatible Gradle version and reload the project
-        ```
-        Offiziell wird Java 21 noch nicht von Gradle unterstützt. Für die Bearbeitung der Hausübungen ist dies allerdings eigentlich kein Problem. Falls Sie die Fehlermeldung in der Konsole angezigt bekommen, liegt dies meist eigentlich ein anderes Problem vor. Überprüfen Sie, ob links neben der Fehlermeldung in einem der anderen Logs eine andere Fehlermeldung angezeigt wird und beheben sie diese. Meist liegt es an kompilierfehler oder an fehlenden Daten in der build.gradle.kts Datei. Falls Sie die Nachricht beim Öffnen der Hausübung als Hinweis erhalten, können Sie diese zunächst ignorieren. Als letzte Möglichkeit können Sie auch versuchen, die Java Version in IntelliJ auf Java 17 zu ändern. Siehe dafür [Korrekte Java Version in IntelliJ einstellen].
-
     12. !!! error ""
         ```
         Hauptklasse hxx.Main konnte nicht gefunden oder geladen werden
@@ -133,7 +122,7 @@
         ```
         Caused by: java.lang.ClassNotFoundException: hxx.Main
         ```
-        Dieser Fehler entsteht meistens, wenn die Vorlage nicht korrket importiert wurde, oder die Vorlage in einem Pfad gespeichert wurde, welcher Leerzeichen oder Sonderzeichen enthält. Stellen Sie sicher, dass die Vorlage korrekt importiert wurde (am besten durch die Verwendung von Git) und verschieben Sie die Vorlage ggf. an einen Dateipfad, welcher keine Leerzeichen oder Sonderzeichen enthält. 
+        Dieser Fehler entsteht meistens, wenn die Vorlage nicht korrekt importiert wurde, oder die Vorlage in einem Pfad gespeichert wurde, welcher Leerzeichen oder Sonderzeichen enthält. Stellen Sie sicher, dass die Vorlage korrekt importiert wurde (am besten durch die Verwendung von Git) und verschieben Sie die Vorlage ggf. an einen Dateipfad, welcher keine Leerzeichen oder Sonderzeichen enthält. 
 
     ### Korrekte Java Version in IntelliJ einstellen
 
@@ -538,14 +527,11 @@
 
     Beachten Sie die Seite [Bevor Sie eine Sprechstunde besuchen].
 
-[Korrekte Java Version in IntelliJ Einstellen]: https://wiki.tudalgo.org/exercises/fix-errors/#korrekte-java-version-in-intellij-einstellen
-[Anleitung zum Installieren von Java]: https://wiki.tudalgo.org/preparation/installation-java/
-[Anleitung zum Exportieren]: https://wiki.tudalgo.org/exercises/export-upload/#exportieren
-[Java mehr Speicher zuzuweisen]: https://wiki.tudalgo.org/exercises/fix-errors/#java-mehr-speicher-zuweisen
+[Korrekte Java Version in IntelliJ Einstellen]: /exercises/fix-errors/#korrekte-java-version-in-intellij-einstellen
+[Anleitung zum Installieren von Java]: /preparation/installation-java/
+[Anleitung zum Exportieren]: /exercises/export-upload/#exportieren
+[Java mehr Speicher zuzuweisen]: /exercises/fix-errors/#java-mehr-speicher-zuweisen
 [Aktualisieren der Vorlage]: /exercises/download-import/#aktualisieren-der-vorlage
 [Typische Programmierfehler]: /exercises/fix-errors/#typische-programmierfehler
-[Bevor Sie eine Sprechstunde besuchen]: /support/good-bad-questions
 [Debugging]: /exercises/fix-errors/#debugging
 [List]: https://docs.oracle.com/javase/8/docs/api/java/util/List.html
-[Moodle Forum für technische Fragen]: https://moodle.informatik.tu-darmstadt.de/mod/forum/view.php?id=60391
-[Discord Server]: https://moodle.informatik.tu-darmstadt.de/course/view.php?id=1469&sectionid=18782

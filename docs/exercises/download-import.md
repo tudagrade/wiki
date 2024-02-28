@@ -1,7 +1,7 @@
 # Herunterladen und Importieren von Hausübungen in IntelliJ
 
 Zum Bearbeiten der Hausübungen benötigen Sie die von uns zur Verfügung gestellten Vorlagen.
-Diese erhalten sie entweder, indem sie das zugehörige [Git-Repository] klonen, oder die Zip-Datei von [Moodle] herunterladen.
+Diese erhalten sie entweder, indem sie das zugehörige Git-Repository klonen, oder die Zip-Datei von Moodle herunterladen.
 
 !!! warning "Warnung"
 
@@ -16,7 +16,7 @@ Diese erhalten sie entweder, indem sie das zugehörige [Git-Repository] klonen, 
     #### Repositories klonen
     !!! warning "Achtung"
         Forken Sie nicht die Repositories. Auf Forks hat jeder Zugriff, weshalb diese als Plagiarismus gewertet werden und Ihre Abgabe dann eventuell nicht von uns bewertet werden kann.
-    1. IntelliJ bietet Ihnen die Möglichkeit, Git-Repositories automatisch zu klonen. Gehen Sie dafür links oben auf die drei Punkte und dann im **"File"** Reiter **"New" -> "Project From Version Controll..."** aus.
+    1. IntelliJ bietet Ihnen die Möglichkeit, Git-Repositories automatisch zu klonen. Gehen Sie dafür links oben auf die drei Punkte und dann im **"File"** Reiter **"New" -> "Project From Version Control..."** aus.
         * Wenn Sie IntelliJ das erste Mal starten oder momentan kein Projekt geöffnet haben, müssen Sie stattdessen rechts oben auf **"Get from VCS"** drücken.
     2. Geben Sie nun bei **"URL"** die URL zum Repository der entsprechenden Hausübungen ein.
         * Ein Link zu den entsprechenden Repositories finden Sie auf Moodle.
@@ -76,6 +76,4 @@ Diese erhalten sie entweder, indem sie das zugehörige [Git-Repository] klonen, 
 
     * Auch, wenn wir es nicht empfehlen, können Sie die Vorlage alternativ manuell updaten. Kopieren Sie dafür entweder Ihre Implementation in die neue Vorlage oder die Änderungen aus der neuen Vorlage in die alte Vorlage.
 
-[Moodle]: https://moodle.informatik.tu-darmstadt.de/course/view.php?id=1469&sectionid=18762
-[Git-Repository]: https://github.com/FOP-2324
-[Git lokal installieren]: https://wiki.tudalgo.org/preparation/installation-git/
+[Git lokal installieren]: /preparation/installation-git/

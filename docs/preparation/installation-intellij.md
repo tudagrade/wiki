@@ -86,7 +86,7 @@
 [AUR-Helper]: https://wiki.archlinux.org/title/AUR_helper
 [intellij-idea-ce]: https://aur.archlinux.org/packages/intellij-idea-ce
 [intellij-idea-ultimate-edition]: https://aur.archlinux.org/packages/intellij-idea-ultimate-edition
-[Herunterladen und Exportieren]: https://wiki.tudalgo.org/exercises/download-import/
-[Terminal]: https://wiki.tudalgo.org/preparation/terminal/
-[Homebrew]: https://wiki.tudalgo.org/preparation/packagemanager/
-[Scoop]: https://wiki.tudalgo.org/preparation/packagemanager/
+[Herunterladen und Exportieren]: /exercises/download-import/
+[Terminal]: /preparation/terminal/
+[Homebrew]: /preparation/packagemanager/
+[Scoop]: /preparation/packagemanager/

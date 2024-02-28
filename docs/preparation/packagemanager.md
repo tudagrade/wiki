@@ -46,4 +46,4 @@ Wir empfehlen Ihnen für die Installation der benötigten Programme einen solche
 
 [Scoop]: https://scoop.sh/
 [Homebrew]: https://brew.sh/
-[Terminal]: https://wiki.tudalgo.org/preparation/terminal/
+[Terminal]: /preparation/terminal/

@@ -47,7 +47,7 @@
     * Tragen Sie zunächst in der build.gradle.kts Datei ihre persönlichen Daten ein. Siehe dafür den ersten Punkt im Abschnitt [Exportieren].
     * Sie können die Public Tests mittels der [Gradle Task] verification/graderPublicRun ausführen. Nach der Ausführung werden Ihnen in der Konsole die erreichte Punktzahl, sowie ein Link zu einer Datei mit weiteren Hinweisen angezeigt.
     * Wenn Sie die Vorlage herunterladen bevor die Public Tests veröffentlicht wurden, müssen Sie diese noch hinzufügen. Hinweise dazu finden Sie [hier].
-    * Beachten Sie unbedingt auch die Hinweise bezüglich den Public Tests auf [Moodle].
+    * Beachten Sie unbedingt auch die Hinweise bezüglich den Public Tests auf Moodle.
     * Wenn Java zu wenig Speicher zur Verfügung hat, kann es dazu kommen, dass Sie den Fehler **"java.lang.outOfMemoryError: Java heap space"** bekommen. Versuchen Sie zunächst die Public Tests erneut auszuführen oder IntelliJ neuzustarten. Falls der Fehler weiterhin auftritt, versuchen Sie [Java mehr Speicher zuzuweisen].
 ## Tests ausführen
 
@@ -81,8 +81,7 @@
     * Der Fehler ist in der Methode **divide** der Klasse **Divider** in Zeile 20 aufgetreten.
     * Diese Methode wurde von der Methode **main** der Klasse **Main** in Zeile 10 aufgerufen.
 
-[Gradle Task]: https://wiki.tudalgo.org/exercises/edit/#gradle-tasks
-[hier]: https://wiki.tudalgo.org/exercises/download-import/#aktualisieren-der-vorlage
-[Moodle]: https://moodle.informatik.tu-darmstadt.de/mod/page/view.php?id=60388
-[Java mehr Speicher zuzuweisen]: https://wiki.tudalgo.org/exercises/fix-errors/#java-mehr-speicher-zuweisen
-[Exportieren]: https://wiki.tudalgo.org/exercises/export-upload/#exportieren
+[Gradle Task]: /exercises/edit/#gradle-tasks
+[hier]: /exercises/download-import/#aktualisieren-der-vorlage
+[Java mehr Speicher zuzuweisen]: /exercises/fix-errors/#java-mehr-speicher-zuweisen
+[Exportieren]: /exercises/export-upload/#exportieren
